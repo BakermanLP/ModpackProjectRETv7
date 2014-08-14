@@ -14,7 +14,6 @@
 * BetterFoliage-0.9.9b.jar
 * BiblioCraft[v1.7.5][MC1.7.10].jar
 * buildcraft-6.0.17.jar
-* carpentersblocks/
 * Carpenter's Blocks v3.2.6 - MC 1.7.10.zip
 * Chisel-1.7.10-1.5.6.jar
 * ChiselFacades-1.7.10-2.0.jar
