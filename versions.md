@@ -1,0 +1,94 @@
+## Forge Version
+* forge-1.7.10-10.13.0.1200-universal.jar
+
+## Mod Versions
+* AE2TechAddOn-1.7.10-1.0-b81-universal.jar
+* AOBD-2.2.3.jar
+* appliedenergistics2-rv1-alpha-49.jar
+* Aroma1997Core-1.7.10-1.0.2.7.jar
+* Aroma1997s-Dimensional-World-1.7.2-1.0.2.16.jar
+* AromaBackup-1.7.10-0.0.0.3.jar
+* AsieLib-1.7.10-0.2.10.jar
+* bdlib-mc1710-1.4.2.9.jar
+* BetterChests-1.7.10-1.1.1.3.jar
+* BetterFoliage-0.9.9b.jar
+* BiblioCraft[v1.7.5][MC1.7.10].jar
+* buildcraft-6.0.17.jar
+* carpentersblocks/
+* Carpenter's Blocks v3.2.6 - MC 1.7.10.zip
+* Chisel-1.7.10-1.5.6.jar
+* ChiselFacades-1.7.10-2.0.jar
+* CodeChickenCore-1.7.10-1.0.3.23-universal.jar
+* CoFHCore-[1.7.10]3.0.0B3-26.jar
+* CoFHLib-[1.7.10]1.0.0B3-20.jar
+* Computronics-1.7-0.6.4.jar
+* deepcore-mc1710-0.0.1.24.jar
+* DynIMC-1.7.10-1.1.0.5-universal.jar
+* eirairc-mc1.7.10-v1.7.0.jar
+* Enchiridion-1.7.X-1.2b.jar
+* enderio-2.0_beta.169.jar
+* EnderStorage-1.7.10-1.4.5.19-universal.jar
+* extrautilities-1.1.0f.jar
+* Factorization-1.7.10-0.8.87.1.jar
+* FlaxbeardsSteamPower-1.7.10-0.25.2.jar
+* FoodPlus-1.7.2-3.0rS.jar
+* forestry_1.7.10-2.4.2.45.jar
+* FZAddons-1.7-1.0.0.jar
+* Ganys End-1.8.0.jar
+* Ganys Nether-1.7.4.jar
+* Ganys Surface-1.8.0.jar
+* gendustry-mc1710-1.3.0.10.jar
+* gregtech-1.7.10-5.03h.jar
+* HydCraft-1.7.10-2.0-57.jar
+* IguanaTinkerTweaks-1.7.10-2.0.1.26.jar
+* industrialcraft-2-2.2.556-experimental.jar
+* InGameInfoXML-1.7.10-2.8.0.58-universal.jar
+* InventoryTweaks-1.58-147.jar
+* Jabba-1.1.4_1.7.10.jar
+* LunatriusCore-1.7.10-1.1.2.11-universal.jar
+* Mantle_mc1.7.10_0.3.0.jar
+* MapWriter-1.7.10-2.1.2.jar
+* Mekanism-1.7.10-7.0.0.87.jar
+* MekanismGenerators-1.7.10-7.0.0.87.jar
+* MekanismTools-1.7.10-7.0.0.87.jar
+* MineFactoryReloaded-[1.7.10]2.8.0RC2-557.jar
+* MineTweaker3-1.7.10-3.0.6.jar
+* ModTweaker-1.7.X-0.5d.jar
+* Morpheus-1.7.10-1.5.18.jar
+* natura-1.7.10-2.2.0-b1.jar
+* neiaddons-mc1710-1.12.0.5.jar
+* NEIForestry-1.1.jar
+* NetherOres-[1.7.10]2.3.0RC3-84.jar
+* NotEnoughItems-1.7.10-1.0.3.42-universal.jar
+* ObsidiPlates-1.7.10-universal-3.0.0.18.jar
+* OpenBlocks-1.7.10-1.3-snapshot-430.jar
+* OpenComponents-MC1.7.10-0.2.0.14-universal.jar
+* OpenComputers-MC1.7.10-1.3.3.89-dev-universal.jar
+* OpenEye-0.6-1.7.10.jar
+* OpenLights-0.1.0.17.jar
+* OpenModsLib-1.7.10-0.6-snapshot-223.jar
+* OpenPrinter-0.1.0.71.jar
+* PneumaticCraft-1.2.5.jar
+* PowerConverters-1.7.10-3.0.0.24.jar
+* pressure-mc1710-0.9.2.7.jar
+* ProgressiveAutomation-1.7.10-1.4.3.jar
+* QuarryPlus-1.7.10-1.5.7.7.jar
+* Railcraft_1.7.10-9.2.2.0.jar
+* RecStatusMod-1.7.10-14.9d85503.jar
+* RedstoneArsenal-[1.7.10]1.1.0B3-8.jar
+* rockdigger-1.7.10-1.2.jar
+* SimplyJetpacks-MC1.7.10-1.0.1.jar
+* SpiceOfLife-mc1.7.x-1.1.0.jar
+* Stackie-1.7.10-1.5.1.28-universal.jar
+* StevesCarts2.0.0.b16.jar
+* StevesFactoryManagerA90.jar
+* StevesWorkshop-0.2.2.jar
+* TabbyChat-1.7.10-1.11.1.42-fml.jar
+* TConstruct_mc1.7.10_1.6.0d38.jar
+* ThermalExpansion-[1.7.10]4.0.0B3-11.jar
+* ThermalFoundation-[1.7.10]1.0.0B1-6.jar
+* Translocator-1.7.10-1.1.1.7-universal.jar
+* VersionChecker-1.1.5.jar
+* Waila-1.5.3_1.7.10.jar
+* WailaHarvestability-mc1.7.x-1.0.4.jar
+* weather2 v2.3.5 for MC v1.7.10.zip

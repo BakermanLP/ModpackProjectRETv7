@@ -1,0 +1,21 @@
+{
+    "Osmium": {
+        "template": "uniform",
+        "block": "Mekanism:OreBlock",
+        "metadata": 0,
+        "clusterSize": 8,
+        "numClusters": 6,
+        "minHeight": 20,
+        "maxHeight": 55,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}
