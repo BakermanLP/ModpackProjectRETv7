@@ -1,0 +1,60 @@
+<!--*********************  CustomOreGen IndustrialCraft Ores Module ******************************
+*
+*   This file contains Presets, Options, and Distributions for the 4 IndustrialCraft^2 ores:
+*       Copper, Tin, Lead and Uranium.
+*
+***********************************************************************************************-->
+<IfModInstalled name="IC2">
+
+    <!--*****************************   Distributions   *************************************
+    *   
+    *   Below are the actual distributions for the overworld and mystcraft ages.
+    *
+    *************************************************************************************-->
+    <IfCondition condition=':= dimension.generator = "RandomLevelSource" | dimension.generator = "ATGLevelSource"'>
+        
+        <Substitute name='IC2Substitute' block='minecraft:stone'>
+            <Description> 
+                Replace IC2-generated ore clusters with stone.   
+            </Description>
+            <Comment>  
+                The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
+            </Comment>
+            <Replaces block='IC2:blockOreCopper'/> 
+            <Replaces block='IC2:blockOreTin'/> 
+            <Replaces block='IC2:blockOreUran'/>
+            <Replaces block='IC2:blockOreLead'/>
+        </Substitute>
+        
+        <!--******************   Uranium   *********************-->            
+        <ConfigSection>
+        
+            
+                <Veins name='IC2UraniumVeins' block='IC2:blockOreUran' inherits='PresetSparseVeins'>    
+                    <Description>
+                        Sparse veins in the 10-30 range.
+                    </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x4080FF00</WireframeColor>
+                    <Setting name='MotherlodeFrequency' avg=':= 3.0 * _default_'/>
+                    <Setting name='MotherlodeSize' avg=':= 0.6 * _default_' range=':= 0.6 * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':= 20/64 * dimension.groundLevel' range=':= 10/64 * dimension.groundLevel'/>
+                    <Setting name='BranchLength' avg=':= 0.75 * _default_' range=':= 0.75 * _default_'/>
+                    <Setting name='BranchInclination' avg='0' range='0.35'/>
+                    <Setting name='BranchHeightLimit' avg='12'/>
+                    <Setting name='SegmentRadius' avg=':= 0.6 * _default_' range=':= 0.6 * _default_'/>
+                    <Setting name='OreDensity' avg=':= 1.85 * _default_' range=':= _default_'/>
+                </Veins>
+                <Veins name='IC2UraniumVeinsWasteland' inherits='IC2UraniumVeins'>
+                    <Description>  This roughly triples the chance of finding uranium in an wasteland. </Description>      
+                    <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':= _default_' range=':= 2 * _default_'/>
+                    <Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>
+                    <BiomeType name='Wasteland'/>
+                </Veins>
+            
+        </ConfigSection>
+
+    </IfCondition>
+    
+</IfModInstalled>

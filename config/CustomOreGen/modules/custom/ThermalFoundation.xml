@@ -1,0 +1,182 @@
+<!--*********************  CustomOreGen ThermalExpansion Ores Module ******************************
+*
+*   This file contains Presets, Options, and Distributions for the 5 TE ores:
+*       Copper, Tin, Silver, Lead and Nickel.
+*
+***********************************************************************************************-->
+<IfModInstalled name="ThermalExpansion">
+    <!--*****************************   Distributions   *************************************
+    *   
+    *   Below are the actual distributions for the overworld and mystcraft ages.
+    *
+    *************************************************************************************-->
+    <IfCondition condition=':= dimension.generator = "RandomLevelSource" | dimension.generator = "ATGLevelSource"'>
+        
+        <Substitute name='TESubstitute' block='minecraft:stone'>
+            <Description> 
+                Replace TE-generated ore clusters with stone.   
+            </Description>
+            <Comment>  
+                The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
+            </Comment>
+            <Replaces block='ThermalFoundation:Ore'/> 
+        </Substitute>
+        
+        <!--*******************   Copper   *********************-->            
+        <ConfigSection>
+        
+                <Veins name='TECopperVeins' block='ThermalFoundation:Ore:0' inherits='PresetLayeredVeins'>
+                    <Description>  Average veins in the 35-55 range. </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40773300</WireframeColor> 
+                    <Setting name='MotherlodeFrequency' avg=':= 0.9 * _default_'/>
+                    <Setting name='MotherlodeSize'
+                             avg=':= 0.9 * _default_'
+                             range=':= 0.9 * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':= 45/64 * dimension.groundLevel' range=':= 10/64 * dimension.groundLevel' type='normal'/>
+                    <Setting name='BranchFrequency'
+                             avg=':= 0.95 * _default_'
+                             range=':= 0.95 * _default_'/>
+                    <Setting name='BranchLength'
+                             avg=':= 0.95 * _default_'/>
+                    <Setting name='BranchHeightLimit' avg='12'/>
+                    <Setting name='SegmentRadius'
+                             avg=':= 0.95 * _default_'
+                             range=':= 0.95 * _default_'/>
+                </Veins>                
+                <Veins name='TECopperVeinsJungle' inherits='TECopperVeins'>
+                    <Description> This roughly triples the chance of finding Copper in jungle biomes. </Description> 
+                    <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':=_default_' range=':= 2 * _default_'/>
+                    <Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>  
+                    <BiomeType name='Jungle'/>
+                </Veins>   
+            
+        </ConfigSection>
+        
+        <!--********************   Tin   ***********************-->            
+        <ConfigSection>
+        
+                <Veins name='TETinVeins' block='ThermalFoundation:Ore:1' inherits='PresetLayeredVeins'>
+                    <Description> 
+                        Average veins in the 20-40 range.
+                    </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40FFFFFF</WireframeColor> 
+                    <Setting name='MotherlodeFrequency' avg=':= 0.85 * _default_'/>
+                    <Setting name='MotherlodeSize'
+                             avg=':= 0.85 * _default_'
+                             range=':= 0.85 * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':= 30/64 * dimension.groundLevel' range=':= 11/64 * dimension.groundLevel' type='normal'/>
+                    <Setting name='BranchHeightLimit' avg='11'/>
+                    <Setting name='BranchFrequency' avg=':= 0.9 * _default_'/>
+                    <Setting name='BranchLength' avg=':= 0.9 * _default_'/>
+                    <Setting name='SegmentRadius'
+                             avg=':= 0.9 * _default_'
+                             range=':= 0.9 * _default_'/>
+                </Veins>
+                <Veins name='TETinVeinsPlains' inherits='TETinVeins'>
+                    <Description> This roughly triples the chance of finding tin in plains biomes. </Description> 
+                    <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':=_default_' range=':= 2 * _default_'/>
+                    <Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>  
+                    <BiomeType name='Plains'/>
+                </Veins>
+            
+        </ConfigSection>
+        
+        <!--******************   Silver   *********************-->            
+        <ConfigSection>
+        
+                <Veins name='TESilverVeins' block='ThermalFoundation:Ore:2' inherits='PresetLayeredVeins'>    
+                    <Description>
+                        Sparse veins in the 10-30 range.
+                    </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40AAAAAA</WireframeColor>
+                    <Setting name='MotherlodeFrequency' avg=':= 0.85 * _default_'/>
+                    <Setting name='MotherlodeSize' avg=':= 0.85 * _default_' range=':= 0.85 * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':= 20/64 * dimension.groundLevel' range=':= 10/64 * dimension.groundLevel'/>
+                    <Setting name='BranchLength'
+                             avg=':= 0.8 * _default_'
+                             range=':= 0.75 * _default_'/>
+                    <Setting name='BranchFrequency' avg=':= 0.85 * _default_'/> 
+                    <Setting name='BranchHeightLimit' avg='12'/>
+                    <Setting name='SegmentRadius'
+                             avg=':= 0.75 * _default_'
+                             range=':= 0.5 * _default_'/>
+                    <Setting name='SegmentRadius' avg=':= _default_' range=':= _default_'/>
+                </Veins>
+                <Veins name='TESilverVeinsMountain' inherits='TESilverVeins'>
+                    <Description>  This roughly triples the chance of
+                    finding silver in mountainous terrain. </Description>      
+                    <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':= _default_' range=':= 2 * _default_'/>
+                    <Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>
+                    <BiomeType name='Mountain'/>
+                </Veins>
+            
+        </ConfigSection>
+
+        <!--*******************   Lead   *********************-->            
+        <ConfigSection>
+        
+                <Veins name='TELeadVeins' block='ThermalFoundation:Ore:3' inherits='PresetLayeredVeins'>
+                    <Description>  Average veins in the 10-30 range;
+                    more common in deserts. </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40222222</WireframeColor> 
+                    <Setting name='MotherlodeFrequency' avg=':= 0.85 * _default_'/>
+                    <Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':= 20/64 * dimension.groundLevel' range=':= 10/64 * dimension.groundLevel' type='normal'/>
+                    <Setting name='BranchFrequency' avg=':= 0.85 * _default_' range=':= 0.85 * _default_'/>
+                    <Setting name='BranchLength' avg=':= _default_'/>
+                    <Setting name='BranchHeightLimit' avg='12'/>
+                    <Setting name='BranchFrequency' avg=':= 0.85 * _default_'/>
+                    <Setting name='SegmentRadius'
+                             avg=':= 0.85 * _default_'
+                             range=':= 0.85 * _default_'/>
+                </Veins>                
+                <Veins name='TELeadVeinsDesert' inherits='TELeadVeins'>
+                    <Description> This roughly triples the chance of finding Lead in desert biomes. </Description> 
+                    <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':=_default_' range=':= 2 * _default_'/>
+                    <Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>  
+                    <BiomeType name='Desert'/>
+                </Veins>   
+            
+        </ConfigSection>
+
+        <!--*******************   Ferrous Ore   *********************-->            
+        <ConfigSection>
+        
+                <Veins name='TEFerrousVeins' block='ThermalFoundation:Ore:4' inherits='Presetlayeredveins'>
+                    <Description>  Average veins in the 10-30 range;
+                    more common in deserts. </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40005500</WireframeColor> 
+                    <Setting name='MotherlodeFrequency' avg=':= 0.85 * _default_'/>
+                    <Setting name='MotherlodeSize'
+                             avg=':= 0.8 * _default_'
+                             range=':= 0.5 * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':= 20/64 * dimension.groundLevel' range=':= 10/64 * dimension.groundLevel' type='normal'/>
+                    <Setting name='BranchFrequency' avg=':= 0.85 * _default_'/>
+                    <Setting name='BranchLength' avg=':= 0.75 * _default_'/>
+                    <Setting name='BranchHeightLimit' avg='10'/>
+                    <Setting name='SegmentRadius'
+                             avg=':= 0.7 * _default_'
+                             range=':= 0.5 * _default_'/>
+                </Veins>
+                <Veins name='TEFerrousVeinsSwamp' inherits='TEFerrousVeins'>
+                    <Description> This roughly triples the chance of finding Ferrous Ore in swamp biomes. </Description> 
+                    <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':=_default_' range=':= 2 * _default_'/>
+                    <Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>  
+                    <BiomeType name='Swamp'/>
+                </Veins>   
+            
+        </ConfigSection>
+
+    </IfCondition>
+    
+</IfModInstalled>

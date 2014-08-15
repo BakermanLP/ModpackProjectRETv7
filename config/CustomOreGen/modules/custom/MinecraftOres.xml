@@ -1,0 +1,240 @@
+<!--************************  CustomOreGen Minecraft Ores Module *********************************
+*
+*   This file contains Presets, Options, and Distributions for the 7 vanilla minecraft ores:
+*       Coal, Iron, Gold, Redstone, Diamond, Lapis Lazuli, and Emerald.
+*
+***********************************************************************************************-->
+<ConfigSection>
+
+    <!--*****************************   Distributions   *************************************
+    *   
+    *   Below are the actual distributions for the vanilla ores in the overworld and 
+    *   mystcraft ages.  There are currently 3 types of distribution for each ore:
+    *     Layered Veins:  
+    *       Some form of veins or clusters arranged loosely by height and more common 
+    *       in affiliated biomes.
+    *     Strategic Clouds:  
+    *       Huge, rare, low-density clouds.  Size and frequency are fairly consistent; 
+    *       density is varied to reflect ore rarity.  May be surrounded by a scattering 
+    *       of single blocks as hints to help guide players in.
+    *     Vanilla Clusters:
+    *       A re-creation of the vanilla ore generation using the StandardGen algorithm.
+    *
+    *************************************************************************************-->
+    <IfCondition condition=':= dimension.generator = "RandomLevelSource" | dimension.generator = "ATGLevelSource"'>
+        
+        <!--**********   Vanilla Deposit Removal   *************-->
+        <Substitute name='StandardOreSubstitute' block='minecraft:stone'>
+            <Description> 
+                Replace vanilla-generated ore clusters with stone.   
+            </Description>
+            <Comment>  
+                The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
+            </Comment>
+            <Replaces block='minecraft:coal_ore'/> 
+            <Replaces block='minecraft:iron_ore'/> 
+            <Replaces block='minecraft:gold_ore'/> 
+            <Replaces block='minecraft:redstone_ore'/> 
+            <Replaces block='minecraft:diamond_ore'/> 
+            <Replaces block='minecraft:lapis_ore'/> 
+            <Replaces block='minecraft:emerald_ore'/>
+        </Substitute>
+        
+        <!--*******************   Coal   ***********************-->
+        <ConfigSection>
+        
+                <Veins name='CoalVeins' block='minecraft:coal_ore' inherits='PresetSparseVeins'>    
+                    <Description>
+                        Coal spawns just near the surface, and up into hills and mountains.  The veins are
+                        long and thick, but sparsely filled with ore and often broken up by caves or depressions
+                        in the terrain.
+                    </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x60101010</WireframeColor>
+                    <Setting name='MotherlodeFrequency'
+                             avg=':= 10.7 * _default_'/>
+                    <Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_'/>
+                    <Setting name='MotherlodeHeight' avg='60'
+                             range='10' scaleTo='sealevel'/>
+                    <Setting name='BranchLength' avg=':= 0.45 * _default_' range=':= 0.45 * _default_'/>
+                    <Setting name='BranchInclination' avg='0' range='0.35'/>
+                    <Setting name='BranchHeightLimit' avg='10'/>
+                    <Setting name='SegmentRadius' avg=':= _default_' range=':= _default_'/>
+                    <Setting name='OreDensity' avg=':= 1.75 * _default_' range=':= _default_'/>
+                </Veins>
+                <Veins name='CoalVeinsSwamp' inherits='CoalVeins'>
+                    <Description>  This roughly triples the chance of finding coal in a swamp. </Description>      
+                    <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':= _default_' range=':= 2 * _default_'/>
+                    <Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>  
+                    <BiomeType name='Swamp'/>
+                </Veins>      
+
+        </ConfigSection>
+                
+        <!--*******************   Iron   ***********************-->
+        <ConfigSection>
+        
+                <Veins name='IronVeins' block='minecraft:iron_ore' inherits='PresetLayeredVeins'>
+                    <Description> 
+                        Iron spawns in the height 30-50 range.  The veins are average in length and size.
+                    </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40221100</WireframeColor> 
+                    <Setting name='MotherlodeFrequency' avg=':= 0.9 * _default_'/>
+                    <Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_'/>
+                    <Setting name='MotherlodeHeight' avg='43'
+                             range='10.5' type='normal' scaleTo='sealevel'/>
+                    <Setting name='BranchHeightLimit' avg='10.5'/>
+                    <Setting name='SegmentRadius' avg=':= _default_' range=':= _default_'/>
+                </Veins>
+                <Veins name='IronVeinsCold' inherits='IronVeins'>
+                    <Description> This roughly triples the chance of finding iron in cold/icy biomes. </Description> 
+                    <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':=_default_' range=':= 2 * _default_'/>
+                    <Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>  
+                    <BiomeType name='Frozen'/>
+                    <BiomeType name='Water' weight='-1'/>
+                </Veins>
+       
+        </ConfigSection>           
+        
+        <!--*******************   Gold   ***********************-->
+        <ConfigSection>
+        
+                <Veins name='GoldVeins' block='minecraft:gold_ore' inherits='PresetLayeredVeins'> 
+                    <Description> 
+                        Gold spawns in the height 10-30 range.  The veins are shorter than average,
+                        and much rarer overall.  Gold is not easy to find.
+                    </Description>  
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40443300</WireframeColor> 
+                    <Setting name='MotherlodeFrequency' avg=':= 0.85 * _default_'/>
+                    <Setting name='MotherlodeSize' avg=':= 0.8 * _default_' range=':= 0.5 * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':= 20/64 * dimension.groundLevel' range=':= 10/64 * dimension.groundLevel' type='normal'/>
+                    <Setting name='BranchHeightLimit' avg='10'/>  
+                    <Setting name='BranchFrequency' avg=':= 0.85 * _default_'/> 
+                    <Setting name='BranchLength' avg=':= 0.75 * _default_' range=':= 0.66 * _default_'/>
+                    <Setting name='SegmentRadius' avg=':= 0.7 * _default_' range=':= 0.5 * _default_'/>
+                    <Setting name='SegmentAngle' avg='0.6' range='0.40' /> 
+                </Veins>
+                <Veins name='GoldVeinsForest' inherits='GoldVeins'>
+                    <Description> This roughly triples the chance of finding gold in forested biomes. </Description> 
+                    <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':=_default_' range=':= 2 * _default_'/>
+                    <Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>  
+                    <BiomeType name='Forest'/>    
+                </Veins>
+       
+        </ConfigSection>           
+        
+        <!--*****************   Redstone   *********************-->
+        <ConfigSection>
+       
+                <Veins name='RedstoneVeins' block='minecraft:redstone_ore' inherits='PresetVerticalVeins'> 
+                    <Description> 
+                        Isolated veins (no motherlodes) that run vertically.  These veins are fairly common, but a challenge to mine because you have to tunnel straight down.
+                    </Description>  
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40550000</WireframeColor> 
+                    <Setting name='MotherlodeFrequency' avg=':= 1.3 * _default_'/>
+                    <Setting name='SegmentRadius' avg=':= _default_' range=':= _default_'/>
+                </Veins>
+                <Veins name='RedstoneVeinsDesert' inherits='RedstoneVeins'> 
+                    <Description> This roughly triples the chance of finding redstone in deserts. </Description> 
+                    <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/> 
+                    <ReplacesOre block='stone'/>
+                    <Replaces block='minecraft:sandstone'/> 
+                    <BiomeType name='Desert'/>    
+                </Veins>
+        
+        </ConfigSection>           
+        
+        <!--*****************   Diamond   **********************-->
+        <ConfigSection> 
+            
+                <Veins name="DiamondVeins" block='minecraft:diamond_ore' inherits='PresetPipeVeins' seed='0xF186'>
+                    <Description> Short sparsely filled tubes starting at bedrock. </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40336699</WireframeColor> 
+                    <Setting name='MotherlodeFrequency' avg=':= 0.8 * _default_'/> 
+                    <Setting name='MotherlodeHeight' avg=':= 3/64 * dimension.groundLevel' range='0'/>
+                    <Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_'/>
+                    <Setting name='SegmentRadius' avg=':= _default_' range=':= _default_'/>
+                    <Setting name='OreDensity' avg=':= 1.0 * _default_'/>
+                </Veins>
+                <Veins name="DiamondVeinsLava" block='minecraft:lava' inherits='DiamondVeins' seed='0xF186'>
+                    <Description> Fills center of each tube with lava, forming "kimberlite pipes" </Description>
+                    <Setting name='MotherlodeSize' avg=':= 0.5 * _default_'/>
+                    <Setting name='SegmentRadius' avg=':= 0.5 * _default_'/>
+                    <Setting name='OreDensity' avg='1' range='0'/>
+                    <ReplacesOre block='stone'/>
+                    <Replaces block='minecraft:dirt'/>
+                    <Replaces block='minecraft:gravel'/>
+                    <Replaces block='minecraft:diamond_ore'/>
+                </Veins>
+        
+        </ConfigSection>           
+        
+        <!--***************   Lapis Lazuli   *******************-->
+        <ConfigSection> 
+        
+                <Veins name='LapisLazuliVeins' block='minecraft:lapis_ore' inherits='PresetVerticalVeins'>         
+                    <Description> 
+                        Lapis Lazuli spawns in isolated veins that run vertically upward, much like redstone.  However,
+                        lapis veins are too deep to break the suface except occassionally under oceans.
+                    </Description> 
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40000055</WireframeColor> 
+                    <Setting name='MotherlodeFrequency' avg=':= 0.4 * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':= 8/64 * dimension.groundLevel' range='4'/>
+                    <Setting name='BranchLength' avg=':= 36/64 * dimension.groundLevel' range='12' type='normal'/>
+                    <Setting name='BranchInclination' avg=':= -_default_' range=':=_default_'/>     
+                    <Setting name='SegmentRadius' avg=':= _default_' range=':= _default_'/>          
+                </Veins> 
+                <Veins name='LapisLazuliVeinsOcean' inherits='LapisLazuliVeins'>
+                    <Description> This roughly triples the chance of finding lapis lazuli under oceans. </Description> 
+                    <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+                    <ReplacesOre block='stone'/>
+                    <Replaces block='minecraft:dirt'/> 
+                    <Replaces block='minecraft:sand'/>
+                    <BiomeType name='Water'/>
+                    <Biome name='River' weight='-1'/>
+                </Veins>
+        
+        </ConfigSection>           
+        
+        <!--*****************   Emerald   **********************-->
+        <ConfigSection>
+
+                <Veins name="EmeraldVeins" block='minecraft:emerald_ore' inherits='PresetPipeVeins' seed='0x3966'>
+                    <Description> Short sparsely filled tubes.  5x more common in Extreme Hills. </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40339966</WireframeColor>
+                    <Setting name='MotherlodeFrequency' avg=':= 0.9 * _default_'/> 
+                    <Setting name='MotherlodeHeight' avg=':= 10/64 * dimension.groundLevel' range=':= 4/64 * dimension.groundLevel'/>
+                    <Setting name='MotherlodeSize' avg=':= 0.85 * _default_' range=':= 0.7 * _default_'/>
+                    <Setting name='BranchInclination' avg='0.55' range='0.7' type='normal'/>
+                    <Setting name='SegmentRadius' avg=':= 0.85 * _default_' range=':= 0.7 * _default_'/>
+                    <Setting name='OreDensity' avg=':= 1.2 * _default_'/>
+                    <Biome name='.*' weight='0.20'/>
+                    <BiomeType name='Mountain'/>
+                    <Biome name='Green\s*Hills'/> <Comment> ExtraBiomesXL </Comment>
+                </Veins>
+                <Veins name="EmeraldVeinsSilverfish" block='minecraft:monster_egg' inherits='EmeraldVeins' seed='0x3966'>
+                    <Description> 
+                        Fill center of tubes with silverfish spawners. 
+                        Credit: based on novel examples by AnonymousViking from the MC forums.
+                    </Description>
+                    <Setting name='MotherlodeSize' avg='0.51' range='0.1'/>
+                    <Setting name='SegmentRadius' avg='0.51' range='0.1'/>
+                    <Setting name='OreDensity' avg='1' range='0'/>
+                    <ReplacesOre block='stone'/>
+                    <Replaces block='minecraft:emerald_ore'/>
+                </Veins>
+            
+        </ConfigSection>
+        
+    </IfCondition>
+    
+</ConfigSection>

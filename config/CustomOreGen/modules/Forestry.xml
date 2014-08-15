@@ -1,0 +1,61 @@
+<!--*************************  CustomOreGen Forestry Ores Module *********************************
+*
+*   This file contains Presets, Options, and Distributions for the 3 Forestry ores:
+*       Copper, Tin, and Apatite.
+*
+***********************************************************************************************-->
+<IfModInstalled name="Forestry">
+
+    <!--*****************************   Distributions   *************************************
+    *   
+    *   Below are the actual distributions for the overworld and mystcraft ages.
+    *
+    *************************************************************************************-->
+    <IfCondition condition=':= dimension.generator = "RandomLevelSource" | dimension.generator = "ATGLevelSource"'>
+        
+        <Substitute name='ForestrySubstitute' block='minecraft:stone'>
+            <Description> 
+                Replace Forestry-generated ore clusters with stone.   
+            </Description>
+            <Comment>  
+                The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
+            </Comment>
+            <Replaces block='Forestry:tile.resources:1'/> 
+            <Replaces block='Forestry:tile.resources:2'/> 
+            <Replaces block='Forestry:tile.resources:0'/>
+        </Substitute>
+        
+        <!--******************   Apatite   *********************-->            
+        <ConfigSection>
+        
+                <Veins name='ForestryApatiteVeins' block='Forestry:tile.resources:0' inherits='PresetPipeVeins' seed='0x4A18'>    
+                    <Description>
+                        Short sparsely filled tubes starting at the surface and extending downwards.
+                        Roughly 3x more common in forests.
+                    </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40300060</WireframeColor>                    
+                    <Setting name='MotherlodeFrequency' avg=':= 0.8 * forestryApatiteFreq * if(age,age.forestryApatiteVeins,1) * _default_'/>
+                    <Setting name='MotherlodeSize' avg=':= forestryApatiteSize * _default_' range=':= forestryApatiteSize * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':= 60/64 * dimension.groundLevel' range=':= 4/64 * dimension.groundLevel'/>
+                    <Setting name='BranchLength' avg=':= 1.2 * _default_'/>
+                    <Setting name='BranchInclination' avg=':= -_default_'/>
+                    <Setting name='SegmentRadius' avg=':= forestryApatiteSize * _default_' range=':= forestryApatiteSize * _default_'/>
+                    <Setting name='OreDensity' avg=':= 3 * _default_'/>                    
+                    <Biome name='.*' weight='.3'/>   
+                    <BiomeType name='Forest'/>
+                </Veins>
+                <Veins name='ForestryApatiteVeinsAir' block='minecraft:air' inherits='ForestryApatiteVeins' seed='0x4A18'>
+                    <Description> Fills center of each tube with air </Description>
+                    <Setting name='MotherlodeSize' avg=':= 0.35 * _default_'/>
+                    <Setting name='SegmentRadius' avg=':= 0.35 * _default_'/>
+                    <Setting name='OreDensity' avg='1' range='0'/>
+                    <ReplacesOre block='minecraft:stone'/>
+                    <Replaces block='Forestry:tile.resources:0'/>
+                </Veins>
+            
+        </ConfigSection>
+        
+    </IfCondition>
+    
+</IfModInstalled>

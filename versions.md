@@ -21,6 +21,7 @@
 * CoFHCore-[1.7.10]3.0.0B3-26.jar
 * CoFHLib-[1.7.10]1.0.0B3-20.jar
 * Computronics-1.7-0.6.4.jar
+* CustomOreGen-1.7.10-1.1.6-3-g0dac438.jar
 * deepcore-mc1710-0.0.1.24.jar
 * DynIMC-1.7.10-1.1.0.5-universal.jar
 * eirairc-mc1.7.10-v1.7.0.jar

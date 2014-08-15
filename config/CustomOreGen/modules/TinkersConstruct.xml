@@ -1,0 +1,68 @@
+<!--************************ CustomOreGen Minecraft Ores Module *********************************
+*
+* This file contains Presets, Options, and Distributions for the 3 Tinkers' Construct overworld mining ores:
+* Aluminum, Copper, and Tin.
+*
+***********************************************************************************************-->
+<IfModInstalled name="TConstruct">
+
+  <!--***************************** Distributions *************************************
+      *
+      *   Below are the actual distributions for the overworld and mystcraft ages.
+      *
+      *************************************************************************************-->
+  <IfCondition condition=':= dimension.generator = "RandomLevelSource" | dimension.generator = "ATGLevelSource"'>
+    
+    <!--********** Vanilla Deposit Removal *************-->
+    <Substitute name='StandardOreSubstitute' block='minecraft:stone'>
+      <Description>
+	Replace vanilla-generated ore clusters with stone.
+      </Description>
+      <Comment>
+	The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
+      </Comment>
+      <Replaces block='TConstruct:SearedBrick:5'/>
+      <Replaces block='TConstruct:SearedBrick:3'/>
+      <Replaces block='TConstruct:SearedBrick:4'/>
+      <Comment>
+	The above; Aluminum (TConstruct:SearedBrick:5), Copper (TConstruct:SearedBrick:3), Tin (TConstruct:SearedBrick:4), respectively.
+      </Comment>
+    </Substitute>
+    
+    <!--******************* Aluminum ***********************-->
+    <ConfigSection>
+      
+	<Veins name='TCAluminumVeins' block='TConstruct:SearedBrick:5' inherits='PresetLayeredVeins'>
+	  <Description>
+	    Aluminum spawns in the height 0-64 range. The veins
+	    are a bit smaller than average in length and size.
+	  </Description>
+	  <DrawWireframe>:=drawWireframes</DrawWireframe>
+	  <WireframeColor>0x405555AA</WireframeColor>
+	  <Setting name='MotherlodeFrequency' avg=':= 0.85 * TCAluminumFreq * if(age,age.tcAluminumVeins,1) * _default_'/>
+	  <Setting name='MotherlodeSize'
+                   avg=':= 0.6 * TCAluminumSize * _default_'
+                   range=':= 0.4 * TCAluminumSize * _default_'/>
+	  <Setting name='MotherlodeHeight' avg=':= 35/64 * dimension.groundLevel' range=':= 20/64 * dimension.groundLevel' type='normal'/>
+	  <Setting name='BranchHeightLimit' avg='10.5'/>
+          <Setting name='BranchFrequency' avg=':= 0.9 * _default_'/>
+          <Setting name='BranchLength'
+                   avg=':= 0.8 * _default_' range=':= 0.7 * _default_'/>
+	  <Setting name='SegmentRadius'
+                   avg=':= 0.6 * TCAluminumSize * _default_'
+                   range=':= 0.5 * TCAluminumSize * _default_'/>
+	</Veins>
+	<Veins name='TCAluminumVeinsForest' inherits='TCAluminumVeins'>
+	  <Description> This roughly triples the chance of finding aluminum in forest biomes. </Description>
+	  <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+	  <Setting name='MotherlodeHeight' avg=':=_default_' range=':= 2 * _default_'/>
+	  <Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>
+	  <BiomeType name='Forest'/>
+	  <BiomeType name='Water' weight='-1'/>
+	</Veins>
+      
+    </ConfigSection>
+    
+  </IfCondition>
+
+</IfModInstalled>
