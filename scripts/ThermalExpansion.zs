@@ -1,4 +1,4 @@
-recipes.remove(<ThermalExpansion:Machine:8>,
+recipes.removeShaped(<ThermalExpansion:Machine:8>,
 [[null, <*>, null],
  [<*>, <*>, <*>],
  [<*>, <*>, <*>]]);
