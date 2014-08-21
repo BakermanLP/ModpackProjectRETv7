@@ -35,23 +35,15 @@
                     </Description>
                     <DrawWireframe>:=drawWireframes</DrawWireframe>
                     <WireframeColor>0x40300060</WireframeColor>                    
-                    <Setting name='MotherlodeFrequency' avg=':= 0.8 * forestryApatiteFreq * if(age,age.forestryApatiteVeins,1) * _default_'/>
-                    <Setting name='MotherlodeSize' avg=':= forestryApatiteSize * _default_' range=':= forestryApatiteSize * _default_'/>
+                    <Setting name='MotherlodeFrequency' avg=':= 0.4 * _default_'/>
+                    <Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_'/>
                     <Setting name='MotherlodeHeight' avg=':= 60/64 * dimension.groundLevel' range=':= 4/64 * dimension.groundLevel'/>
-                    <Setting name='BranchLength' avg=':= 1.2 * _default_'/>
-                    <Setting name='BranchInclination' avg=':= -_default_'/>
-                    <Setting name='SegmentRadius' avg=':= forestryApatiteSize * _default_' range=':= forestryApatiteSize * _default_'/>
-                    <Setting name='OreDensity' avg=':= 3 * _default_'/>                    
+                    <Setting name='BranchFrequency' avg='3' range='2' type='normal'/>
+                    <Setting name='BranchInclination' avg='-1.05' range='0.25' type='uniform'/>
+                    <Setting name='SegmentForkFrequency' avg='0'/>
+                    <Setting name='SegmentRadius' avg=':= 0.7 * _default_' range=':= 0.7 * _default_'/>
                     <Biome name='.*' weight='.3'/>   
                     <BiomeType name='Forest'/>
-                </Veins>
-                <Veins name='ForestryApatiteVeinsAir' block='minecraft:air' inherits='ForestryApatiteVeins' seed='0x4A18'>
-                    <Description> Fills center of each tube with air </Description>
-                    <Setting name='MotherlodeSize' avg=':= 0.35 * _default_'/>
-                    <Setting name='SegmentRadius' avg=':= 0.35 * _default_'/>
-                    <Setting name='OreDensity' avg='1' range='0'/>
-                    <ReplacesOre block='minecraft:stone'/>
-                    <Replaces block='Forestry:tile.resources:0'/>
                 </Veins>
             
         </ConfigSection>

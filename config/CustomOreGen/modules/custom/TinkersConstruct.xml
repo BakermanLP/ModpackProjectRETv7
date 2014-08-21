@@ -39,18 +39,18 @@
 	  </Description>
 	  <DrawWireframe>:=drawWireframes</DrawWireframe>
 	  <WireframeColor>0x405555AA</WireframeColor>
-	  <Setting name='MotherlodeFrequency' avg=':= 0.85 * TCAluminumFreq * if(age,age.tcAluminumVeins,1) * _default_'/>
+	  <Setting name='MotherlodeFrequency' avg=':= 0.85 * _default_'/>
 	  <Setting name='MotherlodeSize'
-                   avg=':= 0.6 * TCAluminumSize * _default_'
-                   range=':= 0.4 * TCAluminumSize * _default_'/>
+                   avg=':= 0.6 * _default_'
+                   range=':= 0.4 * _default_'/>
 	  <Setting name='MotherlodeHeight' avg=':= 35/64 * dimension.groundLevel' range=':= 20/64 * dimension.groundLevel' type='normal'/>
 	  <Setting name='BranchHeightLimit' avg='10.5'/>
           <Setting name='BranchFrequency' avg=':= 0.9 * _default_'/>
           <Setting name='BranchLength'
                    avg=':= 0.8 * _default_' range=':= 0.7 * _default_'/>
 	  <Setting name='SegmentRadius'
-                   avg=':= 0.6 * TCAluminumSize * _default_'
-                   range=':= 0.5 * TCAluminumSize * _default_'/>
+                   avg=':= 0.6 * _default_'
+                   range=':= 0.5 * _default_'/>
 	</Veins>
 	<Veins name='TCAluminumVeinsForest' inherits='TCAluminumVeins'>
 	  <Description> This roughly triples the chance of finding aluminum in forest biomes. </Description>

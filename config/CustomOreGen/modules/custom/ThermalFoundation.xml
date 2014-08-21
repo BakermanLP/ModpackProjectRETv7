@@ -29,7 +29,7 @@
                     <Description>  Average veins in the 35-55 range. </Description> 
                     <DrawWireframe>:=drawWireframes</DrawWireframe>
                     <WireframeColor>0x40773300</WireframeColor> 
-                    <Setting name='MotherlodeFrequency' avg=':= 0.9 * _default_'/>
+                    <Setting name='MotherlodeFrequency' avg=':= 0.5 * _default_'/>
                     <Setting name='MotherlodeSize'
                              avg=':= 0.9 * _default_'
                              range=':= 0.9 * _default_'/>
@@ -63,7 +63,7 @@
                     </Description> 
                     <DrawWireframe>:=drawWireframes</DrawWireframe>
                     <WireframeColor>0x40FFFFFF</WireframeColor> 
-                    <Setting name='MotherlodeFrequency' avg=':= 0.85 * _default_'/>
+                    <Setting name='MotherlodeFrequency' avg=':= 0.5 * _default_'/>
                     <Setting name='MotherlodeSize'
                              avg=':= 0.85 * _default_'
                              range=':= 0.85 * _default_'/>
@@ -94,7 +94,7 @@
                     </Description>
                     <DrawWireframe>:=drawWireframes</DrawWireframe>
                     <WireframeColor>0x40AAAAAA</WireframeColor>
-                    <Setting name='MotherlodeFrequency' avg=':= 0.85 * _default_'/>
+                    <Setting name='MotherlodeFrequency' avg=':= 0.5 * _default_'/>
                     <Setting name='MotherlodeSize' avg=':= 0.85 * _default_' range=':= 0.85 * _default_'/>
                     <Setting name='MotherlodeHeight' avg=':= 20/64 * dimension.groundLevel' range=':= 10/64 * dimension.groundLevel'/>
                     <Setting name='BranchLength'
@@ -126,7 +126,7 @@
                     more common in deserts. </Description> 
                     <DrawWireframe>:=drawWireframes</DrawWireframe>
                     <WireframeColor>0x40222222</WireframeColor> 
-                    <Setting name='MotherlodeFrequency' avg=':= 0.85 * _default_'/>
+                    <Setting name='MotherlodeFrequency' avg=':= 0.5 * _default_'/>
                     <Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_'/>
                     <Setting name='MotherlodeHeight' avg=':= 20/64 * dimension.groundLevel' range=':= 10/64 * dimension.groundLevel' type='normal'/>
                     <Setting name='BranchFrequency' avg=':= 0.85 * _default_' range=':= 0.85 * _default_'/>
@@ -155,7 +155,7 @@
                     more common in deserts. </Description> 
                     <DrawWireframe>:=drawWireframes</DrawWireframe>
                     <WireframeColor>0x40005500</WireframeColor> 
-                    <Setting name='MotherlodeFrequency' avg=':= 0.85 * _default_'/>
+                    <Setting name='MotherlodeFrequency' avg=':= 0.5 * _default_'/>
                     <Setting name='MotherlodeSize'
                              avg=':= 0.8 * _default_'
                              range=':= 0.5 * _default_'/>
