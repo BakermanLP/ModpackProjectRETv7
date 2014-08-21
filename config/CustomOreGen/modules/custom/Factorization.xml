@@ -1,0 +1,68 @@
+<!--************************  CustomOreGen Minecraft Ores Module *********************************
+*
+*   This file contains Presets, Options, and Distributions for the 7 vanilla minecraft ores:
+*       Coal, Iron, Gold, Redstone, Diamond, Lapis Lazuli, and Emerald.
+*
+***********************************************************************************************-->
+<ConfigSection>
+
+    <!--*****************************   Distributions   *************************************
+    *   
+    *   Below are the actual distributions for the vanilla ores in the overworld and 
+    *   mystcraft ages.  There are currently 3 types of distribution for each ore:
+    *     Layered Veins:  
+    *       Some form of veins or clusters arranged loosely by height and more common 
+    *       in affiliated biomes.
+    *     Strategic Clouds:  
+    *       Huge, rare, low-density clouds.  Size and frequency are fairly consistent; 
+    *       density is varied to reflect ore rarity.  May be surrounded by a scattering 
+    *       of single blocks as hints to help guide players in.
+    *     Vanilla Clusters:
+    *       A re-creation of the vanilla ore generation using the StandardGen algorithm.
+    *
+    *************************************************************************************-->
+    <IfCondition condition=':= dimension.generator = "RandomLevelSource" | dimension.generator = "ATGLevelSource"'>
+        
+        <!-- Normal World Deposit Removal -->
+        <Substitute name='factorizationOreSubstitute' block='minecraft:stone'>
+            <Description>
+                Replace default-generated Factorization ore clusters with stone.
+            </Description>
+            <Comment>
+                The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32)
+            </Comment>
+            <Replaces block='factorization.ResourceBlock'/>
+        </Substitute>
+        
+        <!--*****************   Redstone   *********************-->
+        <ConfigSection>
+       
+                <Veins name='DarkIronVeins' block='factorization:DarkIronOre' inherits='PresetVerticalVeins'> 
+                    <Description> 
+                        Isolated veins (no motherlodes) that run vertically.  These veins are fairly common, but a challenge to mine because you have to tunnel straight down.
+                    </Description>  
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40550000</WireframeColor> 
+                    <Setting name='MotherlodeFrequency' avg=':= 1.3 * _default_'/>
+                    <Setting name='MotherlodeHeight' avg='8' range='2'/>
+                    <Setting name='MotherlodeRangeLimit' avg='8' range='2' type='normal'/>
+                    <Setting name='SegmentRadius' avg=':= _default_' range=':= _default_'/>
+                    <Setting name='BranchLength' avg='8' range='2' type='normal'/>
+                    <ReplacesOre block='stone'/>
+                    <Replaces block='minecraft:bedrock' />
+                    <Replaces block='minecraft:dirt'/>
+                    <Replaces block='minecraft:gravel'/>
+                </Veins>
+                <Veins name='DarkIronVeinsDesert' inherits='DarkIronVeins'> 
+                    <Description> This roughly triples the chance of finding redstone in deserts. </Description> 
+                    <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/> 
+                    <ReplacesOre block='stone'/>
+                    <Replaces block='minecraft:sandstone'/> 
+                    <BiomeType name='Desert'/>    
+                </Veins>
+        
+        </ConfigSection>           
+        
+    </IfCondition>
+    
+</ConfigSection>

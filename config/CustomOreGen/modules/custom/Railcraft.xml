@@ -1,0 +1,139 @@
+<!--************************  CustomOreGen Railcraft Ores Module **********************************
+*
+*   This file contains Presets, Options, and Distributions for the normal Railcraft ores,  
+*   and Saltpeter; as well as Abyssal Stone Geodes and the Diamond, Lapis and Emerald that spawns 
+*   within them.
+*
+***********************************************************************************************-->
+<IfModInstalled name="Railcraft">
+   
+    <!--*****************************   Distributions   *************************************
+    *   
+    *   Below are the actual distributions for the overworld and mystcraft ages.
+    *
+    *************************************************************************************-->
+    <IfCondition condition=':= dimension.generator = "RandomLevelSource" | dimension.generator = "ATGLevelSource"'>
+        
+        <Substitute name='RailcraftSubstitute' block='minecraft:stone'>
+            <Description> 
+                Replace Railcraft-generated Sulfur and Abyssal Stone with vanilla stone.   
+            </Description>
+            <Comment>  
+                The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
+            </Comment>
+	    <Replaces block='Railcraft:tile.railcraft.cube:6'/>
+            <Replaces block='Railcraft:tile.railcraft.ore'/>
+        </Substitute>
+	
+        <!--*******************   Abyssal Geodes   *********************-->            
+        <ConfigSection>
+
+          <VeinsPreset name='PresetAbyssalVeins' inherits = 'PresetLayeredVeins'>
+            <Setting name='ParentRangeLimit' avg='10' range='4' type='normal'/>
+            <Setting name='MotherlodeFrequency' avg=':= 80 * _default_'/>
+	    <Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_'/>
+            <Setting name='MotherlodeHeight' avg=':=20/64 * dimension.groundLevel' range=':= 6/64 * dimension.groundLevel' type='normal'/>
+            <Setting name='BranchHeightLimit' avg='10.5'/>
+            <Setting name='BranchLength' avg='30' range='10'/>
+	    <Setting name='SegmentRadius' avg=':= _default_' range=':= _default_'/>
+            <Replaces block='Railcraft:tile.railcraft.cube:6'/>
+          </VeinsPreset>
+          
+              <Cloud name='AbyssalGeode' block='Railcraft:tile.railcraft.cube:6' 
+                     inherits='PresetStrategicCloud'>
+                <DrawWireframe>:=drawWireframes</DrawWireframe>
+                <WireframeColor>0x401fffe1</WireframeColor> 
+		<Setting name='DistributionFrequency'
+                         avg=':= 0.01'/>
+		<Setting name='CloudRadius'
+                         avg=':= 20'
+                         range=':= 5'/>
+		<Setting name='CloudThickness'
+                         avg=':= 7'
+                         range=':= 2'/>
+		<Setting name='CloudSizeNoise' avg='0.2'/>
+		<Setting name='CloudHeight' avg=':= 20/64 * dimension.groundLevel' range=':= 4/64 * dimension.groundLevel' type='normal'/>
+		<Setting name='CloudInclination' avg='0' range='0.35'/>
+		<Setting name='OreRadiusMult' avg='1' range='0.1'/>
+		<Setting name='OreDensity' avg='1.0'/>
+                <Setting name='OreVolumeNoiseCutoff' avg='0'/>
+              
+                <Veins name='DarkDiamondVeins' block='Railcraft:tile.railcraft.ore:2'
+                       inherits='PresetAbyssalVeins'>
+                  <Description>  
+                    Dark diamond veins in abyssal geodes.
+                  </Description> 
+                  <DrawWireframe>:=drawWireframes</DrawWireframe>
+                  <WireframeColor>0x400f000f</WireframeColor>
+                </Veins>
+
+                <Veins name='DarkLapisVeins' block='Railcraft:tile.railcraft.ore:4'
+                       inherits='PresetAbyssalVeins'>
+                  <Description>  
+                    Dark lapis veins in abyssal geodes.
+                  </Description> 
+                  <DrawWireframe>:=drawWireframes</DrawWireframe>
+                  <WireframeColor>0x40ffff00</WireframeColor>
+                </Veins>
+
+                <Veins name='DarkEmeraldVeins' block='Railcraft:tile.railcraft.ore:3'
+                       inherits='PresetAbyssalVeins'>
+                  <Description>  
+                    Dark emerald veins in abyssal geodes.
+                  </Description> 
+                  <DrawWireframe>:=drawWireframes</DrawWireframe>
+                  <WireframeColor>0x400f000f</WireframeColor>
+                </Veins>
+		<BiomeType name='Ocean'/>
+              </Cloud>              
+			
+        </ConfigSection>
+        <!--********************   Sulfur   **********************-->          
+        <ConfigSection>
+        
+                <Veins name='RCSulfurVeins' block='Railcraft:tile.railcraft.ore:0'
+                       inherits='PresetPipeVeins' seed='0xFF0300'>
+                    <Description> Short sparsely filled tubes starting at bedrock.  3x more common in Extreme Hills. </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40FF2020</WireframeColor> 
+                    <Setting name='MotherlodeHeight'
+                             avg=':= 3/64 * dimension.groundLevel' range='0'/>
+                    <Biome name='.*' weight='0.35'/>
+                    <BiomeType name='Mountain'/>
+                </Veins>
+            
+        </ConfigSection>
+        
+        <!--******************   Saltpeter   ********************-->           
+        <ConfigSection>
+        
+              <Veins name='RCSaltpeterVeins' block='Railcraft:tile.railcraft.ore:1' inherits='PresetPipeVeins'>
+                <Description>
+                  Swathes of Saltpeter.  Found only in deserts.
+                </Description>
+                <DrawWireframe>:=drawWireframes</DrawWireframe>
+                <WireframeColor>0x40FFFFCC</WireframeColor> 
+		<Setting name='MotherlodeFrequency' avg=':= 0.03'/>            
+		<Setting name='MotherlodeSize' avg=':= 2.3' range=':= 0.5'/>
+		<Setting name='MotherlodeHeight' avg=':= 64/64 * dimension.groundLevel' range=':= 5/64 * dimension.groundLevel' type='uniform'/>
+		<Setting name='BranchFrequency' avg='1' range='0'/> 
+		<Setting name='BranchInclination' avg='0' range='0.75'/> 
+		<Setting name='BranchLength' avg='180' range='90'/> 
+		<Setting name='BranchHeightLimit' avg='1000'/>
+		<Setting name='SegmentForkFrequency' avg='0' range='0'/> 
+		<Setting name='SegmentForkLengthMult' avg='0' range='0'/> 
+		<Setting name='SegmentLength' avg='20' range='8'/>
+		<Setting name='SegmentAngle' avg='0.35' range='0.35'/> 
+		<Setting name='SegmentRadius' avg=':= 2.0 * oreSize' range=':= 1.0 * oreSize'/> 
+		<Setting name='OreDensity' avg='0.04' range='0'/>
+		<Setting name='OreRadiusMult' avg='1.0' range='0.1'/> 
+		<Replaces block='minecraft:sand'/>
+                <Replaces block='minecraft:sandstone'/>
+		<BiomeType name='Desert'/>
+              </Veins>
+            
+        </ConfigSection>
+
+    </IfCondition>
+    
+</IfModInstalled>
