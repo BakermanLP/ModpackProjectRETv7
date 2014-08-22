@@ -57,7 +57,9 @@
                     <Description> This roughly triples the chance of finding redstone in deserts. </Description> 
                     <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/> 
                     <ReplacesOre block='stone'/>
-                    <Replaces block='minecraft:sandstone'/> 
+                    <Replaces block='minecraft:bedrock' />
+                    <Replaces block='minecraft:dirt'/>
+                    <Replaces block='minecraft:gravel'/>
                     <BiomeType name='Desert'/>    
                 </Veins>
         

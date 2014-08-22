@@ -14,7 +14,7 @@
   <IfCondition condition=':= dimension.generator = "RandomLevelSource" | dimension.generator = "ATGLevelSource"'>
     
     <!--********** Vanilla Deposit Removal *************-->
-    <Substitute name='StandardOreSubstitute' block='minecraft:stone'>
+    <Substitute name='TConstructOreSubstitute' block='minecraft:stone'>
       <Description>
 	Replace vanilla-generated ore clusters with stone.
       </Description>

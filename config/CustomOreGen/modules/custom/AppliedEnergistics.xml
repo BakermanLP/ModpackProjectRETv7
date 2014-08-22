@@ -37,7 +37,6 @@
                     <Setting name='CloudThickness' avg=':= 0.5 * _default_' range=':= 0.5 * _default_'/>                
                     <Setting name='OreVolumeNoiseCutoff' avg='0'/>
                     <Setting name='OreDensity' avg=':= 1 * _default_'/>
-					<Replaces block='sandstone'/>
                     <Biome name='.*' weight='0.2'/>
                     <BiomeType name='Desert'/>
                     <Veins name='AE2QuartzHintVein' block='appliedenergistics2:tile.OreQuartz' inherits='PresetHintVeins'>
