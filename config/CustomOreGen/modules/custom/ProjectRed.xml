@@ -1,0 +1,76 @@
+<!--************************  CustomOreGen Project Red Ores Module **********************************
+*
+*   This file contains Presets, Options, and Distributions for the 8 Project Red 2 ores: Ruby, Sapphire, 
+*   and Peridot.
+*
+***********************************************************************************************-->
+<IfModInstalled name="ProjRed|Exploration">
+
+    <!--*****************************   Distributions   *************************************
+    *   
+    *   Below are the actual distributions for the overworld and mystcraft ages.
+    *
+    *************************************************************************************-->
+    <IfCondition condition=':= ?COGActive'>
+        
+        <Substitute name='PRSubstitute' block='minecraft:stone'>
+            <Description> 
+                Replace Project Red-generated ore clusters with stone.   
+            </Description>
+            <Comment>  
+                The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
+            </Comment>
+            <Replaces block='ProjRed|Exploration:projectred.exploration.ore'/>
+        </Substitute>
+        
+        <!--********************   Ruby   **********************-->          
+        <ConfigSection>
+
+                <Veins name='PRRubyVeins' block='ProjRed|Exploration:projectred.exploration.ore:0' inherits='PresetPipeVeins'>
+                    <Description> Short sparsely filled tubes starting at bedrock.  3x more common in Extreme Hills. </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40FF2020</WireframeColor> 
+                    <Setting name='MotherlodeFrequency' avg=':= 1.5 * _default_'/> 
+                    <Setting name='MotherlodeHeight' avg=':= 3/64 * dimension.groundLevel' range='0'/>
+                    <Setting name='OreDensity' avg=':= 0.5 * _default_'/>
+                    <Biome name='.*' weight='0.35'/>
+                    <BiomeType name='Mountain'/>
+                </Veins>
+            
+        </ConfigSection>
+        
+        <!--******************   Sapphire   ********************-->           
+        <ConfigSection>
+        
+                <Veins name='PRSapphireVeins' block='ProjRed|Exploration:projectred.exploration.ore:1' inherits='PresetPipeVeins'>
+                    <Description> Short sparsely filled tubes starting at bedrock.  3x more common in Extreme Hills. </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x402020FF</WireframeColor> 
+                    <Setting name='MotherlodeFrequency' avg=':= 1.5 * _default_'/> 
+                    <Setting name='MotherlodeHeight' avg=':= 3/64 * dimension.groundLevel' range='0'/>
+                    <Setting name='OreDensity' avg=':= 0.5 * _default_'/>
+                    <Biome name='.*' weight='0.35'/>
+                    <BiomeType name='Mountain'/>
+                </Veins>
+            
+        </ConfigSection>
+        
+        <!--***************   Peridot   *****************-->         
+        <ConfigSection>
+        
+                <Veins name='PRPeridotVeins' block='ProjRed|Exploration:projectred.exploration.ore:2' inherits='PresetPipeVeins'>
+                    <Description> Short sparsely filled tubes starting at bedrock.  3x more common in Extreme Hills. </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x4020FF20</WireframeColor> 
+                    <Setting name='MotherlodeFrequency' avg=':= 1.5 * _default_'/> 
+                    <Setting name='MotherlodeHeight' avg=':= 3/64 * dimension.groundLevel' range='0'/>
+                    <Setting name='OreDensity' avg=':= 0.5 * _default_'/>
+                    <Biome name='.*' weight='0.35'/>
+                    <BiomeType name='Mountain'/>
+                </Veins>
+
+        </ConfigSection>
+        
+    </IfCondition>
+    
+</IfModInstalled>

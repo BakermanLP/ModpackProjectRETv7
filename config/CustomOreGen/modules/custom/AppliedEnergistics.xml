@@ -5,63 +5,57 @@
 *
 ***********************************************************************************************-->
    
-    <!--*****************************   Distributions   *************************************
-    *   
-    *   Below are the actual distributions for the overworld and mystcraft ages.
-    *
-    *************************************************************************************-->
-    <IfCondition condition=':= dimension.generator = "RandomLevelSource" | dimension.generator = "ATGLevelSource"'>
-        
-        <Substitute name='AE2Substitute' block='minecraft:stone'>
-            <Description> 
-                Replace AE2-generated ore clusters with stone.   
-            </Description>
-            <Comment>  
-                The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
-            </Comment>
-            <Replaces block='appliedenergistics2:tile.OreQuartz'/> 
-            <Replaces block='appliedenergistics2:tile.OreQuartzCharged'/> 
-        </Substitute>
-        
-        <!--*******************   Copper   *********************-->            
-        <ConfigSection>
-            
-                <Cloud name='AE2Quartz' block='appliedenergistics2:tile.OreQuartz' inherits='PresetStrategicCloud' seed='0xABCD'>
-                    <Description>  
-                        Diffuse quartz cloud surrounded by single-block "hint" veins, found mostly in wasteland biomes.
-                    </Description> 
-                    <DrawWireframe>:=drawWireframes</DrawWireframe>
-                    <WireframeColor>0x4044FF00</WireframeColor> 
-                    <Setting name='DistributionFrequency' avg=':= 0.05'/>
-                    <Setting name='CloudRadius' avg=':= 0.5 * _default_' range=':= 0.5 * _default_'/>
-                    <Setting name='CloudThickness' avg=':= 0.5 * _default_' range=':= 0.5 * _default_'/>                
-                    <Setting name='OreVolumeNoiseCutoff' avg='0'/>
-                    <Setting name='OreDensity' avg=':= 1 * _default_'/>
-                    <Biome name='.*' weight='0.2'/>
-                    <BiomeType name='Desert'/>
-                    <Veins name='AE2QuartzHintVein' block='appliedenergistics2:tile.OreQuartz' inherits='PresetHintVeins'>
-                        <DrawWireframe>:=drawWireframes</DrawWireframe>
-                        <WireframeColor>0x4080FF00</WireframeColor>
-                        <Setting name='MotherlodeFrequency' avg=':= _default_' range=':= _default_'/>   
-                        <Setting name='MotherlodeRangeLimit' avg=':= 1 * _default_' range=':= 0.5 * _default_'/> 
-                    </Veins>
-                </Cloud>
-                <Cloud name='AE2QuartzCharged' block='appliedenergistics2:tile.OreQuartzCharged' inherits='PresetStrategicCloud' seed='0xABCD'>
-                    <Description>  
-                        Diffuse quartz cloud surrounded by single-block "hint" veins, found mostly in wasteland biomes.
-                    </Description> 
-                    <DrawWireframe>:=drawWireframes</DrawWireframe>
-                    <WireframeColor>0x40FF00FF</WireframeColor> 
-                    <Setting name='DistributionFrequency' avg=':= 0.05'/>
-                    <Setting name='CloudRadius' avg=':= 0.1 * _default_' range=':= 0.5 * _default_'/>
-                    <Setting name='CloudThickness' avg=':= 0.1 * _default_' range=':= 0.17 * _default_'/>                
-                    <Setting name='OreVolumeNoiseCutoff' avg='0'/>
-                    <Setting name='OreDensity' avg=':= 1 * _default_'/>
-                    <Biome name='.*' weight='0.2'/>
-                    <BiomeType name='Desert'/>
-                </Cloud>
-            
-        </ConfigSection>
-
-    </IfCondition>
+<IfCondition condition=':= ?COGActive'>
     
+    <Substitute name='AE2Substitute' block='minecraft:stone'>
+        <Description> 
+            Replace AE2-generated ore clusters with stone.   
+        </Description>
+        <Comment>  
+            The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
+        </Comment>
+        <Replaces block='appliedenergistics2:tile.OreQuartz'/> 
+        <Replaces block='appliedenergistics2:tile.OreQuartzCharged'/> 
+    </Substitute>
+    
+    <!--*******************   Copper   *********************-->            
+    <ConfigSection>
+        
+            <Cloud name='AE2Quartz' block='appliedenergistics2:tile.OreQuartz' inherits='PresetStrategicCloud' seed='0xABCD'>
+                <Description>  
+                    Diffuse quartz cloud surrounded by single-block "hint" veins, found mostly in wasteland biomes.
+                </Description> 
+                <DrawWireframe>:=drawWireframes</DrawWireframe>
+                <WireframeColor>0x4044FF00</WireframeColor> 
+                <Setting name='DistributionFrequency' avg=':= 10 * _default_ '/>
+                <Setting name='CloudRadius' avg=':= 0.5 * _default_' range=':= 0.5 * _default_'/>
+                <Setting name='CloudThickness' avg=':= 0.5 * _default_' range=':= 0.5 * _default_'/>                
+                <Setting name='OreVolumeNoiseCutoff' avg='0'/>
+                <Setting name='OreDensity' avg=':= 1 * _default_'/>
+                <Biome name='.*' weight='0.2'/>
+                <BiomeType name='Desert'/>
+                <Veins name='AE2QuartzHintVein' block='appliedenergistics2:tile.OreQuartz' inherits='PresetHintVeins'>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x4080FF00</WireframeColor>
+                    <Setting name='MotherlodeFrequency' avg=':= _default_' range=':= _default_'/>   
+                    <Setting name='MotherlodeRangeLimit' avg=':= 1 * _default_' range=':= 0.5 * _default_'/> 
+                </Veins>
+            </Cloud>
+            <Cloud name='AE2QuartzCharged' block='appliedenergistics2:tile.OreQuartzCharged' inherits='PresetStrategicCloud' seed='0xABCD'>
+                <Description>  
+                    Diffuse quartz cloud surrounded by single-block "hint" veins, found mostly in wasteland biomes.
+                </Description> 
+                <DrawWireframe>:=drawWireframes</DrawWireframe>
+                <WireframeColor>0x40FF00FF</WireframeColor> 
+                <Setting name='DistributionFrequency' avg=':= 10 * _default_'/>
+                <Setting name='CloudRadius' avg=':= 0.1 * _default_' range=':= 0.5 * _default_'/>
+                <Setting name='CloudThickness' avg=':= 0.1 * _default_' range=':= 0.17 * _default_'/>                
+                <Setting name='OreVolumeNoiseCutoff' avg='0'/>
+                <Setting name='OreDensity' avg=':= 1 * _default_'/>
+                <Biome name='.*' weight='0.2'/>
+                <BiomeType name='Desert'/>
+            </Cloud>
+        
+    </ConfigSection>
+
+</IfCondition>

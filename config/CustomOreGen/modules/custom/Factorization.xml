@@ -4,24 +4,9 @@
 *       Coal, Iron, Gold, Redstone, Diamond, Lapis Lazuli, and Emerald.
 *
 ***********************************************************************************************-->
+<IfModInstalled name='factorization'>
 <ConfigSection>
-
-    <!--*****************************   Distributions   *************************************
-    *   
-    *   Below are the actual distributions for the vanilla ores in the overworld and 
-    *   mystcraft ages.  There are currently 3 types of distribution for each ore:
-    *     Layered Veins:  
-    *       Some form of veins or clusters arranged loosely by height and more common 
-    *       in affiliated biomes.
-    *     Strategic Clouds:  
-    *       Huge, rare, low-density clouds.  Size and frequency are fairly consistent; 
-    *       density is varied to reflect ore rarity.  May be surrounded by a scattering 
-    *       of single blocks as hints to help guide players in.
-    *     Vanilla Clusters:
-    *       A re-creation of the vanilla ore generation using the StandardGen algorithm.
-    *
-    *************************************************************************************-->
-    <IfCondition condition=':= dimension.generator = "RandomLevelSource" | dimension.generator = "ATGLevelSource"'>
+    <IfCondition condition=':= ?COGActive'>
         
         <!-- Normal World Deposit Removal -->
         <Substitute name='factorizationOreSubstitute' block='minecraft:stone'>
@@ -68,3 +53,4 @@
     </IfCondition>
     
 </ConfigSection>
+</IfModInstalled>

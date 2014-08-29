@@ -4,13 +4,8 @@
 *       Copper, Tin, Silver, Lead and Nickel.
 *
 ***********************************************************************************************-->
-    <!--*****************************   Distributions   *************************************
-    *   
-    *   Below are the actual distributions for the overworld and mystcraft ages.
-    *
-    *************************************************************************************-->
-    <IfCondition condition=':= dimension.generator = "RandomLevelSource" | dimension.generator = "ATGLevelSource"'>
-        
+    
+    <IfCondition condition=':= ?COGActive'>
         <Substitute name='FlaxSteamSubstitute' block='minecraft:stone'>
             <Description> 
                 Replace FlaxSteamPower generated ore clusters with stone.   
@@ -35,7 +30,6 @@
                     <Setting name='BranchFrequency' avg=':= 0.85 * _default_' range=':= 0.85 * _default_'/>
                     <Setting name='BranchLength' avg=':= _default_'/>
                     <Setting name='BranchHeightLimit' avg='12'/>
-                    <Setting name='BranchFrequency' avg=':= 0.85 * _default_'/>
                     <Setting name='SegmentRadius'
                              avg=':= 0.85 * _default_'
                              range=':= 0.85 * _default_'/>

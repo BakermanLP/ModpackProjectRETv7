@@ -21,7 +21,7 @@
     *       A re-creation of the vanilla ore generation using the StandardGen algorithm.
     *
     *************************************************************************************-->
-    <IfCondition condition=':= dimension.generator = "RandomLevelSource" | dimension.generator = "ATGLevelSource"'>
+    <IfCondition condition=':= ?COGActive'>
         
         <!--**********   Vanilla Deposit Removal   *************-->
         <Substitute name='StandardOreSubstitute' block='minecraft:stone'>
@@ -51,22 +51,17 @@
                     </Description>
                     <DrawWireframe>:=drawWireframes</DrawWireframe>
                     <WireframeColor>0x60101010</WireframeColor>
-                    <Setting name='MotherlodeFrequency'
-                             avg=':= 10.7 * _default_'/>
-                    <Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_'/>
-                    <Setting name='MotherlodeHeight' avg='60'
-                             range='10' scaleTo='sealevel'/>
-                    <Setting name='BranchLength' avg=':= 0.45 * _default_' range=':= 0.45 * _default_'/>
+                    <Setting name='MotherlodeFrequency' avg=':= 14.1 * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':= 60/64 * dimension.groundLevel' range=':= 10/64 * dimension.groundLevel'/>
+                    <Setting name='BranchLength' avg=':= 0.90 * _default_' range=':= 0.90 * _default_'/>
                     <Setting name='BranchInclination' avg='0' range='0.35'/>
-                    <Setting name='BranchHeightLimit' avg='10'/>
-                    <Setting name='SegmentRadius' avg=':= _default_' range=':= _default_'/>
-                    <Setting name='OreDensity' avg=':= 1.75 * _default_' range=':= _default_'/>
+                    <Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>
+                    <Setting name='OreDensity' avg=':= 1.75 * _default_'/>
                 </Veins>
                 <Veins name='CoalVeinsSwamp' inherits='CoalVeins'>
                     <Description>  This roughly triples the chance of finding coal in a swamp. </Description>      
                     <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
                     <Setting name='MotherlodeHeight' avg=':= _default_' range=':= 2 * _default_'/>
-                    <Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>  
                     <BiomeType name='Swamp'/>
                 </Veins>      
 
@@ -81,19 +76,16 @@
                     </Description> 
                     <DrawWireframe>:=drawWireframes</DrawWireframe>
                     <WireframeColor>0x40221100</WireframeColor> 
-                    <Setting name='MotherlodeFrequency' avg=':= 0.9 * _default_'/>
-                    <Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_'/>
-                    <Setting name='MotherlodeHeight' avg='43'
-                             range='10.5' type='normal' scaleTo='sealevel'/>
+                    <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+                    <Setting name='MotherlodeHeight' avg='40' range='10' type='normal'/>
                     <Setting name='BranchHeightLimit' avg='10.5'/>
-                    <Setting name='SegmentRadius' avg=':= _default_' range=':= _default_'/>
                 </Veins>
                 <Veins name='IronVeinsCold' inherits='IronVeins'>
                     <Description> This roughly triples the chance of finding iron in cold/icy biomes. </Description> 
                     <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
                     <Setting name='MotherlodeHeight' avg=':=_default_' range=':= 2 * _default_'/>
                     <Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>  
-                    <BiomeType name='Frozen'/>
+                    <BiomeType name='Cold'/>
                     <BiomeType name='Water' weight='-1'/>
                 </Veins>
        
@@ -111,7 +103,7 @@
                     <WireframeColor>0x40443300</WireframeColor> 
                     <Setting name='MotherlodeFrequency' avg=':= 0.85 * _default_'/>
                     <Setting name='MotherlodeSize' avg=':= 0.8 * _default_' range=':= 0.5 * _default_'/>
-                    <Setting name='MotherlodeHeight' avg=':= 20/64 * dimension.groundLevel' range=':= 10/64 * dimension.groundLevel' type='normal'/>
+                    <Setting name='MotherlodeHeight' avg='20' range='10' type='normal'/>
                     <Setting name='BranchHeightLimit' avg='10'/>  
                     <Setting name='BranchFrequency' avg=':= 0.85 * _default_'/> 
                     <Setting name='BranchLength' avg=':= 0.75 * _default_' range=':= 0.66 * _default_'/>
@@ -138,7 +130,6 @@
                     <DrawWireframe>:=drawWireframes</DrawWireframe>
                     <WireframeColor>0x40550000</WireframeColor> 
                     <Setting name='MotherlodeFrequency' avg=':= 1.3 * _default_'/>
-                    <Setting name='SegmentRadius' avg=':= _default_' range=':= _default_'/>
                 </Veins>
                 <Veins name='RedstoneVeinsDesert' inherits='RedstoneVeins'> 
                     <Description> This roughly triples the chance of finding redstone in deserts. </Description> 
@@ -159,9 +150,6 @@
                     <WireframeColor>0x40336699</WireframeColor> 
                     <Setting name='MotherlodeFrequency' avg=':= 0.8 * _default_'/> 
                     <Setting name='MotherlodeHeight' avg=':= 3/64 * dimension.groundLevel' range='0'/>
-                    <Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_'/>
-                    <Setting name='SegmentRadius' avg=':= _default_' range=':= _default_'/>
-                    <Setting name='OreDensity' avg=':= 1.0 * _default_'/>
                 </Veins>
                 <Veins name="DiamondVeinsLava" block='minecraft:lava' inherits='DiamondVeins' seed='0xF186'>
                     <Description> Fills center of each tube with lava, forming "kimberlite pipes" </Description>
@@ -190,7 +178,6 @@
                     <Setting name='MotherlodeHeight' avg=':= 8/64 * dimension.groundLevel' range='4'/>
                     <Setting name='BranchLength' avg=':= 36/64 * dimension.groundLevel' range='12' type='normal'/>
                     <Setting name='BranchInclination' avg=':= -_default_' range=':=_default_'/>     
-                    <Setting name='SegmentRadius' avg=':= _default_' range=':= _default_'/>          
                 </Veins> 
                 <Veins name='LapisLazuliVeinsOcean' inherits='LapisLazuliVeins'>
                     <Description> This roughly triples the chance of finding lapis lazuli under oceans. </Description> 
@@ -219,7 +206,6 @@
                     <Setting name='OreDensity' avg=':= 1.2 * _default_'/>
                     <Biome name='.*' weight='0.20'/>
                     <BiomeType name='Mountain'/>
-                    <Biome name='Green\s*Hills'/> <Comment> ExtraBiomesXL </Comment>
                 </Veins>
                 <Veins name="EmeraldVeinsSilverfish" block='minecraft:monster_egg' inherits='EmeraldVeins' seed='0x3966'>
                     <Description> 

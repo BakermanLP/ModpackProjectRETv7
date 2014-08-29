@@ -12,7 +12,7 @@
     *   Below are the actual distributions for the overworld and mystcraft ages.
     *
     *************************************************************************************-->
-    <IfCondition condition=':= dimension.generator = "RandomLevelSource" | dimension.generator = "ATGLevelSource"'>
+    <IfCondition condition=':= ?COGActive'>
         
         <Substitute name='RailcraftSubstitute' block='minecraft:stone'>
             <Description> 
@@ -31,11 +31,9 @@
           <VeinsPreset name='PresetAbyssalVeins' inherits = 'PresetLayeredVeins'>
             <Setting name='ParentRangeLimit' avg='10' range='4' type='normal'/>
             <Setting name='MotherlodeFrequency' avg=':= 80 * _default_'/>
-	    <Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_'/>
             <Setting name='MotherlodeHeight' avg=':=20/64 * dimension.groundLevel' range=':= 6/64 * dimension.groundLevel' type='normal'/>
             <Setting name='BranchHeightLimit' avg='10.5'/>
             <Setting name='BranchLength' avg='30' range='10'/>
-	    <Setting name='SegmentRadius' avg=':= _default_' range=':= _default_'/>
             <Replaces block='Railcraft:tile.railcraft.cube:6'/>
           </VeinsPreset>
           

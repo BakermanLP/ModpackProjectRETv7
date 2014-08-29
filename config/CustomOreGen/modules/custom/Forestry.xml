@@ -11,7 +11,7 @@
     *   Below are the actual distributions for the overworld and mystcraft ages.
     *
     *************************************************************************************-->
-    <IfCondition condition=':= dimension.generator = "RandomLevelSource" | dimension.generator = "ATGLevelSource"'>
+    <IfCondition condition=':= ?COGActive'>
         
         <Substitute name='ForestrySubstitute' block='minecraft:stone'>
             <Description> 
@@ -20,15 +20,13 @@
             <Comment>  
                 The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
             </Comment>
-            <Replaces block='Forestry:tile.resources:1'/> 
-            <Replaces block='Forestry:tile.resources:2'/> 
-            <Replaces block='Forestry:tile.resources:0'/>
+            <Replaces block='Forestry:resources'/> 
         </Substitute>
         
         <!--******************   Apatite   *********************-->            
         <ConfigSection>
         
-                <Veins name='ForestryApatiteVeins' block='Forestry:tile.resources:0' inherits='PresetPipeVeins' seed='0x4A18'>    
+                <Veins name='ForestryApatiteVeins' block='Forestry:resources' inherits='PresetPipeVeins' seed='0x4A18'>    
                     <Description>
                         Short sparsely filled tubes starting at the surface and extending downwards.
                         Roughly 3x more common in forests.
