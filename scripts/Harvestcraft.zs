@@ -1,0 +1,1 @@
+recipes.remove(<harvestcraft:sink:*>);
