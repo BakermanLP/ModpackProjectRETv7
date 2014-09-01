@@ -28,6 +28,7 @@
 * Enchiridion-1.7.X-1.2b.jar
 * enderio-2.0_beta.169.jar
 * EnderStorage-1.7.10-1.4.5.19-universal.jar
+* ExtraCells-2.1.10.jar
 * extrautilities-1.1.0f.jar
 * Factorization-1.7.10-0.8.87.1.jar
 * FlaxbeardsSteamPower-1.7.10-0.25.2.jar
