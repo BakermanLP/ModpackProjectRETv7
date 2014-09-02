@@ -227,7 +227,7 @@ You may contact me (aka Alblaka), head of the IC² Dev Team, to negotiate condit
 * License: Rights Reserved
 * Source URL: <http://minecraft.curseforge.com/mc-mods/69118-morpheus>
 
-## 
+## Natura
 * Author: progwml6
 * License: This mod is covered under the Creative Commons 3.0 license. Modpacks are encouraged, feel free to do anything you like with it. I only ask that you enjoy it!
 * Source URL: <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1294968-natura>
@@ -302,8 +302,8 @@ You may contact me (aka Alblaka), head of the IC² Dev Team, to negotiate condit
 * License: This mod may be distributed outside this repository as long as the creator(fuj1n) is credited. The same applies to modification of the code to meet additional needs and the re-distribution of the modified code. 
 * Source URL: <https://github.com/SlimeKnights/RecMod/>
 
-## 
-* Author: SpiceOfLife
+## SpiceOfLife 
+* Author: squeek502
 * License: You are welcome to add this mod to any modpack youd like.
 * Source URL: <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2091809-the-spice-of-life-encouraging-dietary-variety>
 
