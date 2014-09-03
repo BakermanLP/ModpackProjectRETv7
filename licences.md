@@ -264,8 +264,8 @@ You may contact me (aka Alblaka), head of the IC² Dev Team, to negotiate condit
 
 ## Pams Desertcraft, Pams Harvestcraft
 * Author: MatrexsVigil
-* License: I hear by give permission to any non-profit mod pack to use any of my mods listed for Minecraft Version 1.4.6 or higher in their mod packs without needing written permission from myself as of January 28th, 2013.  You may not claim my mods as your own and must credit myself and Rhodox of the Painterly Pack in your forum post and/or area of download links.
-* Source URL: <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1294413-pams-mods-july-16th-all-mods-updated-to-1-7-10>
+* License: Gave me permission via pm
+* Source URL: <https://github.com/BakermanLP/ModpackProjectRETv7/blob/master/permissions/harvestcraft.png>
 
 ## PneumatiCraft
 * Author: MineMaarten
