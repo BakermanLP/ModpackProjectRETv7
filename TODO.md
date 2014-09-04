@@ -1,9 +1,11 @@
 # ToDo
 * Rezept Quarry teurer machen (deaktivieren? dann direkt quarry+ auch weg? enderquarry kann das ja jetzt alles)
-* Cardboard Box überarbeiten (Rezept/Blacklist)
-* Railcraft Rezepte mit OreDict Einträgen aufwerten
-* Greg Alloys zur Schmiede hinzufügen
-* Platten zur Schmiede hinzufügen
-* Angel Block das Fliegen beibringen
-* Enviromine überarbeiten, dass Hängebrücken möglich sind
+* Cardboard Box Ã¼berarbeiten (Rezept/Blacklist)
+* Railcraft Rezepte mit OreDict EintrÃ¤gen aufwerten
+* Platten zur Schmiede hinzufÃ¼gen
 * Wiki aufsetzen (keine Ahnung wie aufwendig, sollte doch direkt in GitHub gehen)
+
+# Erledigt
+* Enviromine Ã¼berarbeiten, dass HÃ¤ngebrÃ¼cken mÃ¶glich sind
+* Angel Block das Fliegen beibringen
+* Greg Alloys zur Schmiede hinzufÃ¼gen
