@@ -6,3 +6,4 @@
 * Platten zur Schmiede hinzufügen
 * Angel Block das Fliegen beibringen
 * Enviromine überarbeiten, dass Hängebrücken möglich sind
+* Wiki aufsetzen (keine Ahnung wie aufwendig, sollte doch direkt in GitHub gehen)
