@@ -80,5 +80,25 @@ found in the core file.
 </recipeGroup>
 -->
   
+<!-- Grinding Balls produzieren zu viel Output bei Metall Bloecken -->
+
+  <grindingBalls>
+    
+    <excludes>
+      <itemStack oreDictionary="blockZinc" />
+      <itemStack oreDictionary="blockElectrum" />
+      <itemStack oreDictionary="blockMithril" />
+      <itemStack oreDictionary="blockSilver" />
+      <itemStack oreDictionary="blockSteel" />
+      <itemStack oreDictionary="blockPlatinum" />
+      <itemStack oreDictionary="blockBronze" />
+      <itemStack oreDictionary="blockOsmium" />
+      <itemStack oreDictionary="crystalCertusQuartz" />
+      <itemStack modID="minecraft" itemName="quartz" />
+      <itemStack oreDictionary="crystalFluix" />
+      <itemStack oreDictionary="glass" />
+    </excludes>
+    
+  </grindingBalls>
 
 </SAGMillRecipes>
