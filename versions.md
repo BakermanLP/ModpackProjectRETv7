@@ -10,10 +10,8 @@
 * BetterFoliage-0.9.12b.jar
 * BiblioCraft[v1.7.5][MC1.7.10].jar
 * BigReactors-0.4.0rc8.jar
-* buildcraft-6.0.18.jar
 * Carpenter's Blocks v3.2.6 - MC 1.7.10.zip
 * Chisel-1.7.10-1.5.6b.jar
-* ChiselFacades-1.7.10-2.1.jar
 * CodeChickenCore-1.7.10-1.0.3.25-universal.jar
 * CoFHCore-[1.7.10]3.0.0B6-32.jar
 * CoFHLib-[1.7.10]1.0.0B6-26.jar
@@ -80,7 +78,6 @@
 * ProjectRed-Lighting-1.7.10-4.4.8.47.jar
 * ProjectRed-Mechanical_beta-1.7.10-4.4.8.47.jar
 * ProjectRed-World-1.7.10-4.4.8.47.jar
-* QuarryPlus-1.7.10-1.5.7.7.jar
 * Railcraft_1.7.10-9.2.2.0.jar
 * RecStatusMod-1.7.10-14.9d85503.jar
 * RedstoneArsenal-[1.7.10]1.1.0B4-10.jar

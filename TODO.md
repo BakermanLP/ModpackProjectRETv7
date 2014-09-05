@@ -10,3 +10,4 @@
 * Angel Block das Fliegen beibringen
 * Greg Alloys zur Schmiede hinzufügen
 * Platten zur Schmiede hinzufügen
+* Natura Planks und Sticks angepaßt
