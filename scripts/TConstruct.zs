@@ -31,3 +31,6 @@ mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:17034>, <liquid:
 mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:17085>, <liquid:platinum.molten> * 144, null, false, 20);
 mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:17303>, <liquid:electrum.molten> * 144, null, false, 20);
 mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:17302>, <liquid:invar.molten> * 144, null, false, 20);
+
+# Flaschen
+mods.tconstruct.Casting.addTableRecipe(<minecraft:glass_bottle>, <liquid:glass.molten> * 1000, <IguanaTweaksTConstruct:clayBucketUnfired>, true, 20);
