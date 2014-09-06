@@ -4,7 +4,7 @@
 * Wiki erweitern
 * Greg Erze in TiC Schmelze schmelzbar machen
 * Stäbe in TiC Schmelze herstellbar machen
-* Platten aus Schmiede etwas verteuern
+* Platten aus Schmiede etwas verteuern (1,5x ?)
 * Platten wieder in Schmelze verarbeitbar
 * Essential Commands anpassen
 
