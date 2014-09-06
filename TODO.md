@@ -1,8 +1,12 @@
 # ToDo
-* Rezept Quarry teurer machen (deaktivieren? dann direkt quarry+ auch weg? enderquarry kann das ja jetzt alles)
-* Cardboard Box überarbeiten (Rezept/Blacklist)
+* Cardboard Box Blacklist überarbeiten
 * Railcraft Rezepte mit OreDict Einträgen aufwerten
-* Wiki aufsetzen (keine Ahnung wie aufwendig, sollte doch direkt in GitHub gehen)
+* Wiki erweitern
+* Greg Erze in TiC Schmelze schmelzbar machen
+* Stäbe in TiC Schmelze herstellbar machen
+* Platten aus Schmiede etwas verteuern
+* Platten wieder in Schmelze verarbeitbar
+* Essential Commands anpassen
 
 
 # Erledigt
@@ -11,3 +15,5 @@
 * Greg Alloys zur Schmiede hinzufügen
 * Platten zur Schmiede hinzufügen
 * Natura Planks und Sticks angepaßt
+* Rezept Quarry teurer machen (deaktivieren? dann direkt quarry+ auch weg? enderquarry kann das ja jetzt alles)
+* Cardboard Box Rezept überarbeitet
