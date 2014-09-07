@@ -4,7 +4,7 @@
 * Wiki erweitern
 * Greg Erze in TiC Schmelze schmelzbar machen
 * Stäbe in TiC Schmelze herstellbar machen
-* Platten aus Schmiede etwas verteuern (1,5x ? Sepp)
+* Platten aus Schmiede etwas verteuern (Railcraft ebenso Billig und gibt 1 Ingot-1 Plate, wie teuer machen?)
 * Platten wieder in Schmelze verarbeitbar
 * Essential Commands anpassen
 
