@@ -1,3 +1,6 @@
+# Knapsack
+recipes.removeShaped(<TConstruct:knapsack>);
+
 # Fluids
 mods.tconstruct.Smeltery.addMelting(<minecraft:redstone>, <liquid:redstone> * 100, 200, <minecraft:redstone_block>);
 mods.tconstruct.Smeltery.addMelting(<minecraft:redstone_block>, <liquid:redstone> * 900, 200, <minecraft:redstone_block>);
