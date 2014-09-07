@@ -18,16 +18,16 @@ mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11308>, <liquid:
 mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11308>, <liquid:redstone> * 400, <ThermalFoundation:material:64>, true, 20);
 
 # Platten
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:17032>, <liquid:iron.molten> * 144, null, false, 20);
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:17086>, <liquid:gold.molten> * 144, null, false, 20);
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:17035>, <liquid:copper.molten> * 144, null, false, 20);
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:17057>, <liquid:tin.molten> * 144, null, false, 20);
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:17300>, <liquid:bronze.molten> * 144, null, false, 20);
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:17019>, <liquid:aluminum.molten> * 144, null, false, 20);
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:17305>, <liquid:steel.molten> * 144, null, false, 20);
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:17089>, <liquid:lead.molten> * 144, null, false, 20);
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:17054>, <liquid:silver.molten> * 144, null, false, 20);
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:17034>, <liquid:nickel.molten> * 144, null, false, 20);
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:17085>, <liquid:platinum.molten> * 144, null, false, 20);
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:17303>, <liquid:electrum.molten> * 144, null, false, 20);
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:17302>, <liquid:invar.molten> * 144, null, false, 20);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:17032>, <liquid:iron.molten> * 216, null, false, 20);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:17086>, <liquid:gold.molten> * 216, null, false, 20);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:17035>, <liquid:copper.molten> * 216, null, false, 20);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:17057>, <liquid:tin.molten> * 216, null, false, 20);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:17300>, <liquid:bronze.molten> * 216, null, false, 20);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:17019>, <liquid:aluminum.molten> * 216, null, false, 20);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:17305>, <liquid:steel.molten> * 216, null, false, 20);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:17089>, <liquid:lead.molten> * 216, null, false, 20);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:17054>, <liquid:silver.molten> * 216, null, false, 20);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:17034>, <liquid:nickel.molten> * 216, null, false, 20);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:17085>, <liquid:platinum.molten> * 216, null, false, 20);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:17303>, <liquid:electrum.molten> * 216, null, false, 20);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:17302>, <liquid:invar.molten> * 216, null, false, 20);
