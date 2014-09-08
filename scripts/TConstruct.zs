@@ -63,5 +63,32 @@ for i, plate in plates {
     mods.tconstruct.Casting.addTableRecipe(plate, liquid * 288, null, false, 20);
 }
 
+# Sticks
+
+<ore:stickIron>.add(<TConstruct:toolRod:2>);
+<ore:stickCopper>.add(<TConstruct:toolRod:13>);
+<ore:stickBronze>.add(<TConstruct:toolRod:14>);
+<ore:stickSteel>.add(<TConstruct:toolRod:16>);
+<ore:stickThaumium>.add(<TConstruct:toolRod:31>);
+
+var stickGold = <gregtech:gt.metaitem.01:23086>;
+var stickTin = <gregtech:gt.metaitem.01:23057>;
+var stickAluminium = <gregtech:gt.metaitem.01:23019>;
+var stickLead = <gregtech:gt.metaitem.01:23089>;
+var stickSilver = <gregtech:gt.metaitem.01:23054>;
+var stickNickel = <gregtech:gt.metaitem.01:23034>;
+var stickPlatinum = <gregtech:gt.metaitem.01:23085>;
+var stickElectrum = <gregtech:gt.metaitem.01:23303>;
+var stickInvar = <gregtech:gt.metaitem.01:23302>;
+
+var sticks = [stickGold, stickTin, stickAluminium, stickLead, stickSilver, stickNickel, stickPlatinum, stickElectrum, stickInvar] as IItemStack[];
+var liquidsStick = [liquidGold, liquidTin, liquidAluminium, liquidLead, liquidSilver, liquidNickel, liquidPlatinum, liquidElectrum, liquidInvar] as ILiquidStack[];
+
+for i, stick in sticks {
+    var liquid = liquidsStick[i];
+
+    mods.tconstruct.Casting.addTableRecipe(stick, liquid * 72, <TConstruct:metalPattern:1>, false, 20);
+}
+
 # Flaschen
 mods.tconstruct.Casting.addTableRecipe(<minecraft:glass_bottle>, <liquid:glass.molten> * 1000, <IguanaTweaksTConstruct:clayBucketUnfired>, true, 20);
