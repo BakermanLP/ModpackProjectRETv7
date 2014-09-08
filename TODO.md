@@ -2,8 +2,6 @@
 * Cardboard Box Blacklist überarbeiten
 * Wiki erweitern
 * Greg Erze in TiC Schmelze schmelzbar machen
-* Stäbe in TiC Schmelze herstellbar machen
-* Platten aus Schmiede etwas verteuern (Railcraft ebenso Billig und gibt 1 Ingot-1 Plate, wie teuer machen?)
 * Platten wieder in Schmelze verarbeitbar
 * Essential Commands anpassen
 
@@ -17,3 +15,5 @@
 * Rezept Quarry teurer machen (deaktivieren? dann direkt quarry+ auch weg? enderquarry kann das ja jetzt alles)
 * Cardboard Box Rezept überarbeitet
 * Railcraft Rezepte mit OreDict Einträgen aufwerten
+* Stäbe in TiC Schmelze herstellbar machen
+* Platten aus Schmiede etwas verteuern
