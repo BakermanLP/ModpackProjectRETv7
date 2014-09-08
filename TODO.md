@@ -3,7 +3,6 @@
 * Railcraft Rezepte mit OreDict Einträgen aufwerten
 * Wiki erweitern
 * Greg Erze in TiC Schmelze schmelzbar machen
-* Platten wieder in Schmelze verarbeitbar
 * Essential Commands anpassen
 
 
@@ -17,3 +16,4 @@
 * Cardboard Box Rezept überarbeitet
 * Stäbe in TiC Schmelze herstellbar machen
 * Platten aus Schmiede etwas verteuern
+* Platten wieder in Schmelze verarbeitbar

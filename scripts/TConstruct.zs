@@ -30,6 +30,20 @@ var liquidPlatinum = <liquid:platinum.molten>;
 var liquidElectrum = <liquid:electrum.molten>;
 var liquidInvar = <liquid:invar.molten>;
 
+var blockIron = <minecraft:iron_block>;
+var blockGold = <minecraft:gold_block>;
+var blockCopper = <ThermalFoundation:Storage>;
+var blockTin = <ThermalFoundation:Storage:1>;
+var blockBronze = <ThermalFoundation:Storage:9>;
+var blockAluminium = <TConstruct:MetalBlock:6>;
+var blockSteel = <TConstruct:MetalBlock:9>;
+var blockLead = <ThermalFoundation:Storage:3>;
+var blockSilver = <ThermalFoundation:Storage:2>;
+var blockNickel = <ThermalFoundation:Storage:4>;
+var blockPlatinum = <ThermalFoundation:Storage:5>;
+var blockElectrum = <ThermalFoundation:Storage:7>;
+var blockInvar = <ThermalFoundation:Storage:8>;
+
 # Knapsack
 recipes.removeShaped(<TConstruct:knapsack>);
 
@@ -56,11 +70,14 @@ mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11308>, <liquid:
 
 var plates = [plateIron, plateGold, plateCopper, plateTin, plateBronze, plateAluminium, plateSteel, plateLead, plateSilver, plateNickel, platePlatinum, plateElectrum, plateInvar] as IItemStack[];
 var liquids = [liquidIron, liquidGold, liquidCopper, liquidTin, liquidBronze, liquidAluminium, liquidSteel, liquidLead, liquidSilver, liquidNickel, liquidPlatinum, liquidElectrum, liquidInvar] as ILiquidStack[];
+var blocks = [blockIron, blockGold, blockCopper, blockTin, blockBronze, blockAluminium, blockSteel, blockLead, blockSilver, blockNickel, blockPlatinum, blockElectrum, blockInvar] as IItemStack[];
 
 for i, plate in plates {
     var liquid = liquids[i];
+    var block = blocks[i];
 
     mods.tconstruct.Casting.addTableRecipe(plate, liquid * 288, null, false, 20);
+    mods.tconstruct.Smeltery.addMelting(plate, liquid * 144, 200, block);
 }
 
 # Sticks
@@ -83,11 +100,14 @@ var stickInvar = <gregtech:gt.metaitem.01:23302>;
 
 var sticks = [stickGold, stickTin, stickAluminium, stickLead, stickSilver, stickNickel, stickPlatinum, stickElectrum, stickInvar] as IItemStack[];
 var liquidsStick = [liquidGold, liquidTin, liquidAluminium, liquidLead, liquidSilver, liquidNickel, liquidPlatinum, liquidElectrum, liquidInvar] as ILiquidStack[];
+var blocksStick = [blockGold, blockTin, blockAluminium, blockLead, blockSilver, blockNickel, blockPlatinum, blockElectrum, blockInvar] as IItemStack[];
 
 for i, stick in sticks {
     var liquid = liquidsStick[i];
+    var block = blocksStick[i];
 
     mods.tconstruct.Casting.addTableRecipe(stick, liquid * 72, <TConstruct:metalPattern:1>, false, 20);
+    mods.tconstruct.Smeltery.addMelting(stick, liquid * 72, 200, block);
 }
 
 # Flaschen
