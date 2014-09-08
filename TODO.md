@@ -1,6 +1,5 @@
 # ToDo
 * Cardboard Box Blacklist überarbeiten
-* Railcraft Rezepte mit OreDict Einträgen aufwerten
 * Wiki erweitern
 * Greg Erze in TiC Schmelze schmelzbar machen
 * Stäbe in TiC Schmelze herstellbar machen
@@ -17,3 +16,4 @@
 * Natura Planks und Sticks angepaßt
 * Rezept Quarry teurer machen (deaktivieren? dann direkt quarry+ auch weg? enderquarry kann das ja jetzt alles)
 * Cardboard Box Rezept überarbeitet
+* Railcraft Rezepte mit OreDict Einträgen aufwerten
