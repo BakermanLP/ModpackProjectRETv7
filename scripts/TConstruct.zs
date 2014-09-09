@@ -112,3 +112,6 @@ for i, stick in sticks {
 
 # Flaschen
 mods.tconstruct.Casting.addTableRecipe(<minecraft:glass_bottle>, <liquid:glass.molten> * 1000, <IguanaTweaksTConstruct:clayBucketUnfired>, true, 20);
+
+# Benennen
+<TConstruct:pickaxeHead:10>.displayName = "Cobalt Pickaxe Head";
