@@ -2,8 +2,8 @@ import minetweaker.data.IData;
 import minetweaker.item.IItemStack;
 
 var myLogs = [<Natura:tree:0>, <Natura:tree:1>, <Natura:tree:2>, <Natura:redwood:*>, <Natura:bloodwood:*>, <Natura:tree:3>, <Natura:Rare Tree:0>,  <Natura:Rare Tree:1>,  <Natura:Rare Tree:2>,  <Natura:Rare Tree:3>, <Natura:willow>, <Natura:Dark Tree>, <Natura:Dark Tree:1> ] as IItemStack[];
-var myPlanks = [<Natura:planks:0>, <Natura:planks:1>, <Natura:planks:2>, <Natura:planks:3>, <Natura:planks:4>, <Natura:planks:5>, <Natura:planks:6>, <Natura:planks:7>, <Natura:planks:8>, <Natura:planks:9>, <Natura:planks:10>, <Natura:planks:11>, <Natura:planks:12> ] as IItemStack[]; 
-var mySticks = [<Natura:natura.stick:0>, <Natura:natura.stick:1>, <Natura:natura.stick:2>, <Natura:natura.stick:3>, <Natura:natura.stick:4>, <Natura:natura.stick:5>, <Natura:natura.stick:6>, <Natura:natura.stick:7>, <Natura:natura.stick:8>, <Natura:natura.stick:9>, <Natura:natura.stick:10>, <Natura:natura.stick:11>, <Natura:natura.stick:12>] as IItemStack[]; 
+var myPlanks = [<Natura:planks:0>, <Natura:planks:1>, <Natura:planks:2>, <Natura:planks:3>, <Natura:planks:4>, <Natura:planks:5>, <Natura:planks:6>, <Natura:planks:7>, <Natura:planks:8>, <Natura:planks:9>, <Natura:planks:10>, <Natura:planks:11>, <Natura:planks:12> ] as IItemStack[];
+var mySticks = [<Natura:natura.stick:0>, <Natura:natura.stick:1>, <Natura:natura.stick:2>, <Natura:natura.stick:3>, <Natura:natura.stick:4>, <Natura:natura.stick:5>, <Natura:natura.stick:6>, <Natura:natura.stick:7>, <Natura:natura.stick:8>, <Natura:natura.stick:9>, <Natura:natura.stick:10>, <Natura:natura.stick:11>, <Natura:natura.stick:12>] as IItemStack[];
 
 for i, log in myLogs {
     var plank = myPlanks[i];
@@ -16,3 +16,9 @@ for i, log in myLogs {
     recipes.addShaped(stick * 4, [[<ore:craftingToolSaw>,null],[plank,null],[plank,null]]);
 }
 
+# Bread
+furnace.remove(<minecraft:bread:1>, <Natura:barleyFood:*>);
+furnace.addRecipe(<minecraft:bread>, <Natura:barleyFood:1>, 0.5);
+furnace.addRecipe(<minecraft:bread>, <Natura:barleyFood:2>, 0.5);
+<ore:dustWheat>.add(<Natura:barleyFood:1>);
+<ore:dustWheat>.add(<Natura:barleyFood:2>);
