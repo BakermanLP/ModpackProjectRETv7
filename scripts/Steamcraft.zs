@@ -13,3 +13,15 @@ plateLead.add(<Steamcraft:steamcraftPlate:9>);
 
 barsIron.add(<minecraft:iron_bars>);
 barsIron.add(<chisel:chisel.fenceIron:*>);
+
+# Meat
+val meat = <ore:listAllmeatcooked>;
+
+meat.add(<Steamcraft:steamedChicken>);
+meat.add(<Steamcraft:steamedBeef>);
+meat.add(<Steamcraft:steamedPorkchop>);
+
+# Fish
+val fish = <ore:listAllfishcooked>;
+
+fish.add(<Steamcraft:steamedFish>);

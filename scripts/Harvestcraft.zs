@@ -124,6 +124,7 @@ sandwich.add(<harvestcraft:apricotjellysandwichItem>);
 sandwich.add(<harvestcraft:figjellysandwichItem>);
 sandwich.add(<harvestcraft:grapefruitjellysandwichItem>);
 sandwich.add(<harvestcraft:persimmonjellysandwichItem>);
+sandwich.add(<harvestcraft:pbandjItem>);
 
 # Salad
 val salad = <ore:foodSalad>;
