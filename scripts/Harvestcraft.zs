@@ -171,3 +171,29 @@ ice.add(<harvestcraft:caramelicecreamItem>);
 ice.add(<harvestcraft:mintchocolatechipicemcreamItem>);
 ice.add(<harvestcraft:strawberryicecreamItem>);
 ice.add(<harvestcraft:vanillaicecreamItem>);
+
+# Jelly
+val jelly = <ore:listAlljelly>;
+
+jelly.add(<harvestcraft:grapejellyItem>);
+jelly.add(<harvestcraft:applejellyItem>);
+jelly.add(<harvestcraft:blackberryjellyItem>);
+jelly.add(<harvestcraft:blueberryjellyItem>);
+jelly.add(<harvestcraft:cherryjellyItem>);
+jelly.add(<harvestcraft:cranberryjellyItem>);
+jelly.add(<harvestcraft:kiwijellyItem>);
+jelly.add(<harvestcraft:lemonjellyItem>);
+jelly.add(<harvestcraft:limejellyItem>);
+jelly.add(<harvestcraft:mangojellyItem>);
+jelly.add(<harvestcraft:orangejellyItem>);
+jelly.add(<harvestcraft:papayajellyItem>);
+jelly.add(<harvestcraft:peachjellyItem>);
+jelly.add(<harvestcraft:pomegranatejellyItem>);
+jelly.add(<harvestcraft:raspberryjellyItem>);
+jelly.add(<harvestcraft:starfruitjellyItem>);
+jelly.add(<harvestcraft:strawberryjellyItem>);
+jelly.add(<harvestcraft:watermelonjellyItem>);
+jelly.add(<harvestcraft:apricotjellyItem>);
+jelly.add(<harvestcraft:figjellyItem>);
+jelly.add(<harvestcraft:grapefruitjellyItem>);
+jelly.add(<harvestcraft:persimmonjellyItem>);
