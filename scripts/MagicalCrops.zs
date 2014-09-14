@@ -16,6 +16,6 @@ recipes.remove(<magicalcrops:magicalcrops_ModMagicSeedsSapphire>);
 recipes.remove(<magicalcrops:magicalcrops_ModMagicSeedsRuby>);
 
 # Juice
-val juice = <ore:listAlljuice>;
+var juice = <ore:listAlljuice>;
 
 juice.add(<magicalcrops:magicalcrops_FoodJuice:*>);

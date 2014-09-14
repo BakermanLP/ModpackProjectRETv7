@@ -2,5 +2,5 @@
 
 recipes.remove(<ganyssurface:colouredRedstone:*>);
 
-val redstone = <ore:dustRedstone>;
+var redstone = <ore:dustRedstone>;
 redstone.remove(<ganyssurface:colouredRedstone:*>);

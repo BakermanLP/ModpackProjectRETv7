@@ -1,10 +1,10 @@
-val plateCopper = <ore:plateCopper>;
-val plateIron = <ore:plateIron>;
-val plateGold = <ore:plateGold>;
-val plateLead = <ore:plateLead>;
-val barsIron = <ore:barsIron>;
-val forgeHammer = <IC2:itemToolForgeHammer>;
-val cutter = <IC2:itemToolCutter>;
+var plateCopper = <ore:plateCopper>;
+var plateIron = <ore:plateIron>;
+var plateGold = <ore:plateGold>;
+var plateLead = <ore:plateLead>;
+var barsIron = <ore:barsIron>;
+var forgeHammer = <IC2:itemToolForgeHammer>;
+var cutter = <IC2:itemToolCutter>;
 
 plateCopper.add(<Steamcraft:steamcraftPlate>);
 plateIron.add(<Steamcraft:steamcraftPlate:2>);
@@ -15,13 +15,13 @@ barsIron.add(<minecraft:iron_bars>);
 barsIron.add(<chisel:chisel.fenceIron:*>);
 
 # Meat
-val meat = <ore:listAllmeatcooked>;
+var meat = <ore:listAllmeatcooked>;
 
 meat.add(<Steamcraft:steamedChicken>);
 meat.add(<Steamcraft:steamedBeef>);
 meat.add(<Steamcraft:steamedPorkchop>);
 
 # Fish
-val fish = <ore:listAllfishcooked>;
+var fish = <ore:listAllfishcooked>;
 
 fish.add(<Steamcraft:steamedFish>);

@@ -1,7 +1,7 @@
 recipes.remove(<harvestcraft:sink:*>);
 
 # Soup
-val soup = <ore:foodSoup>;
+var soup = <ore:foodSoup>;
 
 soup.add(<harvestcraft:pumpkinsoupItem>);
 soup.add(<harvestcraft:carrotsoupItem>);
@@ -28,7 +28,7 @@ soup.add(<harvestcraft:lambbarleysoupItem>);
 soup.add(<harvestcraft:leekbaconsoupItem>);
 
 # Burger
-val burger = <ore:foodBurger>;
+var burger = <ore:foodBurger>;
 
 burger.add(<harvestcraft:hamburgerItem>);
 burger.add(<harvestcraft:cheeseburgerItem>);
@@ -43,7 +43,7 @@ burger.add(<harvestcraft:leafyfishsandwichItem>);
 burger.add(<harvestcraft:bltItem>);
 
 # Smoothie
-val smoothie = <ore:foodSmoothie>;
+var smoothie = <ore:foodSmoothie>;
 
 smoothie.add(<harvestcraft:melonsmoothieItem>);
 smoothie.add(<harvestcraft:strawberrysmoothieItem>);
@@ -67,7 +67,7 @@ smoothie.add(<harvestcraft:grapefruitsmoothieItem>);
 smoothie.add(<harvestcraft:persimmonsmoothieItem>);
 
 # Yogurt
-val yogurt = <ore:foodYogurt>;
+var yogurt = <ore:foodYogurt>;
 
 yogurt.add(<harvestcraft:pineappleyogurtItem>);
 yogurt.add(<harvestcraft:papayayogurtItem>);
@@ -101,7 +101,7 @@ yogurt.add(<harvestcraft:persimmonyogurtItem>);
 yogurt.add(<harvestcraft:plainyogurtItem>);
 
 # Sandwich
-val sandwich = <ore:foodSandwich>;
+var sandwich = <ore:foodSandwich>;
 
 sandwich.add(<harvestcraft:applejellysandwichItem>);
 sandwich.add(<harvestcraft:blackberryjellysandwichItem>);
@@ -127,7 +127,7 @@ sandwich.add(<harvestcraft:persimmonjellysandwichItem>);
 sandwich.add(<harvestcraft:pbandjItem>);
 
 # Salad
-val salad = <ore:foodSalad>;
+var salad = <ore:foodSalad>;
 
 salad.add(<harvestcraft:potatosaladItem>);
 salad.add(<harvestcraft:eggsaladItem>);
@@ -143,12 +143,12 @@ salad.add(<harvestcraft:mixedsaladItem>);
 salad.add(<harvestcraft:citrussaladItem>);
 
 # Juice
-val juice = <ore:listAlljuice>;
+var juice = <ore:listAlljuice>;
 
 juice.add(<harvestcraft:grapefruitjuiceItem>);
 
 # Soda
-val soda = <ore:foodSoda>;
+var soda = <ore:foodSoda>;
 
 soda.add(<harvestcraft:cherrysodaItem>);
 soda.add(<harvestcraft:colasodaItem>);
@@ -161,7 +161,7 @@ soda.add(<harvestcraft:strawberrysodaItem>);
 soda.add(<harvestcraft:grapefruitsodaItem>);
 
 # Ice Cream
-val ice = <ore:listAllicecream>;
+var ice = <ore:listAllicecream>;
 
 ice.add(<harvestcraft:icecreamItem>);
 ice.add(<harvestcraft:chocolateicecreamItem>);
@@ -173,7 +173,7 @@ ice.add(<harvestcraft:strawberryicecreamItem>);
 ice.add(<harvestcraft:vanillaicecreamItem>);
 
 # Jelly
-val jelly = <ore:listAlljelly>;
+var jelly = <ore:listAlljelly>;
 
 jelly.add(<harvestcraft:grapejellyItem>);
 jelly.add(<harvestcraft:applejellyItem>);
