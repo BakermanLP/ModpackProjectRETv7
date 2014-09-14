@@ -159,3 +159,15 @@ soda.add(<harvestcraft:orangesodaItem>);
 soda.add(<harvestcraft:rootbeersodaItem>);
 soda.add(<harvestcraft:strawberrysodaItem>);
 soda.add(<harvestcraft:grapefruitsodaItem>);
+
+# Ice Cream
+val ice = <ore:listAllicecream>;
+
+ice.add(<harvestcraft:icecreamItem>);
+ice.add(<harvestcraft:chocolateicecreamItem>);
+ice.add(<harvestcraft:mochaicecreamItem>);
+ice.add(<harvestcraft:bananasplitItem>);
+ice.add(<harvestcraft:caramelicecreamItem>);
+ice.add(<harvestcraft:mintchocolatechipicemcreamItem>);
+ice.add(<harvestcraft:strawberryicecreamItem>);
+ice.add(<harvestcraft:vanillaicecreamItem>);
