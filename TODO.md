@@ -2,7 +2,7 @@
 * Cardboard Box Blacklist überarbeiten
 * Wiki erweitern
 * Greg Erze in TiC Schmelze schmelzbar machen
-* Essential Commands anpassen
+* Magical Crops überarbeiten
 
 
 # Erledigt
@@ -17,3 +17,4 @@
 * Stäbe in TiC Schmelze herstellbar machen
 * Platten aus Schmiede etwas verteuern
 * Platten wieder in Schmelze verarbeitbar
+* Essential Commands anpassen
