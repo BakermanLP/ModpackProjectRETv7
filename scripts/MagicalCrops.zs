@@ -19,3 +19,19 @@ recipes.remove(<magicalcrops:magicalcrops_ModMagicSeedsRuby>);
 var juice = <ore:listAlljuice>;
 
 juice.add(<magicalcrops:magicalcrops_FoodJuice:*>);
+
+# Essence Orb
+recipes.removeShaped(<magicalcrops:magicalcrops_EssenceOrb>);
+recipes.removeShaped(<*>,
+[[<*>, <*>, <*>],
+ [<*>, <magicalcrops:magicalcrops_EssenceOrb>, <*>],
+ [<*>, <*>, <*>]]);
+recipes.removeShaped(<*>,
+[[<*>, <magicalcrops:magicalcrops_EssenceOrb>]]);
+
+# Master Infusion Stone
+recipes.removeShaped(<magicalcrops:magicalcrops_InfusionStone:4>);
+recipes.removeShaped(<*>,
+[[null, <*>, null],
+ [<*>, <magicalcrops:magicalcrops_InfusionStone:4>, <*>],
+ [null, <*>, null]]);
