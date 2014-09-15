@@ -1,4 +1,32 @@
 ## Changelog
+# Version 0.1.3
+=================================================
+Mod updates 
+- cookiecore-1.3.0.jar
+- EnderIO-1.7.10-2.0.7.219.jar
+- EnviroMine-v1.2.26.jar
+- forestry_1.7.10-3.0.0.136.jar
+- Ganys Surface-1.9.1.jar
+- gregtech_1.7.10-5.05.03.jar
+- IguanaTinkerTweaks-1.7.10-2.0.2.61.jar
+- industrialcraft-2-2.2.645-experimental.jar
+- Mekanism-1.7.10-7.1.1.102.jar
+- MekanismGenerators-1.7.10-7.1.1.102.jar
+- MekanismTools-1.7.10-7.1.1.102.jar
+- ModTweaker-1.7.X-0.6-17.jar
+- natura-1.7.10-87.f003e5b.jar
+- StevesWorkshop-0.5.1.jar
+- TConstruct-1.7.10-1.6.0.build651.jar
+- TiCTooltips-mc1.7.10-1.1.11.jar
+- TSteelworks-1.7.10-1.0.4.jar
+- Waila-1.5.4a_1.7.10.jar
+Config changes:
+- Added Foodgroups
+- Deactivated Ender Furnace
+- Deactivated CardboardBox
+- Removed Gany's Redstone from OreDict
+- Many other Bugfixes
+
 # Version 0.1.2
 =================================================
 Mod updates / additions
