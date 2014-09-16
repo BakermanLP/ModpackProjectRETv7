@@ -1,6 +1,53 @@
 import minetweaker.data.IData;
 import minetweaker.item.IItemStack;
 
+## Essence
+
+recipes.removeShaped(<magicalcrops:magicalcrops_MagicEssence:*>, [
+    [null, <*>, null],
+    [<*>, <magicalcrops:magicalcrops_InfusionStone:*>, <*>],
+    [null, <*>, null]
+]);
+
+var essenceDust = <magicalcrops:magicalcrops_MagicEssence>;
+var essenceWeak = <magicalcrops:magicalcrops_MagicEssence:1>;
+var essenceRegular = <magicalcrops:magicalcrops_MagicEssence:2>;
+var essenceStrong = <magicalcrops:magicalcrops_MagicEssence:3>;
+var essenceExtreme = <magicalcrops:magicalcrops_MagicEssence:4>;
+
+# Weak Essence
+recipes.addShaped(essenceWeak, [
+    [null, essenceDust, null],
+    [essenceDust, <gregtech:gt.metaitem.01:1501>, essenceDust],
+    [null, essenceDust, null]
+]);
+
+# Regular Essence
+recipes.addShaped(essenceRegular, [
+    [null, essenceWeak, null],
+    [essenceWeak, <gregtech:gt.metaitem.01:1501>, essenceWeak],
+    [null, essenceWeak, null]
+]);
+
+# Strong Essence
+recipes.addShaped(essenceStrong, [
+    [null, essenceRegular, null],
+    [essenceRegular, <minecraft:emerald>, essenceRegular],
+    [null, essenceRegular, null]
+]);
+
+# Extreme Essence
+recipes.addShaped(essenceExtreme, [
+    [null, essenceStrong, null],
+    [essenceStrong, <minecraft:emerald>, essenceStrong],
+    [null, essenceStrong, null]
+]);
+
+## Infusion Stone
+
+recipes.removeShaped(<magicalcrops:magicalcrops_InfusionStone:*>);
+
+
 var seeds = [
     <magicalcrops:magicalcrops_MagicSeedsCoal>,
     <magicalcrops:magicalcrops_MagicSeedsDye>,
@@ -80,9 +127,3 @@ recipes.removeShaped(<magicalcrops:magicalcrops_MagicEssence>,
 recipes.removeShaped(<magicalcrops:magicalcrops_MagicEssence>,
 [[<*>, <magicalcrops:magicalcrops_EssenceOrb>]]);
 
-# Master Infusion Stone
-recipes.removeShaped(<magicalcrops:magicalcrops_InfusionStone:4>);
-recipes.removeShaped(<magicalcrops:magicalcrops_MagicEssence:*>,
-[[null, <*>, null],
- [<*>, <magicalcrops:magicalcrops_InfusionStone:4>, <*>],
- [null, <*>, null]]);
