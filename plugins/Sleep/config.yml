@@ -1,0 +1,72 @@
+# For detailed information refer to http://dev.bukkit.org/server-mods/sleep/pages/configuration/
+log-level: INFO
+force:
+  enabled: true
+  count: -1
+  percent: 49
+idle:
+  enabled: true
+  duration: 60 # seconds
+  activity:
+    - PlayerMoveBlockEvent
+    - AsyncPlayerChatEvent
+    - PlayerInteractEvent
+    - PlayerDropItemEvent
+    - PlayerToggleSneakEvent
+    - PlayerItemHeldEvent
+    - PlayerJoinEvent
+    - PlayerChangedWorldEvent
+    - CraftItemEvent
+    - PrepareItemCraftEvent
+    - EnchantItemEvent
+    - PrepareItemEnchantEvent
+    - InventoryClickEvent
+temporary:
+  enabled: false
+  duration: 500 # seconds (<1 day cycle)
+daybed:
+  enabled: false
+  revert: false
+  duration: 500 # seconds (<1 day cycle)
+rewards:
+  enabled: false
+  Golden Apple Satiation:
+    type: Food
+    saturation: 9.6
+    level: 0
+    factor: 0.0
+  Golden Apple Regeneration:
+    type: PotionEffect
+    effect: REGENERATION
+    duration: 4
+    amplifier: 1
+    factor: 0.0
+  Exhaustion Reset:
+    type: Health
+    health: 0
+    exhaustion: -100.0
+    factor: 0.0
+  Experience Orbs:
+    type: ExperienceOrb
+    quantity: 3
+    experience: 5
+    factor: 0.5
+away:
+  enabled: false # requires PlayerActivity plugin
+insomnia:
+  enabled: false
+underground:
+  enabled: true
+  depth: 50 # y-axis value ignored when below
+  delay: 5 # seconds to wait before ignored
+fast-forward:
+  enabled: true
+  min: 10 # percent required to start advancing time
+  max: 50 # percent at which to force sleep
+  scale: true # adjust rate of time advance relative to min/max instead of total players possible
+  speed: 20 # ticks to wait between each time change
+spam-filter:
+  enabled: true
+  cooldown: 5 # seconds
+  reasons: [ENTER, LEAVE]
+version: 7.4.0
