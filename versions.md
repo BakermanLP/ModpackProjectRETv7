@@ -38,7 +38,7 @@
 * generators-mc1710-0.9.1.12.jar
 * gregtech_1.7.10-5.05.04.jar
 * HydCraft-1.7.10-2.0-59.jar
-* IguanaTinkerTweaks-1.7.10-2.0.2.64.jar
+* IguanaTinkerTweaks-1.7.10-2.0.2.65.jar
 * industrialcraft-2-2.2.645-experimental.jar
 * InGameInfoXML-1.7.10-2.8.1.61-universal.jar
 * INpureCore-[1.7.10]1.0.0B2-4.jar
@@ -91,7 +91,7 @@
 * StevesWorkshop-0.5.1.jar
 * TabbyChat-1.7.10-1.11.1.59-fml.jar
 * TabulaRasa-[1.7.10]1.0.1-3.jar
-* TConstruct-1.7.10-1.6.0.build655.jar
+* TConstruct-1.7.10-1.6.0.build659.jar
 * Thaumcraft-1.7.10-4.2.0.1.jar
 * ThermalExpansion-[1.7.10]4.0.0B5-13.jar
 * ThermalFoundation-[1.7.10]1.0.0B3-8.jar
