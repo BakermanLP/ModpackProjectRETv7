@@ -25,3 +25,10 @@ meat.add(<Steamcraft:steamedPorkchop>);
 var fish = <ore:listAllfishcooked>;
 
 fish.add(<Steamcraft:steamedFish>);
+
+#Iron Exosuit Plate
+recipes.removeShaped(<Steamcraft:exosuitPlate:2>);
+recipes.addShaped(<Steamcraft:exosuitPlate:2>,
+[[<ore:plateIron>, <ore:plateIron>, null],
+ [<ore:plateIron>, <ore:plateIron>, null],
+ [null, null, null]]);
