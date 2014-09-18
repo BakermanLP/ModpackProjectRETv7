@@ -62,7 +62,7 @@ underground:
 fast-forward:
   enabled: true
   min: 10 # percent required to start advancing time
-  max: 50 # percent at which to force sleep
+  max: 49 # percent at which to force sleep
   scale: true # adjust rate of time advance relative to min/max instead of total players possible
   speed: 20 # ticks to wait between each time change
 spam-filter:

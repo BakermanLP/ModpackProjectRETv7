@@ -62,9 +62,9 @@ mods.tconstruct.Casting.addBasinRecipe(<minecraft:redstone_block>, <liquid:redst
 mods.tconstruct.Casting.addBasinRecipe(<minecraft:glowstone>, <liquid:glowstone> * 1000, null, false, 20);
 
 # Red Alloy
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:17308>, <liquid:redstone> * 400, <gregtech:gt.metaitem.01:17035>, true, 20);
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11308>, <liquid:redstone> * 400, <gregtech:gt.metaitem.01:11035>, true, 20);
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11308>, <liquid:redstone> * 400, <ThermalFoundation:material:64>, true, 20);
+mods.tconstruct.Smeltery.addAlloy(<liquid:molten.redalloy> * 9, [<liquid:redstone> * 25, <liquid:copper.molten> * 9]);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:17308>, <liquid:molten.redalloy> * 288, null, false, 20);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11308>, <liquid:molten.redalloy> * 144, <TConstruct:metalPattern>, false, 20);
 
 # Platten
 
