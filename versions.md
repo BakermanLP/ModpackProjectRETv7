@@ -36,7 +36,50 @@
 * Ganys Surface-1.9.1.jar
 * gendustry-mc1710-1.3.3.22.jar
 * generators-mc1710-0.9.1.12.jar
-* gregtech_1.7.10-5.05.04.jar
+* gregtech_1.7.10-5.05.06.jar
+* HydCraft-1.7.10-2.0-59.jar
+* IguanaTinkerTweaks-1.7.10-2.0.2.65.jar
+* industrialcraft-2-2.2.645-experimental.jar
+* InGameInfoXML-1.7.10-2.8.1.61-universal.jar
+* INpureCore-[1.7.10]1.0.0B2-4.jar
+* AOBD-2.2.4.jar
+* appliedenergistics2-rv1-beta-33.jar
+* Aroma1997Core-1.7.10-1.0.2.8.jar
+* Aroma1997s-Dimensional-World-1.7.2-1.0.2.16.jar
+* AromaBackup-1.7.10-0.0.0.3.jar
+* AsieLib-1.7.10-0.2.12.jar
+* bdlib-mc1710-1.4.4.21.jar
+* BetterChests-1.7.10-1.1.1.4.jar
+* BetterFoliage-1.0.1.jar
+* BiblioCraft[v1.8.1][MC1.7.10].jar
+* BigReactors-0.4.0rc8.jar
+* Carpenter's Blocks v3.2.8 - MC 1.7.10.jar
+* Chisel-1.7.10-1.5.7.jar
+* CodeChickenCore-1.7.10-1.0.3.26-universal.jar
+* CoFHCore-[1.7.10]3.0.0B6-32.jar
+* CoFHLib-[1.7.10]1.0.0B6-26.jar
+* Computronics-1.7-0.6.4.jar
+* cookiecore-1.3.0.jar
+* CreeperCollateral-[1.7.10]1.0.0B2-5.jar
+* CustomOreGen-1.7.10-1.2.5.jar
+* DynIMC-1.7.10-1.1.0.5-universal.jar
+* eirairc-mc1.7.10-v1.7.43.jar
+* Enchiridion-1.7.X-1.2b.jar
+* EnderIO-1.7.10-2.0.8.221.jar
+* EnderStorage-1.7.10-1.4.5.24-universal.jar
+* EnviroMine-v1.2.27.jar
+* ExtraCells-2.1.10.jar
+* ExtraTiC-1.7.10-1.0.3.jar
+* extrautilities-1.1.0k.jar
+* Factorization-1.7.10-0.8.88.1.jar
+* FlaxbeardsSteamPower-1.7.10-0.26.2.jar
+* forestry_1.7.10-3.0.0.147.jar
+* Ganys End-1.8.2.jar
+* Ganys Nether-1.7.5.jar
+* Ganys Surface-1.9.1.jar
+* gendustry-mc1710-1.3.3.22.jar
+* generators-mc1710-0.9.1.12.jar
+* gregtech_1.7.10-5.05.06.jar
 * HydCraft-1.7.10-2.0-59.jar
 * IguanaTinkerTweaks-1.7.10-2.0.2.65.jar
 * industrialcraft-2-2.2.645-experimental.jar

@@ -1,4 +1,20 @@
 ## Changelog
+# Version 0.1.5
+=================================================
+Mod updates
+- gregtech_1.7.10-5.05.06.jar
+- IguanaTinkerTweaks-1.7.10-2.0.2.65.jar
+- TConstruct-1.7.10-1.6.0.build659.jar
+Fixes:
+- Repair Material doesn't show correct, but uses the correct one
+- Mining Levels should be correct
+- Fluid display in Gregtech machines
+
+Changes:
+- Railcraft World Anchor recipe deactivated
+- Mekanism Circuits craftable, recipes not final
+- Red Alloy fluid in Tinkers smeltery
+
 # Version 0.1.4
 =================================================
 Mod updates
