@@ -155,6 +155,7 @@ player-commands:
   - near
   - r
   - suicide
+  - w
 
 # Note: All items MUST be followed by a quantity!
 # All kit names should be lower case, and will be treated as lower in permissions/costs.
