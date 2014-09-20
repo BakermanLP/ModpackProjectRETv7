@@ -4,8 +4,9 @@ recipes.removeShaped(<Railcraft:tile.railcraft.machine.beta:0>,
  [<*>, <*>]]);
 
 recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:0>,
-[[<ore:plateIron>, <ore:plateIron>],
- [<ore:plateIron>, <ore:plateIron>]]);
+[[<ore:plateIron>, <ore:plateIron>, null],
+ [<ore:plateIron>, <ore:plateIron>, null],
+ [null, null, null]]);
 
 recipes.removeShaped(<Railcraft:tile.railcraft.machine.beta:1>,
 [[<minecraft:glass_pane>, <*>, <minecraft:glass_pane>],

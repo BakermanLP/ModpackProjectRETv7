@@ -1,52 +1,135 @@
-Changelog: 
+## Changelog
+# Version 0.1.5
 =================================================
-0.1.0 Stability Update
-Changelog: 
+Mod updates
+- gregtech_1.7.10-5.05.06.jar
+- IguanaTinkerTweaks-1.7.10-2.0.2.65.jar
+- TConstruct-1.7.10-1.6.0.build659.jar
+Fixes:
+- Repair Material doesn't show correct, but uses the correct one
+- Mining Levels should be correct
+- Fluid display in Gregtech machines
+
+Changes:
+- Railcraft World Anchor recipe deactivated
+- Mekanism Circuits craftable, recipes not final
+- Red Alloy fluid in Tinkers smeltery
+
+# Version 0.1.4
+=================================================
+Mod updates
+- appliedenergistics2-rv1-beta-33.jar
+- bdlib-mc1710-1.4.4.21.jar
+- BetterFoliage-1.0.1.jar
+- BiblioCraft[v1.8.1][MC1.7.10].jar
+- Carpenter's Blocks v3.2.8 - MC 1.7.10.jar
+- Chisel-1.7.10-1.5.7.jar
+- EnderIO-1.7.10-2.0.8.221.jar
+- EnviroMine-v1.2.27.jar
+- forestry_1.7.10-3.0.0.147.jar
+- Ganys Nether-1.7.5.jar
+- generators-mc1710-0.9.1.12.jar
+- gregtech_1.7.10-5.05.04.jar
+- IguanaTinkerTweaks-1.7.10-2.0.2.64.jar
+- INpureCore-[1.7.10]1.0.0B2-4.jar
+- LunatriusCore-1.7.10-1.1.2.14-universal.jar
+- Mekanism-1.7.10-7.1.1.104.jar
+- MekanismGenerators-1.7.10-7.1.1.104.jar
+- MekanismTools-1.7.10-7.1.1.104.jar
+- OpenComponents-MC1.7.10-0.2.0.20-universal.jar
+- OpenComputers-MC1.7.10-1.3.4.140-dev-universal.jar
+- pressure-mc1710-0.9.3.24.jar
+- ProgressiveAutomation-1.7.10-1.4.12.jar
+- ProjectRed-Base-1.7.10-4.4.9.49.jar
+- ProjectRed-Compat-1.7.10-4.4.9.49.jar
+- ProjectRed-Integration-1.7.10-4.4.9.49.jar
+- ProjectRed-Lighting-1.7.10-4.4.9.49.jar
+- ProjectRed-Mechanical_beta-1.7.10-4.4.9.49.jar
+- ProjectRed-World-1.7.10-4.4.9.49.jar
+- Railcraft_1.7.10-9.3.1.0.jar
+- SimplyJetpacks-MC1.7.10-1.1.1.jar
+- TConstruct-1.7.10-1.6.0.build655.jar
+Config changes:
+- none
+
+# Version 0.1.3
+=================================================
+Mod updates 
+- cookiecore-1.3.0.jar
+- EnderIO-1.7.10-2.0.7.219.jar
+- EnviroMine-v1.2.26.jar
+- forestry_1.7.10-3.0.0.136.jar
+- Ganys Surface-1.9.1.jar
+- gregtech_1.7.10-5.05.03.jar
+- IguanaTinkerTweaks-1.7.10-2.0.2.61.jar
+- industrialcraft-2-2.2.645-experimental.jar
+- Mekanism-1.7.10-7.1.1.102.jar
+- MekanismGenerators-1.7.10-7.1.1.102.jar
+- MekanismTools-1.7.10-7.1.1.102.jar
+- ModTweaker-1.7.X-0.6-17.jar
+- natura-1.7.10-87.f003e5b.jar
+- StevesWorkshop-0.5.1.jar
+- TConstruct-1.7.10-1.6.0.build651.jar
+- TiCTooltips-mc1.7.10-1.1.11.jar
+- TSteelworks-1.7.10-1.0.4.jar
+- Waila-1.5.4a_1.7.10.jar
+Config changes:
+- Added Foodgroups
+- Deactivated Ender Furnace
+- Deactivated CardboardBox
+- Removed Gany's Redstone from OreDict
+- Many other Bugfixes
+
+# Version 0.1.2
 =================================================
 Mod updates / additions
-- appliedenergistics2-rv1-beta-19.jar
-- bdlib-mc1710-1.4.4.17.jar
-- BetterFoliage-0.9.12b.jar
-- buildcraft-6.0.18.jar
-- CodeChickenCore-1.7.10-1.0.3.25-universal.jar
-- EnderIO-1.7.10-2.0.4.211.jar
-- EnderStorage-1.7.10-1.4.5.22-universal.jar
-- EnviroMine-v1.2.22.jar
-- extrautilities-1.1.0k.jar
-- Factorization-1.7.10-0.8.88.jar
-- FlaxbeardsSteamPower-1.7.10-0.26.2.jar
-- forestry_1.7.10-3.0.0.95.jar
-- gendustry-mc1710-1.3.3.21.jar
-- generators-mc1710-0.9.1.9.jar
-- gregtech_1.7.10-5.04.01.jar
-- industrialcraft-2-2.2.632-experimental.jar
-- MineTweaker3-1.7.10-3.0.8B.jar
-- ModTweaker-1.7.X-0.6-16.jar
-- OpenBlocks-1.7.10-1.3-snapshot-433.jar
-- OpenComputers-MC1.7.10-1.3.4.124-dev-universal.jar
-- pressure-mc1710-0.9.3.18.jar
-- StevesCarts2.0.0.b17.jar
-- StevesFactoryManagerA91.jar
-- StevesWorkshop-0.5.0.jar
-- TiCTooltips-mc1.7.10-1.1.10.jar
-- Translocator-1.7.10-1.1.1.10-universal.jar
-Mod additions
-- WailaHarvestability-mc1.7.x-1.1.0.jar
-Mod deletions
-- Morpheus
-- buildcraft
-- ChiselFacades
-- QuarryPlus
-
-Config Changes
-- newly configured HarvestLevel for Ores
-- changed Nature wood to planks to sticks recipes
-- Magical Crops nerfed
-- PneumaticCraft crops changed
-- TE Signalum Blend easier recipe
-- Mekanism Cardbox recipe changed
-- Envirmine Physic enhancements
-- Enviromine additional drinks
-- Extra Utilities Angel Block tweaked
-- Ganys Surface possible item multiplikation removed
-- TConstruct additional Smeltery Melting and Casting recipes
+- CreeperCollateral-[1.7.10]1.0.0B2-5.jar
+- ExtraTiC-1.7.10-1.0.3.jar
+- fastcraft-1.8.jar
+- INpureCore-[1.7.10]1.0.0B1-1.jar
+- TabulaRasa-[1.7.10]1.0.1-3.jar
+- TMechworks_mc1.7.10_0.2.8.jar
+Mod updates
+- AOBD-2.2.4.jar
+- appliedenergistics2-rv1-beta-24.jar
+- bdlib-mc1710-1.4.4.19.jar
+- BetterFoliage-1.0.0.jar
+- Carpenter's Blocks v3.2.7 - MC 1.7.10.zip
+- CodeChickenCore-1.7.10-1.0.3.26-universal.jar
+- CustomOreGen-1.7.10-1.2.5.jar
+- eirairc-mc1.7.10-v1.7.43.jar
+- EnderIO-1.7.10-2.0.6.216.jar
+- EnderStorage-1.7.10-1.4.5.24-universal.jar
+- EnviroMine-v1.2.24.jar
+- Factorization-1.7.10-0.8.88.1.jar
+- forestry_1.7.10-3.0.0.121.jar
+- Ganys End-1.8.2.jar
+- gendustry-mc1710-1.3.3.22.jar
+- generators-mc1710-0.9.1.11.jar
+- gregtech_1.7.10-5.04.02.jar
+- IguanaTinkerTweaks-1.7.10-2.0.4.jar
+- industrialcraft-2-2.2.639-experimental.jar
+- Mekanism-1.7.10-7.1.1.97.jar
+- MekanismGenerators-1.7.10-7.1.1.97.jar
+- MekanismTools-1.7.10-7.1.1.97.jar
+- NotEnoughItems-1.7.10-1.0.3.56-universal.jar
+- OpenComponents-MC1.7.10-0.2.0.17-universal.jar
+- OpenComputers-MC1.7.10-1.3.4.131-dev-universal.jar
+- PowerConverters-1.7.10-3.0.0.29.jar
+- pressure-mc1710-0.9.3.20.jar
+- StevesCarts2.0.0.b18.jar
+- StevesFactoryManagerA92.jar
+- Translocator-1.7.10-1.1.1.12-universal.jar
+Config changes:
+- Updated Tinkers Construct compatibility
+- Added some new smeltery recipes
+- nerfed plates out of smeltery recipes
+- made Steamcraft plates more compatible
+- Updated EnviroMine drink table
+- Updated graves and physics
+- NEI Profiler off
+- Fix Exploit Knapsack
+- Fix Multiblock tank problem
+- nerfed natura wood to planks to sticks
+- Changed despawn behaviour in Gany's Surface mod
+- Changed some railcraft recipes
