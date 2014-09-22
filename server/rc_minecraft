@@ -1,0 +1,201 @@
+#!/bin/bash
+# /etc/init.d/minecraft
+# version 0.6 2012-02-25 (YYYY-MM-DD)
+
+### BEGIN INIT INFO
+# Provides:   minecraft
+# Required-Start: $local_fs $remote_fs
+# Required-Stop:  $local_fs $remote_fs
+# Should-Start:   $network
+# Should-Stop:    $network
+# Default-Start:  2 3 4 5
+# Default-Stop:   0 1 6
+# Short-Description:    Minecraft server
+# Description:    Starts the minecraft server
+### END INIT INFO
+
+#Settings
+JARFILE='server.jar'
+USERNAME="minecraft"
+MCSTORE="/home/sync"
+MCPATH="/home/minecraft"
+CPU_COUNT=1
+INVOCATION="java -server -XX:MaxPermSize=256M -Xms2048M -Xmx2048M -jar $JARFILE -o false"
+BACKUPPATH="/home/backups/"
+WORLD=lobby
+OLDBACKUPS=10
+
+as_user() {
+  if [ "`whoami`" == "$USERNAME" ] ; then
+    bash -c "$1"
+  else
+    su - $USERNAME -c "$1"
+  fi
+}
+
+mc_status() {
+  ps aux |grep -F -v grep|grep -F -v SCREEN|grep -F --quiet $JARFILE
+  return $?
+}
+
+mc_start() {
+  if mc_status; then
+    echo "Tried to start but $JARFILE was already running!"
+  else
+    echo "$JARFILE was not running... starting."
+    if [ -d $MCSTORE/$WORLD.bak ]; then
+      echo "last $WORLD.bak still exist, crashed warning! manual check required!!!"
+      exit 1
+    fi
+    cd $MCPATH
+    if [ ! -f "$MCPATH/$JARFILE" ]; then 
+      echo "Ram drive empty...  prepping."
+      as_user "cp -R $MCSTORE/* $MCPATH/"
+    fi
+    as_user "cd $MCPATH && screen -dmS minecraft $INVOCATION"
+    sleep 7
+    if mc_status; then
+      echo "$JARFILE is now running."
+    else
+      echo "Could not start $JARFILE."
+    fi
+  fi
+}
+
+mc_saveoff() {
+  if mc_status; then
+    echo "$JARFILE is running... suspending saves"
+    TO_SCREEN="screen -p 0 -S minecraft -X eval 'stuff "
+    as_user "$TO_SCREEN \"say SERVER BACKUP STARTING. Server going readonly...\"\015'"
+    as_user "$TO_SCREEN \"save-off\"\015'"
+    as_user "$TO_SCREEN \"save-all\"\015'"
+    sync
+    sleep 10
+  else
+    echo "$JARFILE was not running. Not suspending saves."
+  fi
+}
+
+mc_saveon() {
+  if mc_status; then
+    echo "$JARFILE is running... re-enabling saves"
+    TO_SCREEN="screen -p 0 -S minecraft -X eval 'stuff "
+    as_user "$TO_SCREEN \"save-on\"\015'"
+    as_user "$TO_SCREEN \"say SERVER BACKUP ENDED. Server going read-write...\"\015'"
+  else
+    echo "$JARFILE was not running. Not resuming saves."
+  fi
+}
+
+mc_stop() {
+  if mc_status; then
+    echo "$JARFILE is running... stopping."
+    TO_SCREEN="screen -p 0 -S minecraft -X eval 'stuff "
+    as_user "$TO_SCREEN \"say SERVER SHUTTING DOWN IN 5 SECONDS. Saving map...\"\015'"
+    as_user "$TO_SCREEN \"save-all\"\015'"
+    sleep 5
+    as_user "$TO_SCREEN \"stop\"\015'"
+    sleep 5
+  else
+    echo "$JARFILE was not running."
+  fi
+
+  if mc_status; then
+    echo "$JARFILE could not be shut down... still running."
+  else
+    echo "$JARFILE is shut down."
+  fi
+}
+
+
+mc_update() {
+  if mc_status; then
+    echo "$JARFILE is running! Will not start update."
+  else
+    echo "Test Updating server!"
+  fi
+}
+
+mc_backup() {
+   echo "Backing up minecraft files"
+   if [ ! -d $BACKUPPATH/`date +%F` ]; then
+     as_user "mkdir $BACKUPPATH/`date +%F`"
+   fi
+   TO_SCREEN="screen -p 0 -S minecraft -X eval 'stuff "
+   as_user "$TO_SCREEN \"say SERVER COMPRESSING BACKUP STARTING...\"\015'"
+   as_user "tar zcf $BACKUPPATH/`date +%F`/$WORLD.`date +%F.%H%M%S`.tar.gz -C $MCSTORE $WORLD logs"
+   as_user "find $BACKUPPATH/* -type d -mtime +${OLDBACKUPS} | xargs rm -rvf"
+   as_user "$TO_SCREEN \"say SERVER COMPRESSING BACKUP ENDED...\"\015'"
+   echo "Backup complete"
+}
+
+mc_disksaverun() {
+  if mc_status; then
+    echo "Saving ramdrive to disk."
+    if [ ! -f $MCPATH/$JARFILE ]; then
+      echo "Error.. Minecraft not in ram"
+    else
+      TO_SCREEN="screen -p 0 -S minecraft -X eval 'stuff "
+      as_user "rsync -a $MCPATH/ $MCSTORE/"
+    fi
+  else
+    echo "Service is not running"
+ fi
+
+}
+
+mc_disksavehalt() {
+   echo "Saving ramdrive to disk."
+   if [ ! -f $MCPATH/$JARFILE ]; then 
+     echo "Error.. Minecraft not in ram"
+   else
+     echo "Saving, screen session closed"
+     as_user "rsync -a $MCPATH/ $MCSTORE/"
+   fi
+}
+
+
+#Start-Stop here
+case "$1" in
+  start)
+    mc_start
+    ;;
+  stop)
+    mc_stop
+    mc_disksavehalt
+    ;;
+  restart)
+    mc_stop
+    mc_disksavehalt
+    mc_start
+    ;;
+  update)
+    mc_stop
+    mc_backup
+    mc_update
+    mc_start
+    ;;
+  backup)
+    mc_saveoff
+    mc_disksaverun
+    mc_saveon
+    mc_backup
+    ;;
+  disksavehalt)
+    mc_disksavehalt
+    ;;
+  disksaverun)
+    mc_disksaverun
+    ;;
+  status)
+    if mc_status; then
+      echo "$JARFILE is running."
+    else
+      echo "$JARFILE is not running."
+    fi
+    ;;
+  *)
+  echo "Usage: /etc/init.d/minecraft {start|stop|update|backup|status|restart|disksaverun}"
+  exit 1
+  ;;
+esac
