@@ -29,6 +29,7 @@ var liquidNickel = <liquid:nickel.molten>;
 var liquidPlatinum = <liquid:platinum.molten>;
 var liquidElectrum = <liquid:electrum.molten>;
 var liquidInvar = <liquid:invar.molten>;
+var liquidZinc = <liquid:molten.zinc>;
 
 var blockIron = <minecraft:iron_block>;
 var blockGold = <minecraft:gold_block>;
@@ -112,3 +113,14 @@ for i, stick in sticks {
 
 # Flaschen
 mods.tconstruct.Casting.addTableRecipe(<minecraft:glass_bottle>, <liquid:glass.molten> * 1000, <IguanaTweaksTConstruct:clayBucketUnfired>, true, 20);
+
+## Compatibility Ores to Liquid to ingots
+#
+# Find a better way, cause Smeltery isn't oredic aware.
+# <ore:oreZinc> as Input doesn't work.
+#
+# melting
+mods.tconstruct.Smeltery.addMelting(<Steamcraft:steamcraftOre:1>, liquidZinc * 288, 200);
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:36>, liquidZinc * 288, 200);
+# casting ingots
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11036>, <liquid:molten.zinc> * 144, <TConstruct:metalPattern>, false, 20);
