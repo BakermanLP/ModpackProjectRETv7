@@ -1,0 +1,161 @@
+groups:
+  default:
+    default: true
+    options:
+      permissions:
+      - modifyworld.*
+      default: 'true'
+      prefix: ''
+    permissions:
+    - cofh.friend.gui
+    - cofh.friend.add
+    - multiverse.portal.access.P-MiningToCom
+    - multiverse.portal.access.P-ComToMining
+    - multiverse.access.DIM6
+    - multiverse.access.com_nether
+    - multiverse.access.com
+    - multiverse.access.lobby
+    - multiverse.portal.access.p-nethertocom
+    - multiverse.portal.access.p-comtonether
+    - multiverse.portal.access.pbl-comtolobby
+    - multiverse.portal.access.pbl-lobbytocom
+    - multiverse.portal.access.fallback-lobbytocom
+    - multiverse.portal.access.fallback-lobbytolp
+    - -net.blay09.mods.eirairc.command.CommandMessage
+    - essentials.msg
+  lp:
+    inheritance:
+    - default
+    permissions:
+    - -essentials.fly
+    - -essentials.fly.safelogin
+    - -net.blay09.mods.eirairc.command.CommandMessage
+    - multiverse.access.lp_nether
+    - multiverse.access.lp
+    - multiverse.portal.access.p-nethertolp
+    - multiverse.portal.access.p-lptonether
+    - multiverse.portal.access.pbl-lptolobby
+    - multiverse.portal.access.pbl-lobbytolp
+    - essentials.msg
+schema-version: 1
+users:
+  bbe88429-bf7f-4740-89e0-e20b44017d6c:
+    options:
+      name: DerOli82
+    permissions: []
+    group:
+    - default
+  68af6d40-a79e-4a29-9846-9d4a319ec774:
+    options:
+      name: GregoriusT
+    group:
+    - lp
+  bf2ee5b8-3ccf-4232-9484-b8ab8be56c13:
+    options:
+      name: 12stringlove
+    group:
+    - lp
+  6b3722f6-205a-42f0-9bcb-79305d7e28f8:
+    options:
+      name: BakermanLP
+    group:
+    - lp
+  2ac51c4a-15e7-4010-ba4a-028f7b0197ce:
+    options:
+      name: M3gaFr3ak
+    group:
+    - lp
+  5b2a8943-c101-42af-86d0-c4353b56d922:
+    options:
+      name: DirkSch
+  f9fdf029-d2a1-4436-b283-ba8a8cce3dd1:
+    options:
+      name: bloodcircle
+    group:
+    - lp
+  2af9371c-53ea-44ce-8edb-ce30313e5623:
+    options:
+      name: Raupe_Lizard
+  d4aed759-3687-4f93-875d-5a351751a437:
+    options:
+      name: TheDosch41
+    group:
+    - lp
+  81fe97a6-5d88-4428-9a16-012506df77f1:
+    options:
+      name: BiBaButzemann
+    group:
+    - lp
+  eee1cfba-f8b1-4621-a5f1-04d1c52d5a37:
+    options:
+      name: Seppl93
+  6b93bbcf-727d-4bee-82d0-d2e3a4907567:
+    options:
+      name: Alheimerjung
+  d98ed989-7964-4a89-9874-95b443c14e8b:
+    group:
+    - lp
+    options:
+      name: crazy252
+  6611c1d4-21ba-42e9-89ac-7bccda8b922d:
+    options:
+      name: Donnerzeus
+  c1e131fb-8d4e-4c8b-b372-f9e6690e940a:
+    options:
+      name: paladin25
+  8314bb9d-765f-484c-9fd4-fe0fde6f995b:
+    options:
+      name: Knutiger
+  d089191a-0332-4160-a391-7e0c293489a6:
+    options:
+      name: 19072001lukas
+  ce3e033f-4aab-494c-95ae-ff3bf4242c9f:
+    options:
+      name: legosuperman1000
+  ec89f7f4-9408-4123-9aed-ff4e2b8bb567:
+    options:
+      name: CRAZYzocker50
+  5fad5396-781d-4f62-bfb2-4d75d8bd028d:
+    options:
+      name: H4ki
+  4af6b4de-6d2e-49c0-a9b9-62233d5830a9:
+    options:
+      name: jabba0815
+  cc90743f-31ff-414f-a4c9-bfef43e68888:
+    options:
+      name: kggDummy
+  4651aca0-e7a8-494a-95a6-32ada23c41fe:
+    options:
+      name: Apfel_Man
+  f3ba6ec8-c280-4950-bb08-1fcb2eab3a9c:
+    options:
+      group: lp
+      name: Vexatos
+    group:
+    - lp
+  c4951ca5-ad87-4d3a-b540-5006fcddacea:
+    options:
+      name: Sailren
+  7f0d5c8a-8342-4296-b103-208f425960ec:
+    options:
+      name: Malforias
+  683c2cc6-1baf-4f18-890b-970f61e06920:
+    options:
+      name: Dawn399
+  0cd0ca74-45a5-44f4-8f37-5d3bbb1d4c69:
+    options:
+      name: CrysisPsycho
+  c46f751d-9f68-49ad-977c-eca9c0e3fbd5:
+    options:
+      name: SeraDMS
+  6e286efa-5948-40be-90c3-43aa3ac6bd1c:
+    options:
+      name: suigetsu939
+  07dc1baa-fcc6-4fb4-bfcc-339525754790:
+    options:
+      name: cubus199
+  4b9a5c51-e932-4e1e-ad30-637101fb6fae:
+    group:
+    - lp
+    options:
+      name: Thunderdark
