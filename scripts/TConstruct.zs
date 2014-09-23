@@ -48,6 +48,12 @@ var blockInvar = <ThermalFoundation:Storage:8>;
 # Knapsack
 recipes.removeShaped(<TConstruct:knapsack>);
 
+# Drying Rack
+recipes.addShaped(<TConstruct:Armor.DryingRack>,
+[[null, null, null], 
+ [null, null, null], 
+ [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);
+
 # Fluids
 mods.tconstruct.Smeltery.addMelting(<minecraft:redstone>, <liquid:redstone> * 100, 200, <minecraft:redstone_block>);
 mods.tconstruct.Smeltery.addMelting(<minecraft:redstone_block>, <liquid:redstone> * 900, 200, <minecraft:redstone_block>);
@@ -114,13 +120,3 @@ for i, stick in sticks {
 # Flaschen
 mods.tconstruct.Casting.addTableRecipe(<minecraft:glass_bottle>, <liquid:glass.molten> * 1000, <IguanaTweaksTConstruct:clayBucketUnfired>, true, 20);
 
-## Compatibility Ores to Liquid to ingots
-#
-# Find a better way, cause Smeltery isn't oredic aware.
-# <ore:oreZinc> as Input doesn't work.
-#
-# melting
-mods.tconstruct.Smeltery.addMelting(<Steamcraft:steamcraftOre:1>, liquidZinc * 288, 200);
-mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:36>, liquidZinc * 288, 200);
-# casting ingots
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11036>, <liquid:molten.zinc> * 144, <TConstruct:metalPattern>, false, 20);

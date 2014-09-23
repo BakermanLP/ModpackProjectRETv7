@@ -33,6 +33,13 @@ mods.tconstruct.Smeltery.addMelting( <gregtech:gt.blockores:2034> , <liquid:molt
 mods.tconstruct.Smeltery.addMelting( <gregtech:gt.blockores:3034> , <liquid:molten.nickel> * 288 , 200);
 mods.tconstruct.Smeltery.addMelting( <gregtech:gt.blockores:4034> , <liquid:molten.nickel> * 288 , 200);
 
+# Zinc
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:36>, <liquid:molten.zinc> * 288, 200);
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:1036>, <liquid:molten.zinc> * 288, 200);
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:2036>, <liquid:molten.zinc> * 288, 200);
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:3036>, <liquid:molten.zinc> * 288, 200);
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:4036>, <liquid:molten.zinc> * 288, 200);
+
 # Antimony
 mods.tconstruct.Smeltery.addMelting( <gregtech:gt.blockores:58>   , <liquid:molten.antimony> * 288 , 200);
 mods.tconstruct.Smeltery.addMelting( <gregtech:gt.blockores:1058> , <liquid:molten.antimony> * 288 , 200);
@@ -139,8 +146,9 @@ mods.tconstruct.Smeltery.addMelting( <gregtech:gt.blockores:3945> , <liquid:molt
 mods.tconstruct.Smeltery.addMelting( <gregtech:gt.blockores:4945> , <liquid:molten.antimony> * 288 , 200);
 
 # casting ingots
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11058>, <liquid:molten.antimony> * 144, <TConstruct:metalPattern>, false, 20);
 mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11008>, <liquid:molten.beryllium> * 144, <TConstruct:metalPattern>, false, 20);
 mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11018>, <liquid:molten.magnesium> * 144, <TConstruct:metalPattern>, false, 20);
-mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11048>, <liquid:molten.molybdenum> * 144, <TConstruct:metalPattern>, false, 20);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11036>, <liquid:molten.zinc> * 144, <TConstruct:metalPattern>, false, 20);
 mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11031>, <liquid:molten.manganese> * 144, <TConstruct:metalPattern>, false, 20);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11048>, <liquid:molten.molybdenum> * 144, <TConstruct:metalPattern>, false, 20);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11058>, <liquid:molten.antimony> * 144, <TConstruct:metalPattern>, false, 20);
