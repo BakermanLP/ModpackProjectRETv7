@@ -30,3 +30,13 @@ recipes.addShaped(<BetterChests:Upgrade:10>, [
     [<ThermalExpansion:material:2>, <BetterChests:Upgrade:4>, <ThermalExpansion:material:2>],
     [capacitor, <ThermalExpansion:material:1>, capacitor]
 ]);
+
+# AI Upgrade
+recipes.remove(<BetterChests:Upgrade:20>);
+<BetterChests:Upgrade:20>.addTooltip(format.gray("Capacitors muessen beim Bauen ") + format.green("geladen") + format.gray(" sein!"));
+var capacitor = <ThermalExpansion:capacitor:5>.onlyWithTag({Energy: 10000000});
+recipes.addShaped(<BetterChests:Upgrade:20>, [
+    [<ore:gemNetherQuartz>, <ore:gemDiamond>, <ore:gemNetherQuartz>],
+    [capacitor, <BetterChests:Upgrade:4>, capacitor],
+    [<ore:gemNetherQuartz>, <ore:gemDiamond>, <ore:gemNetherQuartz>]
+]);
