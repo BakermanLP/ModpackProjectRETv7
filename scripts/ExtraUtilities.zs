@@ -10,6 +10,6 @@ recipes.remove(<ExtraUtilities:angelBlock>);
 
 recipes.addShaped(<ExtraUtilities:angelBlock>, [
     [null, <ore:ingotGold>, null],
-    <minecraft:feather>, <ExtraUtilities:decorativeBlock1:8>, <minecraft:feather>],
-    null, null, null]
+    [<minecraft:feather>, <ExtraUtilities:decorativeBlock1:8>, <minecraft:feather>],
+    [null, null, null]
 ]);
