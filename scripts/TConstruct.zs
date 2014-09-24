@@ -49,10 +49,11 @@ var blockInvar = <ThermalFoundation:Storage:8>;
 recipes.removeShaped(<TConstruct:knapsack>);
 
 # Drying Rack
-recipes.addShaped(<TConstruct:Armor.DryingRack>,
-[[null, null, null], 
- [null, null, null], 
- [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);
+recipes.addShaped(<TConstruct:Armor.DryingRack>, [
+    [null, null, null], 
+    [null, null, null], 
+    [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]
+]);
 
 # Fluids
 mods.tconstruct.Smeltery.addMelting(<minecraft:redstone>, <liquid:redstone> * 100, 200, <minecraft:redstone_block>);

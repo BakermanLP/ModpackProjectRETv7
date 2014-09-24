@@ -28,10 +28,11 @@ fish.add(<Steamcraft:steamedFish>);
 
 #Iron Exosuit Plate
 recipes.removeShaped(<Steamcraft:exosuitPlate:2>);
-recipes.addShaped(<Steamcraft:exosuitPlate:2>,
-[[null, null, null],
- [<ore:plateIron>, <ore:plateIron>, null],
- [<ore:plateIron>, <ore:plateIron>, null]]);
+recipes.addShaped(<Steamcraft:exosuitPlate:2>, [
+    [null, null, null],
+    [<ore:plateIron>, <ore:plateIron>, null],
+    [<ore:plateIron>, <ore:plateIron>, null]
+]);
 
 # TConstruct Smelting
 mods.tconstruct.Smeltery.addMelting(<Steamcraft:steamcraftOre:1>, <liquid:molten.zinc> * 288, 200);

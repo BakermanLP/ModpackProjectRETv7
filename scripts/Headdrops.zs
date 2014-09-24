@@ -1,4 +1,6 @@
-# <minecraft:skull>
+##
+# Headdrops
+##
 # Skel Skull
 mods.mekanism.Crusher.addRecipe(<minecraft:skull>, <minecraft:dye:15> * 4);
 mods.ic2.Macerator.addRecipe(<minecraft:dye:15> * 4, <minecraft:skull>);
