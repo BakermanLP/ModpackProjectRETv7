@@ -38,75 +38,7 @@
             <str>$r)</str>
         </line>
         <line>
-            <str>$fEXP: $e{xpthislevel}$f / $e{xpcap}$f ($e</str>
-            <round>
-                <pct>
-                    <var>xpthislevel</var>
-                    <var>xpcap</var>
-                </pct>
-                <num>0</num>
-            </round>
-            <str>%$f)</str>
-        </line>
-        <line>
-            <str>FPS: </str>
-            <operation>
-                <str>gt</str>
-                <var>fps</var>
-                <num>60</num>
-                <num>45</num>
-                <num>30</num>
-                <num>15</num>
-                <num>0</num>
-                <str>$a</str>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
-                <str/>
-            </operation>
-            <var>fps</var>
-        </line>
-        <line>
             <str>Entities: $e{entitiesrendered}$f / $e{entitiestotal}$f</str>
-        </line>
-    </lines>
-    <!--
-    <lines at="topcenter">
-        <line>
-            <str>$b{username}$f</str>
-        </line>
-    </lines>
-    -->
-    <lines at="bottomleft">
-        <line>
-            <var>equippedicon</var>
-            <str> </str>
-            <operation>
-                <str>ge</str>
-                <pct>
-                    <var>equippeddamageleft</var>
-                    <var>equippedmaxdamage</var>
-                </pct>
-                <num>50</num>
-                <num>20</num>
-                <num>10</num>
-                <num>0</num>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
-                <str/>
-            </operation>
-            <max>
-                <var>equippeddamageleft</var>
-                <num>0.5</num>
-                <str>{equippeddamageleft}$f / $e{equippedmaxdamage}</str>
-                <var>equippedname</var>
-            </max>
-        </line>
-        <line>
-            <str> </str>
         </line>
     </lines>
     <lines at="bottomright">
