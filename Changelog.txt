@@ -1,4 +1,56 @@
 ## Changelog
+# Version 0.1.6
+=================================================
+Mod updates / additions
+- AppleCore-mc1.7.10-1.0.0.jar
+- appliedenergistics2-rv1-beta-37.jar
+- Aroma1997Core-1.7.10-1.0.2.9.jar
+- AromaBackup-1.7.10-0.0.0.4.jar
+- BetterChests-1.7.10-1.1.1.5.jar
+- CustomOreGen-1.7.10-1.2.6.jar
+- ExtraCells-1.7.10-2.1.12b8.jar
+- forestry_1.7.10-3.0.0.184.jar
+- gregtech_1.7.10-5.05.07.jar
+- IguanaTinkerTweaks-1.7.10-2.0.2.68.jar
+- industrialcraft-2-2.2.646-experimental.jar
+- InGameInfoXML-1.7.10-2.8.1.62-universal.jar
+- NEIPlugins-MC1.7.10-1.1.0.9-unofficial.jar
+- OpenComputers-MC1.7.10-1.3.4.145-dev-universal.jar
+- Pam's HarvestCraft 1.7.10b.jar
+- PowerConverters-1.7.10-3.0.0.30.jar
+- SpiceOfLife-mc1.7.10-1.2.1.jar
+- TConstruct-1.7.10-1.7.0.build688.jar
+- TiCTooltips-mc1.7.10-1.1.11b.jar
+- TSteelworks-1.7.10-1.0.5.jar
+Fixes:
+- Extra Cells Server crash
+- TiCTooltips Repair material
+- Drying rack not craftable
+- Flaxbeards zinc in Tinkers smeltery
+- red alloy wire not craftable
+- iron tank wall and iron exosuit plate
+- harvestcraft salt ore compatibility
+- harvestcraft and mfr compatibility
+Changes:
+- added many gregtech ores to Tinkers smeltery
+- betterchests nerfed
+- dropped mob heads now made more useable
+- InGameInfo removed some informations
+- removed coloured redstone from Ganys Surface
+- Pneumaticraft seeds craftable
+- disabled super watering can
+- OpenComputer allow ItemStackInspection
+- OpenComputer changede itemDamageRate
+- OpenComputer added Chunkloader Upgrade
+Known bugs:
+- enviromine physik sometimes random effects
+- gregtech and tconstrcut liquids incompatible
+- sleeping bag and slime island "fall out of world"
+- tsteelworks only uses charcoal blocks and coal
+- creeper colateral doesn't drop all blocks
+- glas has two output pulverizer recipes
+
+## Changelog
 # Version 0.1.5
 =================================================
 Mod updates
