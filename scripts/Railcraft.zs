@@ -4,7 +4,7 @@ recipes.removeShaped(<Railcraft:tile.railcraft.machine.beta:0>, [
     [<*>, <*>]
 ]);
 
-recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:0>, [
+recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:0> * 4, [
     [<ore:plateIron>, <ore:plateIron>, null],
     [<ore:plateIron>, <ore:plateIron>, null],
     [null, null, null]
@@ -16,7 +16,7 @@ recipes.removeShaped(<Railcraft:tile.railcraft.machine.beta:1>, [
     [<minecraft:glass_pane>, <*>, <minecraft:glass_pane>]
 ]);
 
-recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:1>, [
+recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:1> * 4, [
     [<minecraft:glass_pane>, <ore:plateIron>, <minecraft:glass_pane>],
     [<ore:plateIron>, <minecraft:glass_pane>, <ore:plateIron>],
     [<minecraft:glass_pane>, <ore:plateIron>, <minecraft:glass_pane>]
@@ -28,7 +28,7 @@ recipes.removeShaped(<Railcraft:tile.railcraft.machine.beta:2>, [
     [<minecraft:iron_bars>, <*>, <minecraft:iron_bars>]
 ]);
 
-recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:2>, [
+recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:2> * 4, [
     [<minecraft:iron_bars>, <ore:plateIron>, <minecraft:iron_bars>],
     [<ore:plateIron>, <minecraft:lever>, <ore:plateIron>],
     [<minecraft:iron_bars>, <ore:plateIron>, <minecraft:iron_bars>]
@@ -40,7 +40,7 @@ recipes.removeShaped(<Railcraft:tile.railcraft.machine.beta:13>, [
     [<*>, <*>]
 ]);
 
-recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:13>, [
+recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:13> * 4, [
     [<ore:plateSteel>, <ore:plateSteel>],
     [<ore:plateSteel>, <ore:plateSteel>]
 ]);
@@ -51,7 +51,7 @@ recipes.removeShaped(<Railcraft:tile.railcraft.machine.beta:14>, [
     [<minecraft:glass_pane>, <*>, <minecraft:glass_pane>]
 ]);
 
-recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:14>, [
+recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:14> * 4, [
     [<minecraft:glass_pane>, <ore:plateSteel>, <minecraft:glass_pane>],
     [<ore:plateSteel>, <minecraft:glass_pane>, <ore:plateSteel>],
     [<minecraft:glass_pane>, <ore:plateSteel>, <minecraft:glass_pane>]
@@ -63,7 +63,7 @@ recipes.removeShaped(<Railcraft:tile.railcraft.machine.beta:15>, [
     [<minecraft:iron_bars>, <*>, <minecraft:iron_bars>]
 ]);
 
-recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:15>, [
+recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:15> * 4, [
     [<minecraft:iron_bars>, <ore:plateSteel>, <minecraft:iron_bars>],
     [<ore:plateSteel>, <minecraft:lever>, <ore:plateSteel>],
     [<minecraft:iron_bars>, <ore:plateSteel>, <minecraft:iron_bars>]
@@ -83,7 +83,7 @@ recipes.addShaped(<Railcraft:tile.railcraft.machine.beta:4>, [
 # Steam Oven
 recipes.removeShaped(<Railcraft:tile.railcraft.machine.alpha:3>);
 
-recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha:3>, [
+recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha:3> * 4, [
     [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
     [<ore:plateSteel>, <minecraft:furnace>, <ore:plateSteel>],
     [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]
@@ -92,7 +92,7 @@ recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha:3>, [
 # Water Tank Siding
 recipes.removeShaped(<Railcraft:tile.railcraft.machine.alpha:14>);
 
-recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha:14>, [
+recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha:14> * 6, [
     [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
     [<ore:ingotIron>, <ore:slimeball>, <ore:ingotIron>],
     [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
