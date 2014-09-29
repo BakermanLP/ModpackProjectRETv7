@@ -36,7 +36,7 @@ var items = [
     <minecraft:feather>
 ] as IItemStack[];
 
-recipes.removeShaped(<minecraft:dye:*>, [[<PneumaticCraft:plasticPlant:*>]]);
+recipes.removeShapeless(<minecraft:dye:*>, [<PneumaticCraft:plasticPlant:*>]);
 
 for i, seed in seeds {
     var item = items[i];
