@@ -1,7 +1,3 @@
-##
-# Magical Crops
-##
-
 recipes.remove(<magicalcrops:magicalcrops_ModMagicSeedsArdite>);
 recipes.remove(<magicalcrops:magicalcrops_ModMagicSeedsIridium>);
 recipes.remove(<magicalcrops:magicalcrops_ModMagicSeedsCobalt>);
@@ -21,23 +17,21 @@ recipes.remove(<magicalcrops:magicalcrops_ModMagicSeedsRuby>);
 
 # Juice
 var juice = <ore:listAlljuice>;
+
 juice.add(<magicalcrops:magicalcrops_FoodJuice:*>);
 
 # Essence Orb
-recipes.removeShaped(<magicalcrops:magicalcrops_EssenceOrb>);
-recipes.removeShaped(<magicalcrops:magicalcrops_MagicEssence>, [
-    [<*>, <*>, <*>],
-    [<*>, <magicalcrops:magicalcrops_EssenceOrb>, <*>],
-    [<*>, <*>, <*>]
-]);
-recipes.removeShaped(<magicalcrops:magicalcrops_MagicEssence>, [
-    [<*>, <magicalcrops:magicalcrops_EssenceOrb>]
-]);
-
-# Master Infusion Stone
-recipes.removeShaped(<magicalcrops:magicalcrops_InfusionStone:4>);
-recipes.removeShaped(<magicalcrops:magicalcrops_MagicEssence:*>, [
-    [null, <*>, null],
-    [<*>, <magicalcrops:magicalcrops_InfusionStone:4>, <*>],
-    [null, <*>, null]
-]);
+#recipes.removeShaped(<magicalcrops:magicalcrops_EssenceOrb>);
+#recipes.removeShaped(<*>,
+#[[<*>, <*>, <*>],
+# [<*>, <magicalcrops:magicalcrops_EssenceOrb>, <*>],
+# [<*>, <*>, <*>]]);
+#recipes.removeShaped(<*>,
+#[[<*>, <magicalcrops:magicalcrops_EssenceOrb>]]);
+#
+## Master Infusion Stone
+#recipes.removeShaped(<magicalcrops:magicalcrops_InfusionStone:4>);
+#recipes.removeShaped(<*>,
+#[[null, <*>, null],
+# [<*>, <magicalcrops:magicalcrops_InfusionStone:4>, <*>],
+# [null, <*>, null]]);
