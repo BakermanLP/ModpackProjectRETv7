@@ -1,4 +1,28 @@
 Changelog: 
+# Version 0.2.1
+=================================================
+Mod updates / additions
+- appliedenergistics2-rv1-stable-1.jar
+- forestry_1.7.10-3.0.0.214-unstable.jar
+- HungerOverhaul-1.7.10-beta.2.jenkins30.jar
+- Mekanism-1.7.10-7.1.1.114.jar
+- MekanismGenerators-1.7.10-7.1.1.114.jar
+- MekanismTools-1.7.10-7.1.1.114.jar
+- NEIPlugins-MC1.7.10-1.1.0.10-unofficial.jar
+- ProjectRed-Base-1.7.10-4.5.0.50.jar
+- ProjectRed-Compat-1.7.10-4.5.0.50.jar
+- ProjectRed-Integration-1.7.10-4.5.0.50.jar
+- ProjectRed-Lighting-1.7.10-4.5.0.50.jar
+- ProjectRed-Mechanical_beta-1.7.10-4.5.0.50.jar
+- ProjectRed-World-1.7.10-4.5.0.50.jar
+- TConstruct-1.7.10-1.7.0.build707.jar
+- thaumicenergistics-0.6.10b.jar
+
+Fixes:
+- Hunger Overhaul config
+- Ender Lily seeds
+- Chisel Blocks and physic
+
 # Version 0.2.0
 =================================================
 Mod updates / additions
