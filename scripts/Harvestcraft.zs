@@ -207,3 +207,19 @@ mods.ic2.Macerator.addRecipe(oreCrushedSalt * 16, oreSalt);
 mods.mekanism.Crusher.addRecipe(oreSalt, oreCrushedSalt * 16);
 mods.railcraft.RockCrusher.addRecipe(oreSalt, false, false, [oreCrushedSalt * 16, itemRockSalt, dustStone * 2], [1, 0.4, 1]);
 mods.gregtech.ForgeHammer.addRecipe(oreCrushedSalt * 8, oreSalt, 16, 10);
+
+# Milk
+var milkFresh = <harvestcraft:freshmilkItem>;
+var bucketMilk = <minecraft:milk_bucket>;
+var clayBucketMilk = <IguanaTweaksTConstruct:clayBucketMilk>;
+var florbMilk = <ThermalExpansion:florb>.withTag({Fluid: "milk"});
+var bottleGregMilk = <gregtech:gt.metaitem.02:32136>;
+var bottleMilk = <MineFactoryReloaded:item.mfr.milkbottle>;
+
+recipes.remove(milkFresh);
+
+recipes.addShapeless(milkFresh * 4, [bucketMilk]);
+recipes.addShapeless(milkFresh * 4, [clayBucketMilk]);
+recipes.addShapeless(milkFresh * 4, [florbMilk]);
+recipes.addShapeless(milkFresh * 4, [bottleMilk]);
+recipes.addShapeless(milkFresh * 1, [bottleGregMilk]);
