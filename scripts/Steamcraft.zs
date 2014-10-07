@@ -34,5 +34,12 @@ recipes.addShaped(<Steamcraft:exosuitPlate:2>, [
     [<ore:plateIron>, <ore:plateIron>, null]
 ]);
 
+recipes.remove(<Steamcraft:canister>);
+recipes.addShaped(<Steamcraft:canister>,[
+    [<ore:nuggetIron>,null,<ore:nuggetIron>],
+    [<ore:nuggetIron>,null,<ore:nuggetIron>], 
+    [<ore:nuggetIron>, <ore:nuggetIron>,<ore:nuggetIron>]
+]);
+
 # TConstruct Smelting
 mods.tconstruct.Smeltery.addMelting(<Steamcraft:steamcraftOre:1>, <liquid:molten.zinc> * 288, 200);
