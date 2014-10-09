@@ -1,7 +1,6 @@
 # ToDo
 * Cardboard Box Blacklist überarbeiten
-* Wiki erweitern
-* Greg Erze in TiC Schmelze schmelzbar machen
+* Wiki erweitern (@Sepp)
 * Essential Commands anpassen
 
 
@@ -17,3 +16,5 @@
 * Stäbe in TiC Schmelze herstellbar machen
 * Platten aus Schmiede etwas verteuern
 * Platten wieder in Schmelze verarbeitbar
+* Greg Erze in TiC Schmelze schmelzbar machen
+* 
