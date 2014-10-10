@@ -1,4 +1,20 @@
 Changelog: 
+# Version 0.2.3
+=================================================
+Mod updates / additions
+- BigReactors-0.4.0rc10.jar
+- CodeChickenCore-1.7.10-1.0.4.29-universal.jar
+- forestry_1.7.10-3.1.1.240-unstable.jar
+- HydCraft-1.7.10-2.0.76-universal.jar
+- IguanaTinkerTweaks-1.7.10-2.0.6.jar
+- industrialcraft-2-2.2.648-experimental.jar
+- k4lib-1.7.10-0.1.15-universal.jar
+- NotEnoughItems-1.7.10-1.0.3.62-universal.jar
+- TConstruct-1.7.10-1.7.0.build731.jar
+Changelog: 
+- Added IC2 RE Battery recipe
+- Changed recipes for Infusion Stone
+- Enabled salt from water bucket recipe
 
 # Version 0.2.2
 =================================================

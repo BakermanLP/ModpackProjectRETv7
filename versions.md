@@ -1,5 +1,3 @@
-## forge
-forge-1.7.10-10.13.1.1217-universal.zip
 ## mods
 * AOBD-2.2.4.jar
 * AppleCore-mc1.7.10-1.0.0.jar
@@ -11,11 +9,11 @@ forge-1.7.10-10.13.1.1217-universal.zip
 * bdlib-mc1710-1.4.4.21.jar
 * BetterChests-1.7.10-1.1.1.5.jar
 * BiblioCraft[v1.8.2][MC1.7.10].jar
-* BigReactors-0.4.0rc9.jar
+* BigReactors-0.4.0rc10.jar
 * buildcraft-6.1.1-489.jar
 * Carpenter's Blocks v3.3.0 - MC 1.7.10.jar
 * Chisel-1.7.10-1.5.7.jar
-* CodeChickenCore-1.7.10-1.0.3.28-universal.jar
+* CodeChickenCore-1.7.10-1.0.4.29-universal.jar
 * CoFHCore-[1.7.10]3.0.0B6-32.jar
 * CoFHLib-[1.7.10]1.0.0B6-26.jar
 * Computronics-1.7.10-1.1.0.jar
@@ -33,7 +31,7 @@ forge-1.7.10-10.13.1.1217-universal.zip
 * extrautilities-1.1.0k.jar
 * Factorization-1.7.10-0.8.88.2.jar
 * FlaxbeardsSteamPower-1.7.10-0.26.2.jar
-* forestry_1.7.10-3.1.0.231-unstable.jar
+* forestry_1.7.10-3.1.1.240-unstable.jar
 * Ganys End-1.8.2.jar
 * Ganys Nether-1.7.5.jar
 * Ganys Surface-1.9.2.jar
@@ -41,14 +39,14 @@ forge-1.7.10-10.13.1.1217-universal.zip
 * generators-mc1710-0.9.1.12.jar
 * gregtech_1.7.10-5.05.10.jar
 * HungerOverhaul-1.7.10-beta.3.jenkins32.jar
-* HydCraft-1.7.10-2.0.71-universal.jar
-* IguanaTinkerTweaks-1.7.10-2.0.2.69.jar
-* industrialcraft-2-2.2.647-experimental.jar
+* HydCraft-1.7.10-2.0.76-universal.jar
+* IguanaTinkerTweaks-1.7.10-2.0.6.jar
+* industrialcraft-2-2.2.648-experimental.jar
 * InGameInfoXML-1.7.10-2.8.1.62-universal.jar
 * INpureCore-[1.7.10]1.0.0B2-4.jar
 * InventoryTweaks-1.59-dev-152.jar
 * Jabba-1.1.4_1.7.10.jar
-* k4lib-1.7.10-0.1.10-universal.jar
+* k4lib-1.7.10-0.1.15-universal.jar
 * LunatriusCore-1.7.10-1.1.2.14-universal.jar
 * magicalcrops-1.7.10_0.1.jar
 * malisiscore-1.7.10-0.9.7.jar
@@ -65,7 +63,7 @@ forge-1.7.10-10.13.1.1217-universal.zip
 * neiaddons-mc1710-1.12.2.9.jar
 * NEIPlugins-MC1.7.10-1.1.0.11-unofficial.jar
 * NetherOres-[1.7.10]2.3.0RC3-84.jar
-* NotEnoughItems-1.7.10-1.0.3.60-universal.jar
+* NotEnoughItems-1.7.10-1.0.3.62-universal.jar
 * ObsidiPlates-1.7.10-universal-3.0.0.18.jar
 * OpenBlocks-1.7.10-1.3-snapshot-434.jar
 * OpenComponents-MC1.7.10-0.2.0.22-universal.jar
@@ -90,7 +88,6 @@ forge-1.7.10-10.13.1.1217-universal.zip
 * Railcraft_1.7.10-9.3.3.0.jar
 * RecStatusMod-1.7.10-16.3383c7c.jar
 * RedstoneArsenal-[1.7.10]1.1.0B4-10.jar
-* Schematica-1.7.10-1.7.2.96-universal.jar
 * SimplyJetpacks-MC1.7.10-1.1.4.jar
 * SpiceOfLife-mc1.7.10-1.2.1.jar
 * Stackie-1.7.10-1.5.1.28-universal.jar
@@ -98,8 +95,8 @@ forge-1.7.10-10.13.1.1217-universal.zip
 * StevesFactoryManagerA93.jar
 * StevesWorkshop-0.5.1.jar
 * TabbyChat-1.7.10-1.11.1.65-fml.jar
-* TConstruct-1.7.10-1.7.0.build727.jar
-* Thaumcraft-1.7.10-4.2.1.2.jar
+* TConstruct-1.7.10-1.7.0.build731.jar
+* Thaumcraft-1.7.10-4.2.0.1.jar
 * thaumicenergistics-0.6.10b.jar
 * ThermalExpansion-[1.7.10]4.0.0B5-13.jar
 * ThermalFoundation-[1.7.10]1.0.0B3-8.jar
