@@ -1,4 +1,44 @@
 Changelog: 
+# Version 0.3.0
+=================================================
+Mod updates / additions
+- forge-1.7.10-10.13.1.1217-universal.jar
+
+- AOBD-2.2.5.jar
+- AromaBackup-1.7.10-0.0.0.5.jar
+- bdlib-mc1710-1.5.0.28.jar
+- EnderIO-1.7.10-2.1.0.223.jar
+- Flaxbeard'sSteamPower-1.7.10-0.26.4.zip
+- FML-Multipart-autoload-0.1.zip
+- forestry_1.7.10-3.1.1.244-unstable.jar
+- gendustry-mc1710-1.4.0.35.jar
+- generators-mc1710-0.9.3.18.jar
+- gregtech_1.7.10-5.05.12.jar
+- HydCraft-1.7.10-2.0.77-universal.jar
+- industrialcraft-2-2.2.650-experimental.jar
+- k4lib-1.7.10-0.1.17-universal.jar
+- malisiscore-1.7.10-0.9.8.jar
+- malisisdoors-1.7.10-1.2.jar
+- MineTweaker3-1.7.10-3.0.9.jar
+- natura-1.7.10-94.c2b7e96.jar
+- OpenBlocks-1.7.10-1.3-snapshot-435.jar
+- OpenComponents-MC1.7.10-0.2.1.25-universal.jar
+- OpenComputers-MC1.7.10-1.4.0.180-dev-universal.jar
+- OpenModsLib-1.7.10-0.6-snapshot-225.jar
+- pressure-mc1710-0.9.6.36.jar
+- RecStatusMod-1.7.10-17.43c36c1.jar
+- SpiceOfLife-mc1.7.10-1.2.2.jar
+- TConstruct-1.7.10-1.7.0.build739.jar
+- Thaumcraft-1.7.10-4.2.1.3.jar
+
+Fixes:
+- Malisis door client crash
+- Food container in spice of life
+
+Changes:
+- TE Sawmill produces sticks
+- reanabled wood and stone hoe
+
 # Version 0.2.3
 =================================================
 Mod updates / additions
