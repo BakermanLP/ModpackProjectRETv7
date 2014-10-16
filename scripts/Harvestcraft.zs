@@ -223,3 +223,7 @@ recipes.addShapeless(milkFresh * 4, [clayBucketMilk]);
 recipes.addShapeless(milkFresh * 4, [florbMilk]);
 recipes.addShapeless(milkFresh * 4, [bottleMilk]);
 recipes.addShapeless(milkFresh * 1, [bottleGregMilk]);
+
+# Flour
+var flour = <ore:dustWheat>;
+flour.add(<harvestcraft:flourItem>);
