@@ -1,6 +1,6 @@
 var flour = <ore:dustWheat>;
 var milk = <ore:listAllmilk>;
-var sugar = <ore:dustSugar>;
+var sugar = <ore:Sugar>;
 var egg = <ore:listAllegg>;
 
 # Cake
