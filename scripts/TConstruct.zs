@@ -45,6 +45,20 @@ var blockPlatinum = <ThermalFoundation:Storage:5>;
 var blockElectrum = <ThermalFoundation:Storage:7>;
 var blockInvar = <ThermalFoundation:Storage:8>;
 
+var gearIron = <gregtech:gt.metaitem.02:31032>;
+var gearGold = <gregtech:gt.metaitem.02:31086>;
+var gearCopper = <gregtech:gt.metaitem.02:31035>;
+var gearTin = <gregtech:gt.metaitem.02:31057>;
+var gearBronze = <gregtech:gt.metaitem.02:31300>;
+var gearAluminium = <gregtech:gt.metaitem.02:31019>;
+var gearSteel = <gregtech:gt.metaitem.02:31305>;
+var gearLead = <gregtech:gt.metaitem.02:31089>;
+var gearSilver = <gregtech:gt.metaitem.02:31054>;
+var gearNickel = <gregtech:gt.metaitem.02:31034>;
+var gearPlatinum = <gregtech:gt.metaitem.02:31085>;
+var gearElectrum = <gregtech:gt.metaitem.02:31303>;
+var gearInvar = <gregtech:gt.metaitem.02:31302>;
+
 # Knapsack
 recipes.removeShaped(<TConstruct:knapsack>);
 
@@ -74,18 +88,24 @@ mods.tconstruct.Smeltery.addAlloy(<liquid:molten.redalloy> * 9, [<liquid:redston
 mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:17308>, <liquid:molten.redalloy> * 288, null, false, 20);
 mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11308>, <liquid:molten.redalloy> * 144, <TConstruct:metalPattern>, false, 20);
 
-# Platten
+# Plates/Blocks/Gears
 
 var plates = [plateIron, plateGold, plateCopper, plateTin, plateBronze, plateAluminium, plateSteel, plateLead, plateSilver, plateNickel, platePlatinum, plateElectrum, plateInvar] as IItemStack[];
 var liquids = [liquidIron, liquidGold, liquidCopper, liquidTin, liquidBronze, liquidAluminium, liquidSteel, liquidLead, liquidSilver, liquidNickel, liquidPlatinum, liquidElectrum, liquidInvar] as ILiquidStack[];
 var blocks = [blockIron, blockGold, blockCopper, blockTin, blockBronze, blockAluminium, blockSteel, blockLead, blockSilver, blockNickel, blockPlatinum, blockElectrum, blockInvar] as IItemStack[];
+var gears = [gearIron, gearGold, gearCopper, gearTin, gearBronze, gearAluminium, gearSteel, gearLead, gearSilver, gearNickel, gearPlatinum, gearElectrum, gearInvar] as IItemStack[];
+
+var moldPlate = <gregtech:gt.metaitem.01:32301>;
+var moldGear = <gregtech:gt.metaitem.01:32303>;
 
 for i, plate in plates {
     var liquid = liquids[i];
     var block = blocks[i];
+    var gear = gears[i];
 
-    mods.tconstruct.Casting.addTableRecipe(plate, liquid * 288, null, false, 20);
+    mods.tconstruct.Casting.addTableRecipe(plate, liquid * 288, moldPlate, false, 20);
     mods.tconstruct.Smeltery.addMelting(plate, liquid * 144, 200, block);
+    mods.tconstruct.Casting.addTableRecipe(gear, liquid * 1152, moldGear, false, 20);
 }
 
 # Sticks
@@ -120,4 +140,4 @@ for i, stick in sticks {
 
 # Flaschen
 mods.tconstruct.Casting.addTableRecipe(<minecraft:glass_bottle>, <liquid:glass.molten> * 1000, <IguanaTweaksTConstruct:clayBucketUnfired>, true, 20);
-
+mods.tconstruct.Casting.addTableRecipe(<minecraft:glass_bottle>, <liquid:glass.molten> * 1000, <gregtech:gt.metaitem.01:32305>, false, 20);
