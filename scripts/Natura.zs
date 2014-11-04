@@ -61,8 +61,9 @@ for i, log in myLogs {
 }
 
 # Bread
+var flour = <harvestcraft:flourItem>;
+var barley = <Natura:barleyFood>;
+var mortar = <harvestcraft:mortarandpestleItem>;
+
 furnace.remove(<minecraft:bread:1>, <Natura:barleyFood:*>);
-furnace.addRecipe(<minecraft:bread>, <Natura:barleyFood:1>, 0.5);
-furnace.addRecipe(<minecraft:bread>, <Natura:barleyFood:2>, 0.5);
-<ore:dustWheat>.add(<Natura:barleyFood:1>);
-<ore:dustWheat>.add(<Natura:barleyFood:2>);
+recipes.addShapeless(flour, [mortar, barley]);
