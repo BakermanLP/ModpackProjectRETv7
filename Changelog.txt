@@ -1,4 +1,61 @@
 Changelog: 
+# Version 0.4.1
+=================================================
+Mod additions
+- ae2stuff-mc1710-0.1.0.4.jar
+- HelpFixer-1.0.1.jar
+- NEIIntegration-MC1.7.10-1.0.0.jar
+- ThaumicNEI-1.7.10-0.1.2.jar
+Mod updates / additions
+- AppleCore-mc1.7.10-1.0.1.jar
+- Aroma1997Core-1.7.10-1.0.2.11.jar
+- Aroma1997s-Dimensional-World-1.7.10-1.1.0.0.jar
+- AsieLib-1.7.10-0.3.2.jar
+- bdlib-mc1710-1.5.1.32.jar
+- BetterChests-1.7.10-1.1.1.7.jar
+- BigReactors-0.4.0rc11.jar
+- buildcraft-6.1.5.jar
+- Carpenter's Blocks v3.3.0.1 - MC 1.7.10.jar
+- Computronics-1.7.10-1.2.0.jar
+- EnderIO-1.7.10-2.1.8.260.jar
+- EnderStorage-1.7.10-1.4.5.25-universal.jar
+- ExtraCells-1.7.10-2.1.12b11.jar
+- forestry_1.7.10-3.1.1.255-unstable.jar
+- Ganys End-1.8.3.jar
+- Ganys Surface-1.9.3.jar
+- gendustry-mc1710-1.4.1.43.jar
+- generators-mc1710-0.9.4.24.jar
+- gregtech_1.7.10-5.06.02.jar
+- HungerOverhaul-1.7.10-beta.3.jenkins37.jar
+- InGameInfoXML-1.7.10-2.8.1.64-universal.jar
+- INpureCore-[1.7.10]1.0.0B5-11.jar
+- Mantle-1.7.10-0.3.2.jenkins186.jar
+- Mekanism-1.7.10-7.1.1.121.jar
+- MekanismGenerators-1.7.10-7.1.1.121.jar
+- MekanismTools-1.7.10-7.1.1.121.jar
+- neiaddons-mc1710-1.12.3.11.jar
+- NotEnoughItems-1.7.10-1.0.3.66-universal.jar
+- OpenBlocks-1.7.10-1.3-snapshot-467.jar
+- OpenComputers-MC1.7.10-1.4.0.215-dev-universal.jar
+- OpenLights-MC1.7.10-OC1.4-0.1.0.18.jar
+- OpenModsLib-1.7.10-0.6-snapshot-239.jar
+- OpenPrinter-MC1.7.10-OC1.4-0.1.0.102.jar
+- PneumaticCraft-1.7.10-1.3.1-31-universal.jar
+- PowerConverters-1.7.10-3.0.1.37.jar
+- pressure-mc1710-1.0.1.47.jar
+- TConstruct-1.7.10-1.7.1.build775.jar
+- thaumicenergistics-0.7.3b.jar
+- TMechworks-1.7.10-83.0cb40b0.jar
+- Translocator-1.7.10-1.1.1.13-universal.jar
+
+Changes:
+- Natura barley recipes
+- Inventory Manager recipe changed
+- GT-Molds work now in TC Smeltery
+- "Node in a jar" can fly now :-)
+- deactivated coin recipes
+- Many fixes by newer mod versions
+
 # Version 0.4.0
 =================================================
 Forge update:
