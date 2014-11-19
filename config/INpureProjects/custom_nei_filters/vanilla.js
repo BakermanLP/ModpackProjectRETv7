@@ -4,4 +4,5 @@ if (vanilla_enabled){
         // Vanilla items and blocks have special handlers.
 	    NEI.hide_block("minecraft", block);
     }
+    NEI.override("minecraft:spawn_egg", [0]);
 }

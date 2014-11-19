@@ -214,7 +214,7 @@ var bucketMilk = <minecraft:milk_bucket>;
 var clayBucketMilk = <IguanaTweaksTConstruct:clayBucketMilk>;
 var florbMilk = <ThermalExpansion:florb>.withTag({Fluid: "milk"});
 var bottleGregMilk = <gregtech:gt.metaitem.02:32136>;
-var bottleMilk = <MineFactoryReloaded:item.mfr.milkbottle>;
+var bottleMilk = <MineFactoryReloaded:milkbottle>;
 
 recipes.remove(milkFresh);
 
