@@ -1,4 +1,26 @@
 Changelog: 
+# Version 0.4.6
+=================================================
+Mod updates / additions
+- forestry_1.7.10-3.1.1.284-unstable.jar
+- gendustry-fu-mc1710-1.4.2.2.jar
+- malisisdoors-1.7.10-1.3.1.jar
+- NEIIntegration-MC1.7.10-1.0.1.jar
+- PneumaticCraft-1.7.10-1.4.1-38-universal.jar
+- ProjectRed-1.7.10-4.5.6.57-Base.jar
+- ProjectRed-1.7.10-4.5.6.57-Compat.jar
+- ProjectRed-1.7.10-4.5.6.57-Integration.jar
+- ProjectRed-1.7.10-4.5.6.57-Lighting.jar
+- ProjectRed-1.7.10-4.5.6.57-Mechanical_beta.jar
+- ProjectRed-1.7.10-4.5.6.57-World.jar
+- TConstruct-1.7.10-1.7.1.build789.jar
+- thaumicenergistics-0.8.3b.jar
+
+Fixed: #142 - Error beim Oeffnen einer Gendustry Apiary unter Energie
+Fixed: #144 - Pneumaticraft Security Station
+
+Changelog: 
+# Version 0.4.5
 =================================================
 Forge Update
 - forge-1.7.10-10.13.2.1236-universal.jar

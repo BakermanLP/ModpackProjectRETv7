@@ -1,5 +1,3 @@
-## forge
-* forge-1.7.10-10.13.2.1236-universal.zip
 ## mods
 * ae2stuff-mc1710-0.1.0.4.jar
 * AOBD-2.3.1.jar
@@ -33,11 +31,11 @@
 * extrautilities-1.2.0.jar
 * Factorization-1.7.10-0.8.88.7.jar
 * FlaxbeardsSteamPower-1.7.10-0.27.1.jar
-* forestry_1.7.10-3.1.1.283-unstable.jar
+* forestry_1.7.10-3.1.1.284-unstable.jar
 * Ganys End-1.8.4.jar
 * Ganys Nether-1.7.7.jar
 * Ganys Surface-1.9.3.jar
-* gendustry-mc1710-1.4.1.43.jar
+* gendustry-fu-mc1710-1.4.2.2.jar
 * generators-mc1710-0.9.4.24.jar
 * gregtech_1.7.10-5.06.04.jar
 * HelpFixer-1.0.1.jar
@@ -54,7 +52,7 @@
 * LunatriusCore-1.7.10-1.1.2.14-universal.jar
 * magicalcrops-1.7.10_0.1.jar
 * malisiscore-1.7.10-0.10.2.jar
-* malisisdoors-1.7.10-1.3.0.jar
+* malisisdoors-1.7.10-1.3.1.jar
 * Mantle-1.7.10-0.3.2.jenkins186.jar
 * Mekanism-1.7.10-7.1.1.132.jar
 * MekanismGenerators-1.7.10-7.1.1.132.jar
@@ -65,7 +63,7 @@
 * ModTweaker-1.7.X-0.6-22.jar
 * natura-1.7.10-97.29b3426.jar
 * neiaddons-mc1710-1.12.3.11.jar
-* NEIIntegration-MC1.7.10-1.0.0.jar
+* NEIIntegration-MC1.7.10-1.0.1.jar
 * NetherOres-[1.7.10]2.3.0RC3-89.jar
 * NotEnoughItems-1.7.10-1.0.3.67-universal.jar
 * ObsidiPlates-1.7.10-universal-3.0.0.18.jar
@@ -78,16 +76,16 @@
 * Opis-1.2.3_1.7.10.jar
 * Pam's DesertCraft 1.7.10a.zip
 * Pam's HarvestCraft 1.7.10c.jar
-* PneumaticCraft-1.7.10-1.4.0-36-universal.jar
+* PneumaticCraft-1.7.10-1.4.1-38-universal.jar
 * PowerConverters-1.7.10-3.0.2.38.jar
 * pressure-mc1710-1.0.1.47.jar
 * ProgressiveAutomation-1.7.10-1.5.0.jar
-* ProjectRed-1.7.10-4.5.4.55-Base.jar
-* ProjectRed-1.7.10-4.5.4.55-Compat.jar
-* ProjectRed-1.7.10-4.5.4.55-Integration.jar
-* ProjectRed-1.7.10-4.5.4.55-Lighting.jar
-* ProjectRed-1.7.10-4.5.4.55-Mechanical_beta.jar
-* ProjectRed-1.7.10-4.5.4.55-World.jar
+* ProjectRed-1.7.10-4.5.6.57-Base.jar
+* ProjectRed-1.7.10-4.5.6.57-Compat.jar
+* ProjectRed-1.7.10-4.5.6.57-Integration.jar
+* ProjectRed-1.7.10-4.5.6.57-Lighting.jar
+* ProjectRed-1.7.10-4.5.6.57-Mechanical_beta.jar
+* ProjectRed-1.7.10-4.5.6.57-World.jar
 * Railcraft_1.7.10-9.4.0.0.jar
 * RecStatusMod-1.7.10-17.43c36c1.jar
 * RedstoneArsenal-[1.7.10]1.1.0RC1-19.jar
@@ -98,9 +96,9 @@
 * StevesFactoryManagerA93.jar
 * StevesWorkshop-0.5.1.jar
 * TabbyChat-1.7.10-1.11.1.65-fml.jar
-* TConstruct-1.7.10-1.7.1.build788.jar
+* TConstruct-1.7.10-1.7.1.build789.jar
 * Thaumcraft-1.7.10-4.2.1.4.jar
-* thaumicenergistics-0.8.2b.jar
+* thaumicenergistics-0.8.3b.jar
 * ThaumicNEI-1.7.10-0.1.2.jar
 * ThermalExpansion-[1.7.10]4.0.0B6-16.jar
 * ThermalFoundation-[1.7.10]1.0.0B3-8.jar
