@@ -5,18 +5,20 @@
 * appliedenergistics2-rv1-stable-1.jar
 * Aroma1997Core-1.7.10-1.0.2.13.jar
 * Aroma1997s-Dimensional-World-1.7.10-1.1.0.1.jar
-* AsieLib-1.7.10-0.3.3.jar
+* AromaBackup-1.7.10-0.0.0.5.jar
+* AsieLib-1.7.10-0.3.4.jar
+* autopackager-1.5.2.jar
 * bdlib-mc1710-1.5.1.32.jar
 * BetterChests-1.7.10-1.1.1.8.jar
-* BiblioCraft[v1.9.0][MC1.7.10].jar
-* BigReactors-0.4.0rc11.jar
+* BiblioCraft[v1.9.1][MC1.7.10].jar
+* BigReactors-0.4.0A.jar
 * buildcraft-6.1.8.jar
-* Carpenter's Blocks v3.3.1 - MC 1.7.10.jar
+* Carpenter's Blocks v3.3.2 - MC 1.7.10.jar
 * Chisel-1.7.10-1.5.7.jar
 * CodeChickenCore-1.7.10-1.0.4.29-universal.jar
 * CoFHCore-[1.7.10]3.0.0B8-36.jar
 * CoFHLib-[1.7.10]1.0.0B7-29.jar
-* Computronics-1.7.10-1.3.0.jar
+* Computronics-1.7.10-1.3.2.jar
 * cookiecore-1.3.0.jar
 * CreeperCollateral-[1.7.10]1.0.0B2-5.jar
 * CustomOreGen-1.7.10-1.2.13.jar
@@ -25,61 +27,61 @@
 * Enchiridion-1.7.X-1.2b.jar
 * EnderIO-1.7.10-2.2.1.276.jar
 * EnderStorage-1.7.10-1.4.5.26-universal.jar
-* EnviroMine-v1.3.46.jar
+* EnviroMine-v1.3.50.jar
 * ExtraCells-1.7.10-2.1.13b13.jar
 * ExtraTiC-1.7.10-1.0.3.jar
 * extrautilities-1.2.0.jar
 * Factorization-1.7.10-0.8.88.7.jar
-* FlaxbeardsSteamPower-1.7.10-0.27.1.jar
-* forestry_1.7.10-3.1.1.284-unstable.jar
-* Ganys End-1.8.4.jar
+* FlaxbeardsSteamPower-1.7.10-0.27.2.jar
+* forestry_1.7.10-3.1.1.286-unstable.jar
+* Ganys End-1.8.5.jar
 * Ganys Nether-1.7.7.jar
 * Ganys Surface-1.9.3.jar
 * gendustry-fu-mc1710-1.4.2.2.jar
 * generators-mc1710-0.9.4.24.jar
 * gregtech_1.7.10-5.06.04.jar
-* HelpFixer-1.0.1.jar
+* HelpFixer-1.0.3.jar
 * HungerOverhaul-1.7.10-beta.3.jenkins37.jar
 * HydCraft-1.7.10-2.0.78-universal.jar
 * IguanaTinkerTweaks-1.7.10-2.0.6.jar
-* industrialcraft-2-2.2.650-experimental.jar
+* industrialcraft-2-2.2.654-experimental.jar
 * InGameInfoXML-1.7.10-2.8.1.67-universal.jar
 * INpureCore-[1.7.10]1.0.0B7-19.jar
 * InventoryTweaks-1.59-dev-156.jar
 * ironchest-1.7.10-6.0.62.742-universal.jar
+* IronChestMinecarts-1.0.0.jar
 * Jabba-1.1.4_1.7.10.jar
+* JourneyMap-Autoloader-5.0.0.jar
 * k4lib-1.7.10-0.1.18-universal.jar
 * LunatriusCore-1.7.10-1.1.2.14-universal.jar
 * magicalcrops-1.7.10_0.1.jar
 * malisiscore-1.7.10-0.10.2.jar
 * malisisdoors-1.7.10-1.3.1.jar
 * Mantle-1.7.10-0.3.2.jenkins186.jar
-* Mekanism-1.7.10-7.1.1.132.jar
-* MekanismGenerators-1.7.10-7.1.1.132.jar
-* MekanismTools-1.7.10-7.1.1.132.jar
-* MineFactoryReloaded-[1.7.10]2.8.0RC4-676.jar
+* Mekanism-1.7.10-7.1.1.133.jar
+* MekanismGenerators-1.7.10-7.1.1.133.jar
+* MekanismTools-1.7.10-7.1.1.133.jar
+* MineFactoryReloaded-[1.7.10]2.8.0RC5-694.jar
 * MineTweaker3-1.7.10-3.0.9C.jar
-* MobiusCore-1.2.3_1.7.10.jar
 * ModTweaker-1.7.X-0.6-22.jar
 * natura-1.7.10-97.29b3426.jar
 * neiaddons-mc1710-1.12.3.11.jar
 * NEIIntegration-MC1.7.10-1.0.1.jar
 * NetherOres-[1.7.10]2.3.0RC3-89.jar
-* NotEnoughItems-1.7.10-1.0.3.67-universal.jar
+* NotEnoughItems-1.7.10-1.0.3.68-universal.jar
 * ObsidiPlates-1.7.10-universal-3.0.0.18.jar
-* OpenBlocks-1.7.10-1.3-snapshot-491.jar
-* OpenComputers-MC1.7.10-1.4.0.232-dev-universal.jar
+* OpenBlocks-1.7.10-1.3-snapshot-498.jar
+* OpenComputers-MC1.7.10-1.4.0.11-universal.jar
 * OpenEye-0.6-1.7.10-snapshot-135.jar
 * OpenLights-MC1.7.10-OC1.4-0.1.0.18.jar
-* OpenModsLib-1.7.10-0.6-snapshot-259.jar
+* OpenModsLib-1.7.10-0.6-snapshot-263.jar
 * OpenPrinter-MC1.7.10-OC1.4-0.1.0.102.jar
-* Opis-1.2.3_1.7.10.jar
 * Pam's DesertCraft 1.7.10a.zip
 * Pam's HarvestCraft 1.7.10c.jar
 * PneumaticCraft-1.7.10-1.4.1-38-universal.jar
 * PowerConverters-1.7.10-3.0.2.38.jar
 * pressure-mc1710-1.0.1.47.jar
-* ProgressiveAutomation-1.7.10-1.5.0.jar
+* ProgressiveAutomation-1.7.10-1.5.2.jar
 * ProjectRed-1.7.10-4.5.6.57-Base.jar
 * ProjectRed-1.7.10-4.5.6.57-Compat.jar
 * ProjectRed-1.7.10-4.5.6.57-Integration.jar
@@ -96,9 +98,9 @@
 * StevesFactoryManagerA93.jar
 * StevesWorkshop-0.5.1.jar
 * TabbyChat-1.7.10-1.11.1.65-fml.jar
-* TConstruct-1.7.10-1.7.1.build789.jar
+* TConstruct-1.7.10-1.7.1.build791.jar
 * Thaumcraft-1.7.10-4.2.1.4.jar
-* thaumicenergistics-0.8.3b.jar
+* thaumicenergistics-0.8.4b.jar
 * ThaumicNEI-1.7.10-0.1.2.jar
 * ThermalExpansion-[1.7.10]4.0.0B6-16.jar
 * ThermalFoundation-[1.7.10]1.0.0B3-8.jar

@@ -1,4 +1,41 @@
 Changelog: 
+
+# Version 0.4.7
+=================================================
+Mod updates / additions
+- AsieLib-1.7.10-0.3.4.jar
+- autopackager-1.5.2.jar
+- BiblioCraft[v1.9.1][MC1.7.10].jar
+- BigReactors-0.4.0A.jar
+- Carpenter's Blocks v3.3.2 - MC 1.7.10.jar
+- Computronics-1.7.10-1.3.2.jar
+- EnviroMine-v1.3.50.jar
+- FlaxbeardsSteamPower-1.7.10-0.27.2.jar
+- forestry_1.7.10-3.1.1.286-unstable.jar
+- Ganys End-1.8.5.jar
+- HelpFixer-1.0.3.jar
+- industrialcraft-2-2.2.654-experimental.jar
+- IronChestMinecarts-1.0.0.jar
+- JourneyMap-Autoloader-5.0.0.jar
+- Mekanism-1.7.10-7.1.1.133.jar
+- MekanismGenerators-1.7.10-7.1.1.133.jar
+- MekanismTools-1.7.10-7.1.1.133.jar
+- MineFactoryReloaded-[1.7.10]2.8.0RC5-694.jar
+- NotEnoughItems-1.7.10-1.0.3.68-universal.jar
+- OpenBlocks-1.7.10-1.3-snapshot-498.jar
+- OpenComputers-MC1.7.10-1.4.0.11-universal.jar
+- OpenModsLib-1.7.10-0.6-snapshot-263.jar
+- ProgressiveAutomation-1.7.10-1.5.2.jar
+- TConstruct-1.7.10-1.7.1.build791.jar
+- thaumicenergistics-0.8.4b.jar
+
+Fixed: #146 endless plastic
+Fixed: #145 Mekanism recipes not shown
+Fixed: #109 error msg on filling bottles
+Fixed: #80 log warnings about mekanism
+Fixed: #61 betterchests and upgrades
+Fixed: #26 camel packs have there own durability
+
 # Version 0.4.6
 =================================================
 Mod updates / additions
@@ -19,7 +56,6 @@ Mod updates / additions
 Fixed: #142 - Error beim Oeffnen einer Gendustry Apiary unter Energie
 Fixed: #144 - Pneumaticraft Security Station
 
-Changelog: 
 # Version 0.4.5
 =================================================
 Forge Update
