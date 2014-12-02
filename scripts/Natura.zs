@@ -67,3 +67,6 @@ var mortar = <harvestcraft:mortarandpestleItem>;
 
 furnace.remove(<minecraft:bread:1>, <Natura:barleyFood:*>);
 recipes.addShapeless(flour, [mortar, barley]);
+
+# Barley Seeds
+recipes.addShapeless(<Natura:barley.seed>, [<Natura:barleyFood>]);
