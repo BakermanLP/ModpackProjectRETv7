@@ -152,25 +152,3 @@ mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11036>, <liquid:
 mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11031>, <liquid:molten.manganese> * 144, <TConstruct:metalPattern>, false, 20);
 mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11048>, <liquid:molten.molybdenum> * 144, <TConstruct:metalPattern>, false, 20);
 mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11058>, <liquid:molten.antimony> * 144, <TConstruct:metalPattern>, false, 20);
-
-## Recycling machines to liquid
-
-# bronze
-mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockmachines:100>, <liquid:bronze.molten> * 360, 400);
-mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockmachines:105>, <liquid:bronze.molten> * 504, 400);
-mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockmachines:112>, <liquid:bronze.molten> * 1008, 425);
-mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockmachines:115>, <liquid:bronze.molten> * 1008, 400);
-mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockmachines:118>, <liquid:bronze.molten> * 1008, 400);
-mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockmachines:109>, <liquid:bronze.molten> * 1008, 400);
-mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockmachines:108>, <liquid:bronze.molten> * 288, 400);
-mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockmachines:106>, <liquid:bronze.molten> * 864, 425);
-mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockmachines:103>, <liquid:bronze.molten> * 864, 425);
-# steel
-mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockmachines:101>, <liquid:steel.molten> * 360, 400);
-mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockmachines:102>, <liquid:steel.molten> * 504, 400);
-mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockmachines:113>, <liquid:steel.molten> * 1008, 425);
-mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockmachines:116>, <liquid:steel.molten> * 1008, 400);
-mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockmachines:119>, <liquid:steel.molten> * 1008, 400);
-mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockmachines:110>, <liquid:steel.molten> * 1008, 400);
-mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockmachines:107>, <liquid:steel.molten> * 864, 425);
-mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockmachines:104>, <liquid:steel.molten> * 864, 425);
