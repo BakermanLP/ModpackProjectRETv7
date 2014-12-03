@@ -141,3 +141,35 @@ for i, stick in sticks {
 # Flaschen
 mods.tconstruct.Casting.addTableRecipe(<minecraft:glass_bottle>, <liquid:glass.molten> * 1000, <IguanaTweaksTConstruct:clayBucketUnfired>, true, 20);
 mods.tconstruct.Casting.addTableRecipe(<minecraft:glass_bottle>, <liquid:glass.molten> * 1000, <gregtech:gt.metaitem.01:32305>, false, 20);
+
+##Thaumacrft Aspecte
+
+#Pattern
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern0>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:1>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:2>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:3>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:4>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:5>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:6>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:7>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:8>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:9>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:10>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:11>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:12>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:13>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:14>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:15>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:16>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:17>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:18>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:19>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:20>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:21>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:22>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:23>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:24>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:25>, "arbor 2");
+
+#Tools

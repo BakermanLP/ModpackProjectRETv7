@@ -10,3 +10,6 @@ recipes.addShaped(<minecraft:cake>, [
     [sugar, egg, sugar], 
     [flour, flour, flour]
 ]);
+
+#Thaumacrft Aspecte
+mods.thaumcraft.Aspects.add(<minecraft:iron_bars>, "perditio 2, metallum 3");
