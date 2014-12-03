@@ -1,4 +1,4 @@
-#Thaumcraft Aspects
+#Chisel Aspects
 
 mods.thaumcraft.Aspects.add(<chisel:chisel.cobblestone:*>, "terra 2");
 mods.thaumcraft.Aspects.add(<chisel:chisel.stoneBrick:*>, "terra 2");
