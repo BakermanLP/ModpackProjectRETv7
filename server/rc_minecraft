@@ -20,10 +20,15 @@ USERNAME="minecraft"
 MCSTORE="/home/sync"
 MCPATH="/home/minecraft"
 CPU_COUNT=1
-INVOCATION="java -server -XX:MaxPermSize=256M -Xms2048M -Xmx2048M -jar $JARFILE -o false"
+INVOCATION="java -server \
+-Dfml.doNotBackup \
+-XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSIncrementalPacing -XX:ParallelGCThreads=2 -XX:+AggressiveOpts \
+-XX:MaxPermSize=512M -Xms6144M -Xmx6144M -jar $JARFILE"
 BACKUPPATH="/home/backups/"
-WORLD=lobby
-OLDBACKUPS=10
+WORLD=world
+OLDBACKUPS=12
+
+TZ='Europe/Berlin'; export TZ
 
 as_user() {
   if [ "`whoami`" == "$USERNAME" ] ; then
@@ -154,10 +159,43 @@ mc_disksavehalt() {
    fi
 }
 
+mc_preparestart() {
+   echo "Preparing mods and config files"
+   if [ ! -f $MCPATH/$JARFILE ]; then 
+     echo "Error.. Minecraft not in ram"
+   else
+     [ -d "disabled" ] || mkdir disabled
+     [ -f mods/whatsthispack*.jar ] && mv mods/whatsthispack*.jar disabled/
+     [ -f mods/TabbyChat-*.jar ]  && mv mods/TabbyChat-*.jar disabled/
+     [ -f mods/AromaBackup*.jar ]  && mv mods/AromaBackup*.jar disabled/
+     [ -f mods/fastcraft-*.jar ]  && mv mods/fastcraft-*.jar disabled/
+     [ -f /home/backups/PlayerActivity.log ]  && mv /home/backups/PlayerActivity.log /home/backups/PlayerActivity-`date +%F-%H%M%S`.log \
+         && gzip /home/backups/PlayerActivity-`date +%F-%H%M%S`.log && touch /home/backups/PlayerActivity.log
+     perl -pi -e 's#finiteWater=true#finiteWater=false#' config/CodeChickenCore.cfg
+     perl -pi -e 's#S:location=.*$#S:location=../backups#' config/aroma1997/AromaBackup.cfg
+     perl -pi -e 's#I:delay=30#I:delay=0#' config/aroma1997/AromaBackup.cfg
+     perl -pi -e 's#B:onShutdown=true#B:onShutdown=false#' config/aroma1997/AromaBackup.cfg
+     perl -pi -e 's#B:onStartup=true#B:onStartup=false#' config/aroma1997/AromaBackup.cfg
+     perl -pi -e 's#B:LoggingPlayerActivity=false#B:LoggingPlayerActivity=true#' config/GregTech/GregTech.cfg
+   fi
+}
+
+# make pissible symlink support
+# ln -s /etc/init.d/minecraft start.sh
+# ln -s /etc/init.d/minecraft restart.sh
+# ln -s /etc/init.d/minecraft stop.sh
+# ln -s /etc/init.d/minecraft backup.sh
+
+if [ "$1" == "" ]; then
+    parameter=`basename $0 | sed 's/\..*//'`
+else
+    parameter=$1
+fi
 
 #Start-Stop here
-case "$1" in
+case "$parameter" in
   start)
+    mc_preparestart
     mc_start
     ;;
   stop)
@@ -167,13 +205,10 @@ case "$1" in
   restart)
     mc_stop
     mc_disksavehalt
+    mc_preparestart
     mc_start
     ;;
   update)
-    mc_stop
-    mc_backup
-    mc_update
-    mc_start
     ;;
   backup)
     mc_saveoff
