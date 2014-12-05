@@ -11,7 +11,9 @@ import minetweaker.item.IItemStack;
 import minetweaker.liquid.ILiquidStack;
 
 ## Compatibility Ores to Liquid to ingots
+
 # melting
+
 # Beryllium
 mods.tconstruct.Smeltery.addMelting( <gregtech:gt.blockores:8>   , <liquid:molten.beryllium> * 288 , 200);
 mods.tconstruct.Smeltery.addMelting( <gregtech:gt.blockores:1008> , <liquid:molten.beryllium> * 288 , 200);
@@ -152,3 +154,89 @@ mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11036>, <liquid:
 mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11031>, <liquid:molten.manganese> * 144, <TConstruct:metalPattern>, false, 20);
 mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11048>, <liquid:molten.molybdenum> * 144, <TConstruct:metalPattern>, false, 20);
 mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11058>, <liquid:molten.antimony> * 144, <TConstruct:metalPattern>, false, 20);
+
+# chemical injection chamber
+
+# Cassiterite
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:824> , <gas:hydrogenChloride> , <Mekanism:Shard:4> * 16);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:1824> , <gas:hydrogenChloride> , <Mekanism:Shard:4> * 16);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:2824> , <gas:hydrogenChloride> , <Mekanism:Shard:4> * 16);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:3824> , <gas:hydrogenChloride> , <Mekanism:Shard:4> * 16);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:4824> , <gas:hydrogenChloride> , <Mekanism:Shard:4> * 16);
+
+# Pyrite
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:834> , <gas:hydrogenChloride> , <Mekanism:Shard:3> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:1834> , <gas:hydrogenChloride> , <Mekanism:Shard:3> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:2834> , <gas:hydrogenChloride> , <Mekanism:Shard:3> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:3834> , <gas:hydrogenChloride> , <Mekanism:Shard:3> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:4823> , <gas:hydrogenChloride> , <Mekanism:Shard:3> * 4);
+
+# Tetrahedrite
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:840> , <gas:hydrogenChloride> , <Mekanism:Shard:3> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:1840> , <gas:hydrogenChloride> , <Mekanism:Shard:3> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:2840> , <gas:hydrogenChloride> , <Mekanism:Shard:3> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:3840> , <gas:hydrogenChloride> , <Mekanism:Shard:3> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:4840> , <gas:hydrogenChloride> , <Mekanism:Shard:3> * 4);
+
+# Chalcopyrite
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:855> , <gas:hydrogenChloride> , <Mekanism:Shard:3> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:1855> , <gas:hydrogenChloride> , <Mekanism:Shard:3> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:2855> , <gas:hydrogenChloride> , <Mekanism:Shard:3> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:3855> , <gas:hydrogenChloride> , <Mekanism:Shard:3> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:4855> , <gas:hydrogenChloride> , <Mekanism:Shard:3> * 4);
+
+# Malachite
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:871> , <gas:hydrogenChloride> , <Mekanism:Shard:3> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:1871> , <gas:hydrogenChloride> , <Mekanism:Shard:3> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:2871> , <gas:hydrogenChloride> , <Mekanism:Shard:3> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:3871> , <gas:hydrogenChloride> , <Mekanism:Shard:3> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:4871> , <gas:hydrogenChloride> , <Mekanism:Shard:3> * 4);
+
+# Garnierite
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:906> , <gas:hydrogenChloride> , <aobd:shardNickel> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:1906> , <gas:hydrogenChloride> , <aobd:shardNickel> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:2906> , <gas:hydrogenChloride> , <aobd:shardNickel> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:3906> , <gas:hydrogenChloride> , <aobd:shardNickel> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:4906> , <gas:hydrogenChloride> , <aobd:shardNickel> * 4);
+
+# Brown Limonite Ore
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:930> , <gas:hydrogenChloride> , <Mekanism:Shard> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:1930> , <gas:hydrogenChloride> , <Mekanism:Shard> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:2930> , <gas:hydrogenChloride> , <Mekanism:Shard:3> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:3930> , <gas:hydrogenChloride> , <Mekanism:Shard:3> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:4930> , <gas:hydrogenChloride> , <Mekanism:Shard:3> * 4);
+
+# Basaltic Mineral Sand
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:935> , <gas:hydrogenChloride> , <Mekanism:Shard> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:1935> , <gas:hydrogenChloride> , <Mekanism:Shard> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:2935> , <gas:hydrogenChloride> , <Mekanism:Shard> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:3935> , <gas:hydrogenChloride> , <Mekanism:Shard> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:4935> , <gas:hydrogenChloride> , <Mekanism:Shard> * 4);
+
+# Granitic Mineral Sand
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:936> , <gas:hydrogenChloride> , <Mekanism:Shard> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:1936> , <gas:hydrogenChloride> , <Mekanism:Shard> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:2936> , <gas:hydrogenChloride> , <Mekanism:Shard> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:3936> , <gas:hydrogenChloride> , <Mekanism:Shard> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:4936> , <gas:hydrogenChloride> , <Mekanism:Shard> * 4);
+
+# Cassiterite Sand (don't know why it is 4x tin in original recipes)
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:937> , <gas:hydrogenChloride> , <Mekanism:Shard:4> * 16);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:1937> , <gas:hydrogenChloride> , <Mekanism:Shard:4> * 16);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:2937> , <gas:hydrogenChloride> , <Mekanism:Shard:4> * 16);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:3937> , <gas:hydrogenChloride> , <Mekanism:Shard:4> * 16);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:4937> , <gas:hydrogenChloride> , <Mekanism:Shard:4> * 16);
+
+# Pyrolusite
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:943> , <gas:hydrogenChloride> , <aobd:shardMagnesium> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:1943> , <gas:hydrogenChloride> , <aobd:shardMagnesium> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:2943> , <gas:hydrogenChloride> , <aobd:shardMagnesium> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:3943> , <gas:hydrogenChloride> , <aobd:shardMagnesium> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:4943> , <gas:hydrogenChloride> , <aobd:shardMagnesium> * 4);
+
+# Stibnite Ore
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:945> , <gas:hydrogenChloride> , <aobd:shardAntimony> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:1945> , <gas:hydrogenChloride> , <aobd:shardAntimony> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:2945> , <gas:hydrogenChloride> , <aobd:shardAntimony> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:3945> , <gas:hydrogenChloride> , <aobd:shardAntimony> * 4);
+mods.mekanism.chemical.Injection.addRecipe( <gregtech:gt.blockores:4945> , <gas:hydrogenChloride> , <aobd:shardAntimony> * 4);
