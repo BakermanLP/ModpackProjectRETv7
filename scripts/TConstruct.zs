@@ -141,3 +141,93 @@ for i, stick in sticks {
 # Flaschen
 mods.tconstruct.Casting.addTableRecipe(<minecraft:glass_bottle>, <liquid:glass.molten> * 1000, <IguanaTweaksTConstruct:clayBucketUnfired>, true, 20);
 mods.tconstruct.Casting.addTableRecipe(<minecraft:glass_bottle>, <liquid:glass.molten> * 1000, <gregtech:gt.metaitem.01:32305>, false, 20);
+
+##Thaumacrft Aspecte
+
+#Pattern
+
+#Wood
+mods.thaumcraft.Aspects.add(<TConstruct:blankPattern>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:1>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:2>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:3>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:4>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:5>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:6>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:7>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:8>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:9>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:10>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:11>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:12>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:13>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:14>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:15>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:16>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:17>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:18>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:19>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:20>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:21>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:22>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:23>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:24>, "arbor 2");
+mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:25>, "arbor 2");
+
+#Metal
+
+mods.thaumcraft.Aspects.add(<TConstruct:plankPattern:*>, "metallum 2, lucrum 1");
+mods.thaumcraft.Aspects.add(<TConstruct:metalPattern:1>, "metallum 2, lucrum 1");
+mods.thaumcraft.Aspects.add(<TConstruct:metalPattern:2>, "metallum 2, lucrum 1");
+mods.thaumcraft.Aspects.add(<TConstruct:metalPattern:3>, "metallum 2, lucrum 1");
+mods.thaumcraft.Aspects.add(<TConstruct:metalPattern:4>, "metallum 2, lucrum 1");
+mods.thaumcraft.Aspects.add(<TConstruct:metalPattern:5>, "metallum 2, lucrum 1");
+mods.thaumcraft.Aspects.add(<TConstruct:metalPattern:6>, "metallum 2, lucrum 1");
+mods.thaumcraft.Aspects.add(<TConstruct:metalPattern:7>, "metallum 2, lucrum 1");
+mods.thaumcraft.Aspects.add(<TConstruct:metalPattern:8>, "metallum 2, lucrum 1");
+mods.thaumcraft.Aspects.add(<TConstruct:metalPattern:9>, "metallum 2, lucrum 1");
+mods.thaumcraft.Aspects.add(<TConstruct:metalPattern:10>, "metallum 2, lucrum 1");
+mods.thaumcraft.Aspects.add(<TConstruct:metalPattern:11>, "metallum 2, lucrum 1");
+mods.thaumcraft.Aspects.add(<TConstruct:metalPattern:12>, "metallum 2, lucrum 1");
+mods.thaumcraft.Aspects.add(<TConstruct:metalPattern:13>, "metallum 2, lucrum 1");
+mods.thaumcraft.Aspects.add(<TConstruct:metalPattern:14>, "metallum 2, lucrum 1");
+mods.thaumcraft.Aspects.add(<TConstruct:metalPattern:15>, "metallum 2, lucrum 1");
+mods.thaumcraft.Aspects.add(<TConstruct:metalPattern:16>, "metallum 2, lucrum 1");
+mods.thaumcraft.Aspects.add(<TConstruct:metalPattern:17>, "metallum 2, lucrum 1");
+mods.thaumcraft.Aspects.add(<TConstruct:metalPattern:18>, "metallum 2, lucrum 1");
+mods.thaumcraft.Aspects.add(<TConstruct:metalPattern:19>, "metallum 2, lucrum 1");
+mods.thaumcraft.Aspects.add(<TConstruct:metalPattern:20>, "metallum 2, lucrum 1");
+mods.thaumcraft.Aspects.add(<TConstruct:metalPattern:21>, "metallum 2, lucrum 1");
+mods.thaumcraft.Aspects.add(<TConstruct:metalPattern:22>, "metallum 2, lucrum 1");
+mods.thaumcraft.Aspects.add(<TConstruct:metalPattern:23>, "metallum 2, lucrum 1");
+mods.thaumcraft.Aspects.add(<TConstruct:metalPattern:24>, "metallum 2, lucrum 1");
+mods.thaumcraft.Aspects.add(<TConstruct:metalPattern:25>, "metallum 2, lucrum 1");
+
+
+#Tools
+mods.thaumcraft.Aspects.add(<TConstruct:shovel>, "instrumentum 3, fabrico 2");
+mods.thaumcraft.Aspects.add(<TConstruct:pickaxe>, "instrumentum 4, perfodio 3, fabrico 2");
+mods.thaumcraft.Aspects.add(<TConstruct:hatchet>, "instrumentum 4, lucrum 3");
+mods.thaumcraft.Aspects.add(<TConstruct:broadsword>, "lucrum 3, telum 4");
+mods.thaumcraft.Aspects.add(<TConstruct:longsword>, "lucrum 4, telum 2");
+mods.thaumcraft.Aspects.add(<TConstruct:rapier>, "lucrum 3, telum 5");
+mods.thaumcraft.Aspects.add(<TConstruct:dagger>, "lucrum 3, telum 7");
+mods.thaumcraft.Aspects.add(<TConstruct:cutlass>, "lucrum 3, telum 1");
+mods.thaumcraft.Aspects.add(<TConstruct:mattock>, "instrumentum 5, arbor 1, meto 4");
+mods.thaumcraft.Aspects.add(<TConstruct:cleaver>, "telum 9, vinculum 2");
+mods.thaumcraft.Aspects.add(<TConstruct:lumberaxe>, "instrumentum 4, lucrum 3");
+mods.thaumcraft.Aspects.add(<TConstruct:chisel>, "fabrico 4, instrumentum 2");
+mods.thaumcraft.Aspects.add(<TConstruct:mattock>, "instrumentum 2, meto 4");
+mods.thaumcraft.Aspects.add(<TConstruct:excavator>, "instrumentum 5, fabrico 7");
+mods.thaumcraft.Aspects.add(<TConstruct:hammer>, "instrumentum 7, perfodio 4");
+mods.thaumcraft.Aspects.add(<TConstruct:shortbow>, "pannus 2, bestia 3, arbor 1");
+mods.thaumcraft.Aspects.add(<TConstruct:arrow>, "telum 3, instrumentum 4");
+mods.thaumcraft.Aspects.add(<TConstruct:battelaxe>, "telum 2, arbor 2, meto 4");
+
+#Ore Berrie Bushs
+mods.thaumcraft.Aspects.add(<TConstruct:ore:berries.one:8>, "metalum 3, herba 2");
+mods.thaumcraft.Aspects.add(<TConstruct:ore:berries.one:9>, "metalum 3, herba 2");
+mods.thaumcraft.Aspects.add(<TConstruct:ore:berries.one:10>, "metalum 3, herba 2");
+mods.thaumcraft.Aspects.add(<TConstruct:ore:berries.one:11>, "metalum 3, herba 2");
+mods.thaumcraft.Aspects.add(<TConstruct:ore:berries.two:8>, "metalum 3, herba 2");
+mods.thaumcraft.Aspects.add(<TConstruct:ore:berries.two:9>, "metalum 3, herba 2");

@@ -1,0 +1,37 @@
+#Thaumcraft Aspects
+
+mods.thaumcraft.Aspects.add(<chisel:cobblestone:*>, "terra 1, perditio 1");
+mods.thaumcraft.Aspects.add(<chisel:stoneBrick:*>, "terra 1");
+mods.thaumcraft.Aspects.add(<chisel:stoneMoss:*>, "terra 1, herba 1");
+mods.thaumcraft.Aspects.add(<chisel:stoneMoss:*>, "terra 1, herba 1");
+mods.thaumcraft.Aspects.add(<chisel:marble:*>, "terra 2, ordo 1");
+mods.thaumcraft.Aspects.add(<chisel:marbleSlab:*>, "terra 2, ordo 1");
+mods.thaumcraft.Aspects.add(<chisel:marblePillar:*>, "terra 2, ordo 1");
+mods.thaumcraft.Aspects.add(<chisel:marblePillarSlab:*>, "terra 2, ordo 1");
+mods.thaumcraft.Aspects.add(<chisel:marbleStairs.0:*>, "terra 2, ordo 1");
+mods.thaumcraft.Aspects.add(<chisel:marbleStairs.1:*>, "terra 2, ordo 1");
+mods.thaumcraft.Aspects.add(<chisel:marbleStairs.2:*>, "terra 2, ordo 1");
+mods.thaumcraft.Aspects.add(<chisel:marbleStairs.3:*>, "terra 2, ordo 1");
+mods.thaumcraft.Aspects.add(<chisel:marbleStairs.4:*>, "terra 2, ordo 1");
+mods.thaumcraft.Aspects.add(<chisel:marbleStairs.5:*>, "terra 2, ordo 1");
+mods.thaumcraft.Aspects.add(<chisel:marbleStairs.6:*>, "terra 2, ordo 1");
+mods.thaumcraft.Aspects.add(<chisel:marbleStairs.7:*>, "terra 2, ordo 1");
+mods.thaumcraft.Aspects.add(<ProjRed|Exploration:projectred.exploration.stone:1>, "terra 2, ordo 1");
+mods.thaumcraft.Aspects.add(<chisel:hellrock:*>, "terra 2, ignis 1");
+mods.thaumcraft.Aspects.add(<chisel:.netherBrick:*>, "terra 2, ignis 1");
+mods.thaumcraft.Aspects.add(<chisel:blockDirt:*>, "terra 2");
+mods.thaumcraft.Aspects.add(<chisel:wood-spruce:*>, "arbor 1");
+mods.thaumcraft.Aspects.add(<chisel:wood-oak:*>, "arbor 1");
+mods.thaumcraft.Aspects.add(<chisel:wood-birch:*>, "arbor 1");
+mods.thaumcraft.Aspects.add(<chisel:wood-jungle:*>, "arbor 1");
+mods.thaumcraft.Aspects.add(<chisel:wood-acacia:*>, "arbor 1");
+mods.thaumcraft.Aspects.add(<chisel:wood-dark-oak:*>, "arbor 1");
+mods.thaumcraft.Aspects.add(<chisel:obsidian:*>, "terra 2, ignis 2, tenebrae 1");
+mods.thaumcraft.Aspects.add(<chisel:blockBookshelf:*>, "arbor 3, cognitio 10");
+mods.thaumcraft.Aspects.add(<chisel:blockFactory:*>, "metallum 2, terra 2");
+mods.thaumcraft.Aspects.add(<chisel:blockHolystone:*>, "volatus 4, terra 1");
+mods.thaumcraft.Aspects.add(<chisel:blockTyrian:*>, "metallum 1, terra 4");
+mods.thaumcraft.Aspects.add(<chisel:blockLaboratory:*>, "vitreus 1, terra 4");
+mods.thaumcraft.Aspects.add(<chisel:blockLavastone:*>, "ignis 1, terra 4");
+mods.thaumcraft.Aspects.add(<chisel:fenceIron:*>, "perditio 2, metallum 3");
+mods.thaumcraft.Aspects.add(<chisel:glass:*>, "vitreus 1");
