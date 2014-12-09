@@ -23,3 +23,6 @@ Synthesiser.removeRecipe(bottleWater);
 Synthesiser.removeRecipe(itemCharcoal);
 Synthesiser.addRecipe([elementC*4, elementC*4], itemCharcoal, false, 100);
 
+# The holy Planks of Sengir
+Decomposer.removeRecipe(<gregtech:gt.metaitem.01:17809>);
+
