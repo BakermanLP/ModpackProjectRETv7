@@ -26,6 +26,5 @@ Synthesiser.addRecipe([elementC*4, elementC*4], itemCharcoal, false, 100);
 # The holy Planks of Sengir
 Decomposer.removeRecipe(<gregtech:gt.metaitem.01:17809>);
 
-# Fuel Pellet
-Decomposer.removeRecipe(<progressiveautomation:CoalPellet>);
-Decomposer.addRecipe(<progressiveautomation:CoalPellet>, 1, [[elementC]]);
+# Silicon Plate
+Synthesiser.removeRecipe(<gregtech:gt.metaitem.01:17020>);
