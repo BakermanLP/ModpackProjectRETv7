@@ -176,7 +176,7 @@ mods.thaumcraft.Aspects.add(<TConstruct:woodPattern:25>, "arbor 2");
 
 #Metal
 
-mods.thaumcraft.Aspects.add(<TConstruct:plankPattern:*>, "metallum 2, lucrum 1");
+#mods.thaumcraft.Aspects.add(<TConstruct:plankPattern:*>, "metallum 2, lucrum 1");
 mods.thaumcraft.Aspects.add(<TConstruct:metalPattern:1>, "metallum 2, lucrum 1");
 mods.thaumcraft.Aspects.add(<TConstruct:metalPattern:2>, "metallum 2, lucrum 1");
 mods.thaumcraft.Aspects.add(<TConstruct:metalPattern:3>, "metallum 2, lucrum 1");
@@ -222,12 +222,12 @@ mods.thaumcraft.Aspects.add(<TConstruct:excavator>, "instrumentum 5, fabrico 7")
 mods.thaumcraft.Aspects.add(<TConstruct:hammer>, "instrumentum 7, perfodio 4");
 mods.thaumcraft.Aspects.add(<TConstruct:shortbow>, "pannus 2, bestia 3, arbor 1");
 mods.thaumcraft.Aspects.add(<TConstruct:arrow>, "telum 3, instrumentum 4");
-mods.thaumcraft.Aspects.add(<TConstruct:battelaxe>, "telum 2, arbor 2, meto 4");
+#mods.thaumcraft.Aspects.add(<TConstruct:battelaxe>, "telum 2, arbor 2, meto 4");
 
 #Ore Berrie Bushs
-mods.thaumcraft.Aspects.add(<TConstruct:ore:berries.one:8>, "metalum 3, herba 2");
-mods.thaumcraft.Aspects.add(<TConstruct:ore:berries.one:9>, "metalum 3, herba 2");
-mods.thaumcraft.Aspects.add(<TConstruct:ore:berries.one:10>, "metalum 3, herba 2");
-mods.thaumcraft.Aspects.add(<TConstruct:ore:berries.one:11>, "metalum 3, herba 2");
-mods.thaumcraft.Aspects.add(<TConstruct:ore:berries.two:8>, "metalum 3, herba 2");
-mods.thaumcraft.Aspects.add(<TConstruct:ore:berries.two:9>, "metalum 3, herba 2");
+#mods.thaumcraft.Aspects.add(<TConstruct:ore:berries.one:8>, "metalum 3, herba 2");
+#mods.thaumcraft.Aspects.add(<TConstruct:ore:berries.one:9>, "metalum 3, herba 2");
+#mods.thaumcraft.Aspects.add(<TConstruct:ore:berries.one:10>, "metalum 3, herba 2");
+#mods.thaumcraft.Aspects.add(<TConstruct:ore:berries.one:11>, "metalum 3, herba 2");
+#mods.thaumcraft.Aspects.add(<TConstruct:ore:berries.two:8>, "metalum 3, herba 2");
+#mods.thaumcraft.Aspects.add(<TConstruct:ore:berries.two:9>, "metalum 3, herba 2");
