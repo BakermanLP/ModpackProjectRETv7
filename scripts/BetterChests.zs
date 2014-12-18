@@ -10,9 +10,9 @@ recipes.addShaped(<BetterChests:betterChest>, [
 recipes.remove(<BetterChests:Upgrade:4>);
 
 recipes.addShaped(<BetterChests:Upgrade:4>, [
-    [<ore:plankWood>, <ore:barsIron>, <ore:plankWood>],
-    [<ore:barsIron>, <ore:woodStick>, <ore:barsIron>],
-    [<ore:plankWood>, <ore:barsIron>, <ore:plankWood>]
+    [<ore:plankWood>, <minecraft:iron_bars>, <ore:plankWood>],
+    [<minecraft:iron_bars>, <ore:woodStick>, <minecraft:iron_bars>],
+    [<ore:plankWood>, <minecraft:iron_bars>, <ore:plankWood>]
 ]);
 
 # Unbreakable Upgrade
