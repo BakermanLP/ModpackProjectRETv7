@@ -220,8 +220,8 @@ mods.thaumcraft.Aspects.add(<TConstruct:chisel>, "fabrico 4, instrumentum 2");
 mods.thaumcraft.Aspects.add(<TConstruct:mattock>, "instrumentum 2, meto 4");
 mods.thaumcraft.Aspects.add(<TConstruct:excavator>, "instrumentum 5, fabrico 7");
 mods.thaumcraft.Aspects.add(<TConstruct:hammer>, "instrumentum 7, perfodio 4");
-mods.thaumcraft.Aspects.add(<TConstruct:shortbow>, "pannus 2, bestia 3, arbor 1");
-mods.thaumcraft.Aspects.add(<TConstruct:arrow>, "telum 3, instrumentum 4");
+#mods.thaumcraft.Aspects.add(<TConstruct:shortbow>, "pannus 2, bestia 3, arbor 1");
+#mods.thaumcraft.Aspects.add(<TConstruct:arrow>, "telum 3, instrumentum 4");
 #mods.thaumcraft.Aspects.add(<TConstruct:battelaxe>, "telum 2, arbor 2, meto 4");
 
 #Ore Berrie Bushs

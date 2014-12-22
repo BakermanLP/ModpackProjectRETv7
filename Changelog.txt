@@ -1,4 +1,75 @@
 Changelog: 
+# Version 0.5.0
+=================================================
+Mod additions
+- MmmMmmMmmMmm-1.6.jar
+- NotEnoughResources-1.7.10-0.1.0.77.jar
+
+Mod deletions
+- Stackie
+- AutoPackager
+- Hydraulicraft (+k4lib)
+- OpenLights
+- Pam's Desertcraft
+- ProgressiveAutomation
+- RecStatusMod (wird wohl keinen stören)
+- Translocator
+
+Mod updates
+- forge-1.7.10-10.13.2.1272-universal.jar
+- AOBD-2.3.5.jar
+- AsieLib-1.7.10-0.3.5.jar
+- bdlib-mc1710-1.5.2.33.jar
+- buildcraft-6.2.6.jar
+- Carpenter's Blocks v3.3.4 - MC 1.7.10.jar
+- CoFHCore-[1.7.10]3.0.0B9-56.jar
+- CoFHLib-[1.7.10]1.0.0B8-40.jar
+- CustomOreGen-1.7.10-1.2.15.jar
+- EnderIO-1.7.10-2.2.5.311.jar
+- EnderStorage-1.7.10-1.4.5.27-universal.jar
+- EnviroMine-v1.3.65.jar
+- ExtraCells-1.7.10-2.1.29b36.jar
+- extrautilities-1.2.1.jar
+- forestry_1.7.10-3.3.0.6.jar
+- Ganys End-1.8.7.jar
+- Ganys Surface-1.9.4.jar
+- gendustry-mc1710-1.4.3.47.jar
+- gregtech_1.7.10-5.07.01.jar
+- HelpFixer-1.0.5.jar
+- industrialcraft-2-2.2.658-experimental.jar
+- Jabba-1.2.0a_1.7.10.jar
+- JourneyMap-Autoloader-5.0.1.jar
+- malisiscore-1.7.10-0.10.3.jar
+- malisisdoors-1.7.10-1.3.2.jar
+- Mekanism-1.7.10-7.1.1.144.jar
+- MekanismGenerators-1.7.10-7.1.1.144.jar
+- MekanismTools-1.7.10-7.1.1.144.jar
+- MineFactoryReloaded-[1.7.10]2.8.0RC6-13.jar
+- NEIIntegration-MC1.7.10-1.0.3.jar
+- NetherOres-[1.7.10]2.3.0RC4-7.jar
+- NotEnoughItems-1.7.10-1.0.3.78-universal.jar
+- OpenBlocks-1.7.10-1.3-snapshot-515.jar
+- OpenComputers-MC1.7.10-1.4.2.16-universal.jar
+- OpenEye-0.6-1.7.10-snapshot-141.jar
+- OpenModsLib-1.7.10-0.6-snapshot-270.jar
+- Pam's HarvestCraft 1.7.10d.jar
+- PneumaticCraft-1.7.10-1.4.4-47-universal.jar
+- PowerConverters-1.7.10-3.0.3.40.jar
+- ProjectRed-1.7.10-4.5.8.59-Base.jar
+- ProjectRed-1.7.10-4.5.8.59-Compat.jar
+- ProjectRed-1.7.10-4.5.8.59-Integration.jar
+- ProjectRed-1.7.10-4.5.8.59-Lighting.jar
+- ProjectRed-1.7.10-4.5.8.59-Mechanical_beta.jar
+- ProjectRed-1.7.10-4.5.8.59-World.jar
+- RedstoneArsenal-[1.7.10]1.1.0RC1-23.jar
+- SimplyJetpacks-MC1.7.10-1.3.1.jar
+- TabbyChat-1.7.10-1.11.1.290-fml.jar
+- TConstruct-1.7.10-1.8.0.build811.jar
+- Thaumcraft-1.7.10-4.2.2.0.jar
+- thaumicenergistics-0.8.7.2b-rv1.jar
+- ThermalExpansion-[1.7.10]4.0.0B8-23.jar
+- ThermalFoundation-[1.7.10]1.0.0RC1-15.jar
+- Waila-1.5.6a_1.7.10.jar
 
 # Version 0.4.8
 =================================================
