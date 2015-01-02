@@ -1,4 +1,43 @@
 Changelog: 
+# Version 0.5.2
+=================================================
+Mod updates / additions
+- AppleCore-mc1.7.10-1.0.2.jar
+- appliedenergistics2-rv2-beta-7.jar
+- AsieLib-1.7.10-0.3.8.jar
+- bdlib-mc1710-1.6.0.35.jar
+- Carpenter's Blocks v3.3.4.1 - MC 1.7.10.jar
+- Chisel 2-2.2.1.jar
+- Computronics-1.7.10-1.3.4.jar
+- CustomOreGen-1.7.10-1.2.17.jar
+- EnderIO-1.7.10-2.2.6.317.jar
+- EnviroMine-v1.3.74.jar
+- fastcraft-1.12.jar
+- gendustry-mc1710-1.4.4.48.jar
+- generators-mc1710-0.9.7.28.jar
+- gregtech_1.7.10-5.07.05.jar
+- HungerOverhaul-1.7.10-beta.5.jenkins45.jar
+- IguanaTinkerTweaks-1.7.10-2.1.1.96.jar
+- InGameInfoXML-1.7.10-2.8.1.68-universal.jar
+- malisisdoors-1.7.10-1.3.3.jar
+- Mekanism-1.7.10-7.1.1.145.jar
+- MekanismGenerators-1.7.10-7.1.1.145.jar
+- MekanismTools-1.7.10-7.1.1.145.jar
+- NotEnoughResources-1.7.10-0.1.0.83.jar
+- OpenBlocks-1.7.10-1.3-snapshot-531.jar
+- OpenComputers-MC1.7.10-1.4.3.21-beta.1-universal.jar
+- OpenModsLib-1.7.10-0.6-snapshot-283.jar
+- Pam's HarvestCraft 1.7.10e.jar
+- PneumaticCraft-1.7.10-1.5.1-49-universal.jar
+- PowerConverters-1.7.10-3.0.4.46.jar
+- pressure-mc1710-1.0.1.49.jar
+- SpiceOfLife-mc1.7.10-1.2.3.jar
+- TConstruct-1.7.10-1.8.1.build833.jar
+- TiCTooltips-mc1.7.10-1.2.0.jar
+- TMechworks-1.7.10-0.2.11.89.jar
+- Waila-1.5.7a_1.7.10.jar
+- WailaHarvestability-mc1.7.x-1.1.1.jar
+
 # Version 0.5.0
 =================================================
 Mod additions
