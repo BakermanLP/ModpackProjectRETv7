@@ -1,4 +1,5 @@
 ## mods
+* ae2stuff-mc1710-0.1.2.6.jar
 * AOBD-2.3.5.jar
 * AppleCore-mc1.7.10-1.0.2.jar
 * appliedenergistics2-rv2-beta-7.jar
@@ -8,7 +9,7 @@
 * AsieLib-1.7.10-0.3.8.jar
 * bdlib-mc1710-1.6.0.35.jar
 * BetterChests-1.7.10-1.1.1.8.jar
-* BiblioCraft[v1.9.1][MC1.7.10].jar
+* BiblioCraft[v1.9.2][MC1.7.10].jar
 * BigReactors-0.4.1A2.jar
 * buildcraft-6.2.6.jar
 * Carpenter's Blocks v3.3.4.1 - MC 1.7.10.jar
@@ -25,7 +26,7 @@
 * Enchiridion-1.7.X-1.2b.jar
 * EnderIO-1.7.10-2.2.6.317.jar
 * EnderStorage-1.7.10-1.4.5.27-universal.jar
-* EnviroMine-v1.3.74.jar
+* EnviroMine-v1.3.80.jar
 * ExtraCells-1.7.10-2.2.23b43.jar
 * ExtraTiC-1.7.10-1.0.3.jar
 * extrautilities-1.2.1.jar
@@ -37,11 +38,11 @@
 * Ganys Surface-1.9.4.jar
 * gendustry-mc1710-1.4.4.48.jar
 * generators-mc1710-0.9.7.28.jar
-* gregtech_1.7.10-5.07.05.jar
+* gregtech_1.7.10-5.07.06.jar
 * HelpFixer-1.0.5.jar
 * HungerOverhaul-1.7.10-beta.5.jenkins45.jar
 * IC2NuclearControl-2.0.8c.jar
-* IguanaTinkerTweaks-1.7.10-2.1.1.96.jar
+* IguanaTinkerTweaks-1.7.10-2.1.1.97.jar
 * industrialcraft-2-2.2.658-experimental.jar
 * InGameInfoXML-1.7.10-2.8.1.68-universal.jar
 * INpureCore-[1.7.10]1.0.0B7-19.jar
@@ -74,7 +75,7 @@
 * OpenEye-0.6-1.7.10-snapshot-141.jar
 * OpenModsLib-1.7.10-0.6-snapshot-283.jar
 * OpenPrinter-MC1.7.10-OC1.4-0.1.0.102.jar
-* Pam's HarvestCraft 1.7.10e.jar
+* Pam's HarvestCraft 1.7.10f.jar
 * PneumaticCraft-1.7.10-1.5.1-49-universal.jar
 * PowerConverters-1.7.10-3.0.4.46.jar
 * pressure-mc1710-1.0.1.49.jar
@@ -92,8 +93,8 @@
 * StevesFactoryManagerA93.jar
 * StevesWorkshop-0.5.1.jar
 * TabbyChat-1.7.10-1.11.1.290-fml.jar
-* TConstruct-1.7.10-1.8.1.build833.jar
-* Thaumcraft-1.7.10-4.2.2.1.jar
+* TConstruct-1.7.10-1.8.1.build847.jar
+* Thaumcraft-1.7.10-4.2.3.0.jar
 * thaumicenergistics-0.8.7.2a-rv2.jar
 * ThaumicNEI-1.7.10-0.1.2.jar
 * ThermalExpansion-[1.7.10]4.0.0B8-23.jar
