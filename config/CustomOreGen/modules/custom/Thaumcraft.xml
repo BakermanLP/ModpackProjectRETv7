@@ -196,11 +196,11 @@
 						Stone cloud surrounded
 						by single-block "hint"
 						veins, found mainly in
-						Magic Biomes.
+						Magical Biomes.
 					</Description>
 					<WireframeColor>0x40CCCCCC</WireframeColor>
 					<Setting name='DistributionFrequency' avg=':= _default_'/>
-					<BiomeType name='Magic'/>
+					<BiomeType name='Magical'/>
                                         <Biome name='.*' weight='0.2'/>
 					<Veins name='OrderInfusedStoneHintVeins' block='Thaumcraft:blockCustomOre:5' inherits='InfusedStoneHintVeins'>
 						<WireframeColor>0x40CCCCCC</WireframeColor>
@@ -219,12 +219,12 @@
                                                 surrounded by
                                                 single-block "hint"
                                                 veins, found in mainly
-                                                Magic Biomes.
+                                                Magical Biomes.
 					</Description>
 					<DrawWireframe>:=drawWireframes</DrawWireframe>
 					<WireframeColor>0x40666666</WireframeColor>
 					<Setting name='DistributionFrequency' avg=':= _default_'/>
-					<BiomeType name='Magic'/>
+					<BiomeType name='Magical'/>
                                         <Biome name='.*' weight='0.2'/>
 					<Veins name='EntropyInfusedStoneHintVeins' block='Thaumcraft:blockCustomOre:6' inherits='InfusedStoneHintVeins'>
 						<WireframeColor>0x40666666</WireframeColor>
