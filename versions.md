@@ -32,7 +32,6 @@
 * ExtraTiC-1.7.10-1.0.3.jar
 * extrautilities-1.2.1.jar
 * Factorization-1.7.10-0.8.88.7.jar
-* fastcraft-1.12.jar
 * forestry_1.7.10-3.3.0.6.jar
 * Ganys End-1.8.7.jar
 * Ganys Nether-1.7.7.jar
