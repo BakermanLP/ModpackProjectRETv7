@@ -1,5 +1,35 @@
 Changelog: 
 
+# Version 0.5.3
+=================================================
+Mod deletions
+- thaumicnei
+Mod updates 
+- ae2stuff-mc1710-0.1.2.7.jar
+- AOBD-2.3.6.jar
+- bdlib-mc1710-1.6.0.36.jar
+- buildcraft-6.3.1.jar
+- buildcraft-compat-6.3.1.jar
+- Carpenter's Blocks v3.3.4.2 - MC 1.7.10.jar
+- ExtraCells-1.7.10-2.2.27b47.jar
+- gregtech_1.7.10-5.07.07.jar
+- HungerOverhaul-1.7.10-beta.5.jar
+- IguanaTinkerTweaks-1.7.10-2.1.2.101.jar
+- industrialcraft-2-2.2.660-experimental.jar
+- neiaddons-mc1710-1.12.3.13.jar
+- NEIIntegration-MC1.7.10-1.0.4.jar
+- NotEnoughItems-1.7.10-1.0.4.83-universal.jar
+- NotEnoughResources-1.7.10-0.1.0.84.jar
+- OpenBlocks-1.7.10-1.3-snapshot-543.jar
+- OpenComputers-MC1.7.10-1.4.4.24-universal.jar
+- OpenModsLib-1.7.10-0.6-snapshot-290.jar
+- PneumaticCraft-1.7.10-1.5.2-50-universal.jar
+- TabbyChat-1.7.10-1.11.2.0-fml.jar
+- TConstruct-1.7.10-1.8.2.build861.jar
+- thaumicenergistics-0.8.8.1b-rv2.jar
+- TiCTooltips-mc1.7.10-1.2.1.jar
+- Waila-1.5.8a_1.7.10.jar
+
 # Version 0.5.2
 =================================================
 Forge Update
